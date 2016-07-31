@@ -47,9 +47,40 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   color: #F79A1F; }
 
 /***************banner*************/
-.banner img {
-  width: 100%;
-  height: auto; }
+.banner {
+  text-align: right; }
+  .banner .container {
+    background: url("../img/welcome-banner.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    padding: 80px 20px 20px; }
+  .banner h2 {
+    font-size: 62px;
+    color: #2889c2;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px; }
+  .banner p {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 30px; }
+    .banner p span {
+      font-weight: 400; }
+  .banner .logo-gray {
+    margin: 100px 0 0; }
+    .banner .logo-gray img {
+      width: 150px;
+      height: auto; }
+
+.big-btn {
+  color: #FFFFFF;
+  background: #F79A1F;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 20px; }
+  .big-btn:hover {
+    background: #2889c2;
+    color: #FFFFFF;
+    text-decoration: none; }
 
 /*************our-products************/
 .our-products {
