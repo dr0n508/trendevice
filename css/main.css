@@ -31,14 +31,21 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .sell-btn:hover {
     background: #F79A1F; }
 
+.product-btn {
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #2889c2;
+  padding: 5px 40px;
+  display: inline-block;
+  margin: 20px 0; }
+  .product-btn:hover {
+    color: #FFFFFF; }
+
 .navbar-brand {
   padding: 5px;
   margin-right: 50px; }
   .navbar-brand img {
     height: 40px; }
-
-.basket-btn a img, .user-btn a img {
-  height: 19px; }
 
 .basket-fa i {
   color: #222222; }
@@ -98,14 +105,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: auto; }
   .our-products li {
     text-align: center; }
-
-.product-btn {
-  font-size: 16px;
-  color: #FFFFFF;
-  background: #2889c2;
-  padding: 5px 40px;
-  display: inline-block;
-  margin: 20px 0; }
 
 /**************about-us********************/
 .about-us h2 {
@@ -172,13 +171,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 /*********************footer******************/
 footer {
+  font-size: 16px;
   background: #484848;
   padding: 50px 0;
   color: #EEEEEE; }
   footer a {
     color: white;
     font-weight: 300;
-    font-size: 16px;
     margin-bottom: 5px; }
     footer a:hover {
       color: #EEEEEE; }
@@ -198,7 +197,8 @@ footer {
 .social li {
   display: inline-block; }
 .social p {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  font-weight: 300; }
 .social .social-link {
   text-decoration: none;
   color: #EEEEEE;
