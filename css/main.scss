@@ -59,6 +59,19 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
+.big-btn {
+  color: $white-color;
+  background: $yellow-color;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 20px;
+  &:hover {
+    background: $blue-color;
+    color: $white-color;
+    text-decoration: none;
+  }
+}
+
 .navbar-brand {
   padding: 5px;
   img {
@@ -118,18 +131,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
-.big-btn {
-  color: $white-color;
-  background: $yellow-color;
-  text-transform: uppercase;
-  padding: 10px 30px;
-  font-size: 20px;
-  &:hover {
-    background: $blue-color;
-    color: $white-color;
-    text-decoration: none;
-  }
-}
+
 
 /*************our-products************/
 .our-products {
@@ -150,8 +152,6 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     text-align: center;
   }
 }
-
-
 
 /**************about-us********************/
 
@@ -321,7 +321,6 @@ footer {
     width: 100%;
     height: auto;
   }
-
 }
 
 .select-iphone {
@@ -334,7 +333,6 @@ footer {
 
 .list-iphones {
   li {
-//    margin-bottom: 10px;
     padding: 3px 5px;
     a {
       font-size: 24px;
@@ -351,7 +349,6 @@ footer {
   .container {
     background: $light-gray-color;
     padding: 20px;
-
   }
   h2 {
     font-size: 22px;
@@ -362,7 +359,6 @@ footer {
     font-size: 17px;
     padding: 10px 10px 10px 100px;
     min-height: 68px;
-
   }
   .advantage01 {
     background: url("../img/advantage01.png") 3% 50% no-repeat;
@@ -382,13 +378,10 @@ footer {
   }
 }
 
-
-
 .offer {
   .container {
     padding: 0;
   }
-
   .slide {
     background: $light-gray-color;
     height: 220px;
@@ -466,7 +459,6 @@ footer {
     }
   }
 }
-
 
 /************iphone6***************/
 .iphone6 {
@@ -564,7 +556,6 @@ footer {
       width: 50px;
       height: 50px;
       border-radius: 50%;
-//      background: fuchsia;
       text-align: center;
       a {
         display: block;
@@ -590,7 +581,6 @@ footer {
     .youtube {
       background: #ee3537;
     }
-
   }
 }
 
@@ -632,7 +622,6 @@ footer {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-//    background: lightblue;
   }
   label[for="color1"] {
     background: #606061;
@@ -653,7 +642,6 @@ footer {
     font-weight: 400;
     padding: 5px 20px;
     border: solid 1px $light-gray-color;
-
   }
 
   .wrap-input-condition {
@@ -685,8 +673,6 @@ footer {
     padding: 5px;
     font-size: 21px;
     border: solid 1px $light-gray-color;
-
-
   }
   .price-product {
     font-weight: 600;
@@ -836,7 +822,6 @@ footer {
   }
 }
 
-
 /*************information-client*****************/
 
 .information-client {
@@ -940,7 +925,6 @@ footer {
 
 .product-basket-small {
   padding: 0;
-
   .sum-total-price {
     background: $yellow-color;
     color: $white-color;
@@ -952,7 +936,6 @@ footer {
     padding: 15px;
     border-left: solid 1px $dark-gray-color;
     border-right: solid 1px $dark-gray-color;
-
     li {
       font-size: 14px;
       a {
@@ -974,7 +957,6 @@ footer {
     }
   }
 }
-
 
 /*************control-card***************/
 .control-card {
@@ -999,7 +981,6 @@ footer {
     font-weight: 600;
     margin-bottom: 5px;
   }
-
   .name-product, .text-delivery, .text-total-price {
     width: 80%;
     float: left;
@@ -1009,7 +990,6 @@ footer {
     float: right;
     text-align: right;
   }
-
   .list-product {
     li {
       margin-bottom: 20px;
