@@ -93,6 +93,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 30px;
+    color: $dark-gray-color;
     span {
       font-weight: 400;
     }
@@ -120,8 +121,6 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 }
 
 /*************our-products************/
-
-
 .our-products {
   padding: 50px 0;
   h1 {
@@ -243,12 +242,14 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 /*********************footer******************/
 
 footer {
+//  font-weight: 300;
   background: $dark-gray-color;
   padding: 50px 0;
   color: $light-gray-color;
   a {
     color: white;
     font-weight: 300;
+    font-size: 16px;
     margin-bottom: 5px;
     &:hover {
       color: $light-gray-color;
@@ -259,17 +260,15 @@ footer {
 
 .rewards {
   .left-block {
-//    width: 30%;
-//    height: auto;
-//    display: inline-block;
-    padding-top: 50px;
+    text-align: right;
+    padding: 0;
   }
   .right-block {
-//    width: 60%;
-//    display: inline-block;
-    padding-right: 0;
+    text-align: right;
+    padding: 0;
     img {
-      width: 100%;
+      width: 135px;
+      background: $white-color;
       height: auto;
       margin-bottom: 10px;
     }
