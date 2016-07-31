@@ -43,6 +43,9 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 .sell-btn {
   text-transform: uppercase;
   background: $blue-color;
+  &:hover {
+    background: $yellow-color;
+  }
 }
 
 .navbar-brand {
@@ -59,6 +62,17 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
       height: 19px;
     }
   }
+}
+
+.basket-fa i {
+  color: $black-color;
+}
+
+.basket-fa i, .user-fa i {
+  &:hover {
+    color: $yellow-color;
+  }
+
 }
 
 /***************banner*************/

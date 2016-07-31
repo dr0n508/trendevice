@@ -28,6 +28,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .sell-btn {
   text-transform: uppercase;
   background: #2889c2; }
+  .sell-btn:hover {
+    background: #F79A1F; }
 
 .navbar-brand {
   padding: 5px;
@@ -37,6 +39,12 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 .basket-btn a img, .user-btn a img {
   height: 19px; }
+
+.basket-fa i {
+  color: #222222; }
+
+.basket-fa i:hover, .user-fa i:hover {
+  color: #F79A1F; }
 
 /***************banner*************/
 .banner img {
