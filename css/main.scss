@@ -757,10 +757,12 @@ footer {
   font-weight: 300;
   .list-product li {
     margin-bottom: 20px;
+    display: flex;
     .wrap-img {
       width: 10%;
       float: left;
       text-align: center;
+      margin: auto;
       img {
         width: 50%;
         height: auto;
@@ -769,11 +771,13 @@ footer {
     .name-product {
       width: 80%;
       float: left;
+      margin: auto;
     }
     .price-product {
       width: 10%;
       float: left;
       text-align: right;
+      margin: auto;
     }
   }
   .delivery-price, .total-price {

@@ -554,21 +554,25 @@ footer {
       border: none;
       outline: none; }
   .product-basket .list-product li {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: flex; }
     .product-basket .list-product li .wrap-img {
       width: 10%;
       float: left;
-      text-align: center; }
+      text-align: center;
+      margin: auto; }
       .product-basket .list-product li .wrap-img img {
         width: 50%;
         height: auto; }
     .product-basket .list-product li .name-product {
       width: 80%;
-      float: left; }
+      float: left;
+      margin: auto; }
     .product-basket .list-product li .price-product {
       width: 10%;
       float: left;
-      text-align: right; }
+      text-align: right;
+      margin: auto; }
   .product-basket .delivery-price, .product-basket .total-price {
     margin-bottom: 10px; }
   .product-basket .text-delivery, .product-basket .text-total-price {
