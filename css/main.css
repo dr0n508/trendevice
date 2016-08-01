@@ -615,6 +615,8 @@ footer {
     margin: 4px 0;
     padding-left: 5px;
     padding-right: 5px; }
+  .information-client .next-btn {
+    padding: 5px 50px; }
   .information-client h2 {
     font-size: 24px;
     background: #484848;
@@ -638,6 +640,8 @@ footer {
     padding: 0; }
   .information-client .authentication label {
     width: 75px; }
+  .information-client .authentication .header-form {
+    margin-bottom: 15px; }
   .information-client .authentication .lost-pass {
     padding-left: 80px;
     font-size: 12px;
@@ -671,7 +675,7 @@ footer {
     position: relative;
     margin-bottom: 5px; }
     .information-client .wrap-custom-input span {
-      font-size: 14px; }
+      font-size: 13px; }
     .information-client .wrap-custom-input i {
       margin-right: 10px;
       width: 20px; }

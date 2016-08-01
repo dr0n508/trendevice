@@ -834,6 +834,9 @@ footer {
     padding-left: 5px;
     padding-right: 5px;
   }
+  .next-btn {
+    padding: 5px 50px;
+  }
   h2 {
     font-size: 24px;
     background: $dark-gray-color;
@@ -862,6 +865,9 @@ footer {
   .authentication {
     label {
       width: 75px;
+    }
+    .header-form {
+      margin-bottom: 15px;
     }
     .lost-pass {
       padding-left: 80px;
@@ -909,7 +915,7 @@ footer {
     position: relative;
     margin-bottom: 5px;
     span {
-      font-size: 14px;
+      font-size: 13px;
     }
     i {
       margin-right: 10px;
