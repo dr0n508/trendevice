@@ -1226,8 +1226,6 @@ footer {
   }
 
 
-  /*****end*********************************/
-
 
 
   /******************thanks-message******/
@@ -1251,5 +1249,64 @@ footer {
       li { margin: 0 5px;}
 
     }
+  }
+
+
+  .product-basket form {
+    padding: 20px 10px;
+  }
+
+  .product-basket .list-product li .price-product {
+    width: 20%;
+  }
+
+  .product-basket .text-delivery, .product-basket .text-total-price {
+    width: 80%;
+  }
+
+  .product-basket .price-delivery, .product-basket .sum-total-price {
+    width: 20%;
+  }
+
+
+  .breadcrumbs {
+    p {font-size: 18px;
+      .stage01, .stage02 span {font-size: 22px}
+      .stage03 span{font-size: 24px}
+    }
+  }
+
+  .review figure {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .review .text-review {
+    padding: 10px;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 430px) {
+  .product-basket {
+    font-size: 15px;
+  }
+
+  .product-basket form input[type="submit"] {
+    width: 100%;
+  }
+
+  .breadcrumbs {
+    p {font-size: 16px;
+      .stage01, .stage02 span {font-size: 18px}
+      .stage03 span{font-size: 20px}
+    }
+  }
+
+  .review figure {
+    width: auto;
+    margin: 0 auto;
   }
 }
