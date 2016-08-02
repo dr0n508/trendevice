@@ -21,56 +21,6 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   list-style: none;
 }
 
-/***************header-nav*****************/
-.navbar-nav {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.navbar-default {
-  background: $dark-gray-color;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background: #232323;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: $white-color !important;
-}
-
-/*****button-sandwich*******/
-
-.navbar-header .navbar-toggle {
-  border: none;
-  .fa-times {
-    color: #808080;
-  }
-  .fa-bars {
-    color: $light-gray-color;
-  }
-}
-
-.navbar-header .navbar-toggle[aria-expanded="false"] {
-  .fa-times {
-    display: none;
-  }
-}
-
-.navbar-header .navbar-toggle[aria-expanded="true"] {
-  .fa-bars {
-    display: none;
-  }
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-
-/******************************************************************/
-
-
 .sell-btn {
   text-transform: uppercase;
   background: $blue-color;
@@ -104,6 +54,25 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
+/************************************header-navigation*******************************/
+/************************************************************************************/
+.navbar-nav {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar-default {
+  background: $dark-gray-color;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: #232323;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $white-color !important;
+}
+
 .navbar-brand {
   padding: 5px;
   img {
@@ -111,7 +80,6 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
   margin-right: 30px;
 }
-
 
 .basket-fa i, .basket-fa-xs i {
   color: $black-color;
@@ -129,7 +97,33 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   margin: 8px 0;
 }
 
-/***************banner*************/
+/*****button-sandwich*******/
+
+.navbar-header .navbar-toggle {
+  border: none;
+  .fa-times { color: #808080; }
+  .fa-bars { color: $light-gray-color; }
+}
+
+.navbar-header .navbar-toggle[aria-expanded="false"] {
+  .fa-times {
+    display: none;
+  }
+}
+
+.navbar-header .navbar-toggle[aria-expanded="true"] {
+  .fa-bars {
+    display: none;
+  }
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+/**************************/
+
+/*******************************banner-main-page*************************************/
+/************************************************************************************/
 .banner {
   text-align: right;
   .container  {
@@ -162,9 +156,8 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
-
-
-/*************our-products************/
+/*****************************our-products-main-page*********************************/
+/************************************************************************************/
 .our-products {
   padding: 50px 0;
   h1 {
@@ -192,24 +185,20 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
   .product-iphone {
     width: 16%;
-
   }
   .product-ipad {
     width: 20%;
-
   }
   .product-mac {
     width: 48%;
-
   }
   .product-iWatch {
     width: 16%;
-    
   }
-
 }
 
-/**************about-us********************/
+/******************************about-us**********************************************/
+/************************************************************************************/
 
 .about-us {
   h2 {
@@ -245,10 +234,14 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
+/*****custom-slider-style*****/
+
 .bx-wrapper .bx-viewport {
   box-shadow: none;
   border: none;
 }
+
+/******change-button-next-prev*****/
 
 //.bx-wrapper .bx-next {
 //  background: url("../img/arrow-right.png") no-repeat 50% 50%;
@@ -272,11 +265,8 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 //  background-size: 16px;
 //}
 
-.bx-wrapper {
-//  margin: 0 !important;
-}
-
-/**********************advantages******************/
+/***********************************advantages***************************************/
+/************************************************************************************/
 .advantages {
   background: $light-gray-color;
   padding: 25px 0;
@@ -296,7 +286,8 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
-/*********************footer******************/
+/******************************************footer************************************/
+/************************************************************************************/
 
 footer {
   font-size: 16px;
@@ -375,7 +366,8 @@ footer {
   }
 }
 
-/********************select-iphone***************/
+/****************************************home-iphone*********************************/
+/************************************************************************************/
 .banner-select-iphone {
   img {
     width: 100%;
@@ -418,7 +410,6 @@ footer {
   li {
     font-size: 17px;
     padding: 20px 10px 20px 100px;
-//    min-height: 68px;
   }
   .advantage01 {
     background: url("../img/advantage01.png") 3% 50% no-repeat;
@@ -520,7 +511,9 @@ footer {
   }
 }
 
-/************iphone6***************/
+/**********************************iphone6*******************************************/
+/************************************************************************************/
+
 .iphone6 {
   h1 {
     background: url("../img/bg-iphone6.jpg") no-repeat 50% 0%;
@@ -574,8 +567,8 @@ footer {
   }
 }
 
-
-/**************thanks-message******************/
+/***************************************thanks-message*******************************/
+/************************************************************************************/
 
 .thanks-message {
   .wrap {
@@ -644,7 +637,8 @@ footer {
   }
 }
 
-/*****************product_page*******************/
+/*********************************************product_page***************************/
+/************************************************************************************/
 
 .product-section {
   h1 {
@@ -717,8 +711,6 @@ footer {
       background: $light-gray-color;
     }
   }
-
-
   label[for="number-phone"] {
     font-size: 21px;
     font-weight: 400;
@@ -775,7 +767,8 @@ footer {
 }
 
 
-/********************breadcrumbs***************/
+/*****************************************breadcrumbs**cart01************************/
+/************************************************************************************/
 .breadcrumbs {
   text-align: center;
   p {
@@ -886,7 +879,8 @@ footer {
   }
 }
 
-/*************information-client*****************/
+/******************************information-client************************************/
+/************************************************************************************/
 
 .information-client {
   font-size: 16px;
@@ -1033,7 +1027,9 @@ footer {
   }
 }
 
-/*************control-card***************/
+/****************************************control-card********************************/
+/************************************************************************************/
+
 .control-card {
   font-weight: 300;
   font-size: 20px;
@@ -1083,13 +1079,16 @@ footer {
 
 
 
-/******************responsive*******************/
+/*************************************responsive*************************************/
+/************************************************************************************/
 
+
+/*********************************MAX1200px*****************************************/
+/***********************************************************************************/
 @media only screen and (max-width: 1200px) {
   .social .social-link{
     margin-right: 2px;
   }
-
   .select-iphone h1 {
     font-size: 30px;
     margin: 10px 0;
@@ -1100,18 +1099,10 @@ footer {
     padding: 20px 30px;
   }
 
-//  .product-section img {
-//    width: 100%;
-//    height: auto;
-//  }
-
-
-
-
-
-
 }
 
+/*********************************MAX992px******************************************/
+/***********************************************************************************/
 @media only screen and (max-width: 992px) {
   .footer-block, .rewards .right-block, .rewards .left-block, .payment, .privacy-policy p {
     text-align: center;
@@ -1119,7 +1110,6 @@ footer {
   .privacy-policy p {
     float: none;
   }
-
   .select-iphone h1 { font-size: 24px; }
   .list-iphones li a  { font-size: 16px; }
 
@@ -1142,33 +1132,20 @@ footer {
     }
   }
   /******************************/
-
-
   .iphone6 .info-iphone {
     margin-bottom: 40px;
   }
-
   .product-basket-small { padding: 15px}
-
   .control-card { font-size: 16px}
-
-
-
-
-
   .our-products li {
       width: 100% !important;
     }
-
   .wrap-img {
-//    height: 200px !important;
     padding: 0 5px;
   }
 
-
-
-
-
+/*********************************MAX768px******************************************/
+/***********************************************************************************/
   
 }
 @media only screen and (max-width: 768px) {
@@ -1209,7 +1186,6 @@ footer {
 
   .iphone6 .chose1 .wrap-iphone {
     height: 350px;
-//    width: auto;
     img {
       height: 100%;
       width: auto;
@@ -1224,7 +1200,6 @@ footer {
     width: 250px;
     margin: 0 auto;
   }
-
 
   /***********product-section**************/
 
@@ -1264,12 +1239,7 @@ footer {
     }
   }
 
-
-
-
   /******************thanks-message******/
-
-
   .thanks-message {
     .wrap {
       margin: 30px 0;
@@ -1286,10 +1256,8 @@ footer {
     .social-link-thanks {
       padding: 20px 0;
       li { margin: 0 5px;}
-
     }
   }
-
 
   .product-basket form {
     padding: 20px 10px;
@@ -1307,7 +1275,6 @@ footer {
     width: 20%;
   }
 
-
   .breadcrumbs {
     p {font-size: 18px;
       .stage01, .stage02 span {font-size: 22px}
@@ -1322,11 +1289,10 @@ footer {
   .review .text-review {
     padding: 10px;
   }
-
-
-
 }
 
+/*********************************MAX430px******************************************/
+/***********************************************************************************/
 
 @media only screen and (max-width: 430px) {
   .product-basket {
