@@ -123,9 +123,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 50px; }
+  .our-products .wrap-img {
+    height: 250px; }
   .our-products img {
-    height: 250px;
-    width: auto; }
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto; }
   .our-products li {
     text-align: center; }
 

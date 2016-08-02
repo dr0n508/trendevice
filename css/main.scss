@@ -175,9 +175,15 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     text-align: center;
     padding-bottom: 50px;
   }
+  .wrap-img {
+    height: 250px;
+
+  }
   img {
-   height: 250px;
-   width: auto ;
+   width: auto;
+   height: 100%;
+   display: block;
+   margin: 0 auto;
   }
   li {
     text-align: center;
@@ -1062,6 +1068,12 @@ footer {
   .social .social-link{
     margin-right: 2px;
   }
+
+
+
+
+
+
 }
 
 @media only screen and (max-width: 992px) {
