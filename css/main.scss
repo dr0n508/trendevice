@@ -1079,6 +1079,11 @@ footer {
     padding: 20px 30px;
   }
 
+//  .product-section img {
+//    width: 100%;
+//    height: auto;
+//  }
+
 
 
 
@@ -1180,5 +1185,47 @@ footer {
     width: 250px;
     margin: 0 auto;
   }
+
+
+  /***********product-section**************/
+
+  .product-section {
+    h1 {
+      font-size: 36px;
+    }
+    .selected-color {
+      font-size: 14px;
+    }
+    .label-condition {
+      font-size: 18px;
+    }
+    .radio-custom-label {
+      width: 25px;
+      height: 25px;
+    }
+    .custom-label-condition {
+      font-size: 15px;
+      padding: 5px 10px;
+    }
+    .list-description-product {
+      li {
+        font-size: 14px;
+      }
+    }
+    .wrap-buy {
+      padding-top: 30px;
+    }
+    .buy-btn {
+      font-size: 25px;
+    }
+    .list-bonus {
+      li {
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  /*****end*********************************/
 
 }
