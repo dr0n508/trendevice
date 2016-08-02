@@ -288,6 +288,10 @@ footer {
   }
 }
 
+.footer-block {
+  margin-bottom: 15px;
+}
+
 .rewards {
   .left-block {
     text-align: right;
@@ -1053,3 +1057,22 @@ footer {
 
 
 /******************responsive*******************/
+
+@media only screen and (max-width: 1200px) {
+  .social .social-link{
+    margin-right: 2px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-block, .rewards .right-block, .rewards .left-block, .payment, .privacy-policy p {
+    text-align: center;
+  }
+  .privacy-policy p {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
