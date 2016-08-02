@@ -6,7 +6,8 @@ $(document).ready(function () {
         maxSlides: 5,
         moveSlides: 1,
         slideMargin: 10,
-        pager: false
+        pager: false,
+        infiniteLoop: false
     });
 
     $('.offer-for-you').bxSlider({
@@ -15,7 +16,8 @@ $(document).ready(function () {
         maxSlides: 3,
         moveSlides: 1,
         slideMargin: 10,
-        pager: false
+        pager: false,
+        infiniteLoop: false
     });
 
     $(function () {
