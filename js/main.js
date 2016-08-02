@@ -10,7 +10,7 @@ $(document).ready(function () {
     });
 
     $('.offer-for-you').bxSlider({
-        slideWidth: 383,
+        slideWidth: 380,
         minSlides: 1,
         maxSlides: 3,
         moveSlides: 1,
