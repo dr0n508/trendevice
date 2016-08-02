@@ -190,7 +190,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .advantages ul li {
     text-align: center; }
     .advantages ul li img {
-      height: 100px;
+      height: 80px;
       width: auto; }
     .advantages ul li p {
       font-size: 18px;
@@ -855,6 +855,11 @@ footer {
   .wrap-img {
     padding: 0 5px; }
 
+  .advantages ul li img {
+    height: 60px; }
+  .advantages ul li p {
+    font-size: 16px; }
+
   /*********************************MAX768px******************************************/
   /***********************************************************************************/ }
 @media only screen and (max-width: 768px) {
@@ -954,7 +959,10 @@ footer {
     margin: 0 auto; }
 
   .review .text-review {
-    padding: 10px; } }
+    padding: 10px; }
+
+  .advantages ul li img {
+    height: 50px; } }
 /*********************************MAX430px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 430px) {
