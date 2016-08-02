@@ -790,6 +790,34 @@ footer {
     text-align: center; }
 
   .privacy-policy p {
-    float: none; } }
+    float: none; }
+
+  /***************banner-first-page************/
+  .banner .container {
+    padding: 50px 10px 10px; }
+  .banner h2 {
+    font-size: 40px; }
+  .banner p {
+    font-size: 32px; }
+  .banner .logo-gray {
+    margin: 50px 0 0; }
+    .banner .logo-gray img {
+      width: 100px; }
+
+  /******************************/ }
+@media only screen and (max-width: 768px) {
+  /***************banner-first-page************/
+  .banner .container {
+    padding: 20px 10px 10px; }
+  .banner h2 {
+    font-size: 32px; }
+  .banner p {
+    font-size: 25px; }
+  .banner .logo-gray {
+    margin: 20px 0 0; }
+    .banner .logo-gray img {
+      width: 80px; }
+
+  /******************************/ }
 
 /*# sourceMappingURL=main.css.map */

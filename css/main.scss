@@ -1071,8 +1071,51 @@ footer {
   .privacy-policy p {
     float: none;
   }
-}
 
+  /***************banner-first-page************/
+  .banner {
+    .container  {
+      padding: 50px 10px 10px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 32px;
+    }
+    .logo-gray {
+      margin: 50px 0 0;
+      img {
+        width: 100px;
+      }
+    }
+  }
+  /******************************/
+
+
+
+
+  
+}
 @media only screen and (max-width: 768px) {
+  /***************banner-first-page************/
+  .banner {
+    .container  {
+      padding: 20px 10px 10px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 25px;
+    }
+    .logo-gray {
+      margin: 20px 0 0;
+      img {
+        width: 80px;
+      }
+    }
+  }
+  /******************************/
 
 }
