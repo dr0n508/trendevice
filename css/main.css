@@ -164,24 +164,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   box-shadow: none;
   border: none; }
 
-.bx-wrapper .bx-next {
-  background: url("../img/arrow-right.png") no-repeat 50% 50%;
-  background-size: 16px;
-  border-radius: 50%; }
-
-.bx-wrapper .bx-prev {
-  background: url("../img/arrow-left.png") no-repeat 50% 50%;
-  background-size: 16px;
-  border-radius: 50%; }
-
-.bx-wrapper .bx-next:hover {
-  background: url("../img/arrow-right.png") no-repeat 50% 50%, #FFFFFF;
-  background-size: 16px; }
-
-.bx-wrapper .bx-prev:hover {
-  background: url("../img/arrow-left.png") no-repeat 50% 50%, #FFFFFF;
-  background-size: 16px; }
-
 /**********************advantages******************/
 .advantages {
   background: #EEEEEE;
