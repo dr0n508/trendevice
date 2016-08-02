@@ -1075,6 +1075,10 @@ footer {
   }
   .list-iphones li a  { font-size: 18px; }
 
+  .iphone6 .chose1 {
+    padding: 20px 30px;
+  }
+
 
 
 
@@ -1112,6 +1116,11 @@ footer {
     }
   }
   /******************************/
+
+
+  .iphone6 .info-iphone {
+    margin-bottom: 40px;
+  }
 
 
 
@@ -1152,6 +1161,24 @@ footer {
   .our-advantages li {
     font-size: 14px;
     padding: 10px 10px 10px 75px
+  }
+
+  .iphone6 .chose1 .wrap-iphone {
+    height: 350px;
+//    width: auto;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .iphone6 .info-iphone {
+    font-size: 16px;
+  }
+
+  .iphone6 .chose1 {
+    width: 250px;
+    margin: 0 auto;
   }
 
 }
