@@ -788,13 +788,26 @@ footer {
 /******************responsive*******************/
 @media only screen and (max-width: 1200px) {
   .social .social-link {
-    margin-right: 2px; } }
+    margin-right: 2px; }
+
+  .select-iphone h1 {
+    font-size: 30px;
+    margin: 10px 0; }
+
+  .list-iphones li a {
+    font-size: 18px; } }
 @media only screen and (max-width: 992px) {
   .footer-block, .rewards .right-block, .rewards .left-block, .payment, .privacy-policy p {
     text-align: center; }
 
   .privacy-policy p {
     float: none; }
+
+  .select-iphone h1 {
+    font-size: 24px; }
+
+  .list-iphones li a {
+    font-size: 16px; }
 
   /***************banner-first-page************/
   .banner .container {
@@ -822,6 +835,15 @@ footer {
     .banner .logo-gray img {
       width: 80px; }
 
-  /******************************/ }
+  /******************************/
+  .banner-select-iphone img {
+    width: auto;
+    height: 250px;
+    display: block;
+    margin: 0 auto; }
+
+  .our-advantages li {
+    font-size: 14px;
+    padding: 10px 10px 10px 75px; } }
 
 /*# sourceMappingURL=main.css.map */
