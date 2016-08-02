@@ -124,14 +124,25 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     text-align: center;
     padding-bottom: 50px; }
   .our-products .wrap-img {
-    height: 250px; }
+    height: 250px;
+    padding: 0 5px; }
   .our-products img {
     width: auto;
     height: 100%;
     display: block;
     margin: 0 auto; }
   .our-products li {
-    text-align: center; }
+    text-align: center;
+    display: inline-block;
+    float: left; }
+  .our-products .product-iphone {
+    width: 16%; }
+  .our-products .product-ipad {
+    width: 20%; }
+  .our-products .product-mac {
+    width: 48%; }
+  .our-products .product-iWatch {
+    width: 16%; }
 
 /**************about-us********************/
 .about-us h2 {
@@ -816,7 +827,13 @@ footer {
     padding: 15px; }
 
   .control-card {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .our-products li {
+    width: 100% !important; }
+
+  .wrap-img {
+    padding: 0 5px; } }
 @media only screen and (max-width: 768px) {
   /***************banner-first-page************/
   .banner .container {

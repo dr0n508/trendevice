@@ -177,7 +177,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
   .wrap-img {
     height: 250px;
-
+    padding: 0 5px;
   }
   img {
    width: auto;
@@ -187,7 +187,26 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
   li {
     text-align: center;
+    display: inline-block;
+    float: left;
   }
+  .product-iphone {
+    width: 16%;
+
+  }
+  .product-ipad {
+    width: 20%;
+
+  }
+  .product-mac {
+    width: 48%;
+
+  }
+  .product-iWatch {
+    width: 16%;
+    
+  }
+
 }
 
 /**************about-us********************/
@@ -1132,6 +1151,20 @@ footer {
   .product-basket-small { padding: 15px}
 
   .control-card { font-size: 16px}
+
+
+
+
+
+  .our-products li {
+      width: 100% !important;
+    }
+
+  .wrap-img {
+//    height: 200px !important;
+    padding: 0 5px;
+  }
+
 
 
 
