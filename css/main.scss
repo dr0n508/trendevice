@@ -913,6 +913,7 @@ footer {
     }
     .header-form {
       margin-bottom: 15px;
+      font-weight: 400;
     }
     .lost-pass {
       padding-left: 80px;
@@ -1127,6 +1128,8 @@ footer {
     margin-bottom: 40px;
   }
 
+  .product-basket-small { padding: 15px}
+
 
 
 
@@ -1308,5 +1311,26 @@ footer {
   .review figure {
     width: auto;
     margin: 0 auto;
+  }
+
+  .form-block {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .information-client .wrap-section {
+    padding: 30px 30px 30px 40px;
+  }
+
+  .information-client .next-btn {
+    width: 100%;
+  }
+
+  .information-client .authentication .lost-pass {
+    padding-left: 0;
+  }
+
+  .information-client .authentication .btn-authentication {
+    margin-left: 0;
   }
 }

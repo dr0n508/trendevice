@@ -675,7 +675,8 @@ footer {
   .information-client .authentication label {
     width: 75px; }
   .information-client .authentication .header-form {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-weight: 400; }
   .information-client .authentication .lost-pass {
     padding-left: 80px;
     font-size: 12px;
@@ -826,7 +827,10 @@ footer {
 
   /******************************/
   .iphone6 .info-iphone {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+
+  .product-basket-small {
+    padding: 15px; } }
 @media only screen and (max-width: 768px) {
   /***************banner-first-page************/
   .banner .container {
@@ -941,6 +945,22 @@ footer {
 
   .review figure {
     width: auto;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .form-block {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .information-client .wrap-section {
+    padding: 30px 30px 30px 40px; }
+
+  .information-client .next-btn {
+    width: 100%; }
+
+  .information-client .authentication .lost-pass {
+    padding-left: 0; }
+
+  .information-client .authentication .btn-authentication {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
