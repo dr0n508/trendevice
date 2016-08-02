@@ -1045,6 +1045,7 @@ footer {
     width: 20%;
     float: right;
     text-align: right;
+    font-weight: 400;
   }
   .list-product {
     li {
@@ -1129,6 +1130,8 @@ footer {
   }
 
   .product-basket-small { padding: 15px}
+
+  .control-card { font-size: 16px}
 
 
 
@@ -1332,5 +1335,12 @@ footer {
 
   .information-client .authentication .btn-authentication {
     margin-left: 0;
+  }
+
+  .control-card .accept-terms {
+    margin: 10px 0;
+  }
+  .control-card .next-btn {
+    width: 100%;
   }
 }
