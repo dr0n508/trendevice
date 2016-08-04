@@ -150,6 +150,82 @@ $white-color: #FFFFFF;
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #232323;
+}
+
+/*************multi-column-menu***********/
+
+.dropdown-menu {
+  min-width: 200px;
+  padding: 0;
+  font-size: 16px;
+  background-color: #232323;
+  li a {
+    color: $white-color;
+  }
+  li a:hover {
+    color: $white-color;
+    background-color: $blue-color;
+  }
+}
+
+.dropdown .login-user~.menu-new-user {
+   display: none;
+}
+
+.dropdown .new-user~.menu-login-user {
+   display: none;
+}
+
+
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+}
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.multi-column-dropdown {
+  list-style: none;
+}
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: $white-color;
+  white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: $white-color;
+  background-color: $blue-color;
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+    li a {
+      padding-left: 30px;
+    }
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: $white-color;
+    &:hover {
+      background-color: $blue-color;
+      color: $white-color;
+    }
+  }
+}
+
+/******************end-multi-column-menu******/
+
+
 /*******************************banner-main-page*************************************/
 /************************************************************************************/
 .banner {

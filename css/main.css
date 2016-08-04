@@ -114,6 +114,65 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #232323; }
+
+/*************multi-column-menu***********/
+.dropdown-menu {
+  min-width: 200px;
+  padding: 0;
+  font-size: 16px;
+  background-color: #232323; }
+  .dropdown-menu li a {
+    color: #FFFFFF; }
+  .dropdown-menu li a:hover {
+    color: #FFFFFF;
+    background-color: #2889c2; }
+
+.dropdown .login-user ~ .menu-new-user {
+  display: none; }
+
+.dropdown .new-user ~ .menu-login-user {
+  display: none; }
+
+.dropdown-menu.columns-2 {
+  min-width: 400px; }
+
+.dropdown-menu.columns-3 {
+  min-width: 600px; }
+
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300; }
+
+.multi-column-dropdown {
+  list-style: none; }
+
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #FFFFFF;
+  white-space: normal; }
+
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #2889c2; }
+
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden; }
+    .dropdown-menu.multi-column li a {
+      padding-left: 30px; }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFFF; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+      background-color: #2889c2;
+      color: #FFFFFF; } }
+/******************end-multi-column-menu******/
 /*******************************banner-main-page*************************************/
 /************************************************************************************/
 .banner {
