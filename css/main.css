@@ -550,6 +550,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background: #e3d0b9; }
   .product-section label[for="color4"] {
     background: #eecdbd; }
+  .product-section label[for="color5"] {
+    background: #FFFFFF;
+    border: solid 1px #808080; }
+  .product-section label[for="color6"] {
+    background: #000000; }
   .product-section .custom-label-condition {
     font-size: 19px;
     background: #EEEEEE;
