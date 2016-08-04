@@ -20,7 +20,11 @@ $(document).ready(function () {
         infiniteLoop: false
     });
 
-
-
+    $(".radio-custom-color").change(function() {
+        $('.selected-color').empty();
+        var colorName = $('.radio-custom-color:checked').val();
+        $('.selected-color').append(colorName);
+        console.log(x);
+    });
 
 });
