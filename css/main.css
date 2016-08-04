@@ -597,14 +597,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 5px; }
   .product-section .list-description-product li:nth-child(odd) {
     background: #EEEEEE; }
-  .product-section label[for="number-phone"] {
+  .product-section label[for="number-product"] {
     font-size: 21px;
     font-weight: 400;
     margin: 10px 0; }
   .product-section .wrap-buy {
     padding: 0 40px;
     text-align: right; }
-  .product-section #number-phone {
+  .product-section #number-product {
     width: 70px;
     padding: 5px;
     font-size: 21px;
