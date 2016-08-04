@@ -542,7 +542,7 @@ $white-color: #FFFFFF;
 /**********************************iphone6*******************************************/
 /************************************************************************************/
 
-.iphone6 {
+.version-product {
   h1 {
     background: url("../img/bg-iphone6.jpg") no-repeat 50% 0%;
     background-size: cover;
@@ -552,14 +552,14 @@ $white-color: #FFFFFF;
     color: $blue-color;
     font-weight: 600;
   }
-  .info-iphone {
+  .info-product {
     font-weight: 300;
     font-size: 18px;
     padding-top: 25px;
   }
-  .chose1 {
+  .model {
     padding: 20px 40px;
-    .wrap-iphone {
+    .wrap-img-model {
       position: relative;
       img {
         width: 100%;
@@ -1337,7 +1337,7 @@ footer {
   }
   .list-models-products li a  { font-size: 18px; }
 
-  .iphone6 .chose1 {
+  .version-product .model {
     padding: 20px 30px;
   }
 
@@ -1374,7 +1374,7 @@ footer {
     }
   }
   /******************************/
-  .iphone6 .info-iphone {
+  .version-product .info-product {
     margin-bottom: 40px;
   }
   .product-basket-small { padding: 15px}
@@ -1430,7 +1430,7 @@ footer {
     padding: 10px 10px 10px 75px
   }
 
-  .iphone6 .chose1 .wrap-iphone {
+  .version-product .model .wrap-img-model {
     height: 350px;
     img {
       height: 100%;
@@ -1438,11 +1438,11 @@ footer {
     }
   }
 
-  .iphone6 .info-iphone {
+  .version-product .info-product {
     font-size: 16px;
   }
 
-  .iphone6 .chose1 {
+  .version-product .model {
     width: 250px;
     margin: 0 auto;
   }

@@ -399,7 +399,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 /**********************************iphone6*******************************************/
 /************************************************************************************/
-.iphone6 h1 {
+.version-product h1 {
   background: url("../img/bg-iphone6.jpg") no-repeat 50% 0%;
   background-size: cover;
   padding: 20px 20px 100px 20px;
@@ -407,18 +407,18 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-size: 44px;
   color: #2889c2;
   font-weight: 600; }
-.iphone6 .info-iphone {
+.version-product .info-product {
   font-weight: 300;
   font-size: 18px;
   padding-top: 25px; }
-.iphone6 .chose1 {
+.version-product .model {
   padding: 20px 40px; }
-  .iphone6 .chose1 .wrap-iphone {
+  .version-product .model .wrap-img-model {
     position: relative; }
-    .iphone6 .chose1 .wrap-iphone img {
+    .version-product .model .wrap-img-model img {
       width: 100%;
       height: auto; }
-    .iphone6 .chose1 .wrap-iphone span {
+    .version-product .model .wrap-img-model span {
       position: absolute;
       top: -38px;
       right: -38px;
@@ -432,7 +432,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 600; }
-  .iphone6 .chose1 p {
+  .version-product .model p {
     font-size: 18px;
     padding: 15px 0; }
 
@@ -1008,7 +1008,7 @@ footer {
   .list-models-products li a {
     font-size: 18px; }
 
-  .iphone6 .chose1 {
+  .version-product .model {
     padding: 20px 30px; } }
 /*********************************MAX992px******************************************/
 /***********************************************************************************/
@@ -1038,7 +1038,7 @@ footer {
       width: 100px; }
 
   /******************************/
-  .iphone6 .info-iphone {
+  .version-product .info-product {
     margin-bottom: 40px; }
 
   .product-basket-small {
@@ -1084,16 +1084,16 @@ footer {
     font-size: 14px;
     padding: 10px 10px 10px 75px; }
 
-  .iphone6 .chose1 .wrap-iphone {
+  .version-product .model .wrap-img-model {
     height: 350px; }
-    .iphone6 .chose1 .wrap-iphone img {
+    .version-product .model .wrap-img-model img {
       height: 100%;
       width: auto; }
 
-  .iphone6 .info-iphone {
+  .version-product .info-product {
     font-size: 16px; }
 
-  .iphone6 .chose1 {
+  .version-product .model {
     width: 250px;
     margin: 0 auto; }
 
