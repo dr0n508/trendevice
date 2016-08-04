@@ -49,6 +49,15 @@ $white-color: #FFFFFF;
     text-decoration: none;
   }
 }
+.small-yellow-btn.not-available {
+  color: #b2b3b4;
+  background: $light-gray-color;
+  pointer-events: none;
+  &:hover {
+    background-color: $light-gray-color;
+    color: #b2b3b3;
+  }
+}
 
 .small-gray-btn {
   font-size: 16px;

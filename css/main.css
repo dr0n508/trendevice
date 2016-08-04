@@ -36,6 +36,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background: #2889c2;
     text-decoration: none; }
 
+.small-yellow-btn.not-available {
+  color: #b2b3b4;
+  background: #EEEEEE;
+  pointer-events: none; }
+  .small-yellow-btn.not-available:hover {
+    background-color: #EEEEEE;
+    color: #b2b3b3; }
+
 .small-gray-btn {
   font-size: 16px;
   font-weight: 300;
