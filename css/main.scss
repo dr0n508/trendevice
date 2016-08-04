@@ -916,6 +916,56 @@ $white-color: #FFFFFF;
 
 
 }
+/*****************************************mac*product*page***************************/
+/************************************************************************************/
+.version-product {
+  .wrap-img {
+    margin-bottom: 15px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .model-mac {
+    text-align: center;
+    padding: 15px;
+    background-color: $light-gray-color;
+    margin-bottom: 25px;
+  }
+  .characteristics-product {
+    text-align: left;
+    margin-bottom: 15px;
+    .model-product {
+      font-weight: 600;
+      font-size: 21px;
+    }
+    p {
+      font-weight: 600;
+      font-size: 21px;
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+  .big-yellow-btn {
+    display: inline-block;
+    font-weight: 600;
+  }
+  .detail-characteristics {
+    padding: 15px;
+    margin: 15px;
+    background-color: $light-gray-color;
+    p {
+      font-size: 19px;
+      font-weight: 600;
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+
 
 
 /*****************************************breadcrumbs**cart01************************/
@@ -1619,3 +1669,6 @@ footer {
     height: auto;
   }
 }
+
+
+
