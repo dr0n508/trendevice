@@ -292,11 +292,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 /****************************************home-iphone*********************************/
 /************************************************************************************/
-.banner-select-iphone img {
+.photo-product-models img {
   width: 100%;
   height: auto; }
 
-.select-iphone h1 {
+.select-model-product h1 {
   font-size: 38px;
   color: #2889c2;
   margin: 50px 0 20px; }
@@ -1001,7 +1001,7 @@ footer {
   .social .social-link {
     margin-right: 2px; }
 
-  .select-iphone h1 {
+  .select-model-product h1 {
     font-size: 30px;
     margin: 10px 0; }
 
@@ -1019,7 +1019,7 @@ footer {
   .privacy-policy p {
     float: none; }
 
-  .select-iphone h1 {
+  .select-model-product h1 {
     font-size: 24px; }
 
   .list-models-products li a {
@@ -1074,7 +1074,7 @@ footer {
       width: 80px; }
 
   /******************************/
-  .banner-select-iphone img {
+  .photo-product-models img {
     width: auto;
     height: 250px;
     display: block;

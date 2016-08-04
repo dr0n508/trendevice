@@ -31,7 +31,6 @@ $white-color: #FFFFFF;
   padding: 5px 40px;
   &:hover {
     color: $white-color;
-//    background: $yellow-color;
     text-decoration: none;
   }
 }
@@ -45,7 +44,6 @@ $white-color: #FFFFFF;
   padding: 5px;
   &:hover {
     color: $white-color;
-//    background: $blue-color;
     text-decoration: none;
   }
 }
@@ -78,7 +76,6 @@ $white-color: #FFFFFF;
   outline: none;
   border: none;
   &:hover {
-//    background: $blue-color;
     color: $white-color;
     text-decoration: none;
   }
@@ -115,12 +112,6 @@ $white-color: #FFFFFF;
   color: $black-color;
 }
 
-//.basket-fa, .user-fa, .basket-fa-xs, .user-fa-xs {
-//  &:hover i {
-//    color: $yellow-color;
-//  }
-//}
-
 .basket-fa-xs, .user-fa-xs {
   float: right;
   padding: 9px 10px;
@@ -131,7 +122,6 @@ $white-color: #FFFFFF;
   text-transform: uppercase;
   background: $blue-color;
   &:hover {
-//    background: $yellow-color;
     text-decoration: none;
   }
 }
@@ -194,7 +184,6 @@ $white-color: #FFFFFF;
   a {font-weight: 600 !important;}
   background-color: $yellow-color;
 }
-
 
 .dropdown-menu.columns-2 {
   min-width: 400px;
@@ -411,14 +400,14 @@ $white-color: #FFFFFF;
 
 /****************************************home-iphone*********************************/
 /************************************************************************************/
-.banner-select-iphone {
+.photo-product-models {
   img {
     width: 100%;
     height: auto;
   }
 }
 
-.select-iphone {
+.select-model-product {
   h1 {
     font-size: 38px;
     color: $blue-color;
@@ -1342,7 +1331,7 @@ footer {
   .social .social-link{
     margin-right: 2px;
   }
-  .select-iphone h1 {
+  .select-model-product h1 {
     font-size: 30px;
     margin: 10px 0;
   }
@@ -1363,7 +1352,7 @@ footer {
   .privacy-policy p {
     float: none;
   }
-  .select-iphone h1 { font-size: 24px; }
+  .select-model-product h1 { font-size: 24px; }
   .list-models-products li a  { font-size: 16px; }
 
   /***************banner-first-page************/
@@ -1427,7 +1416,7 @@ footer {
   }
   /******************************/
 
-  .banner-select-iphone {
+  .photo-product-models {
     img {
       width: auto;
       height: 250px;
