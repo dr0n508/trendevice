@@ -164,6 +164,8 @@ $white-color: #FFFFFF;
   background-color: #232323;
   li a {
     color: $white-color;
+    padding: 10px 15px;
+    font-weight: 300;
   }
   li a:hover {
     color: $white-color;
@@ -180,7 +182,7 @@ $white-color: #FFFFFF;
 }
 
 .signin {
-  font-weight: 400;
+  a {font-weight: 600 !important;}
   background-color: $yellow-color;
 }
 
@@ -190,10 +192,6 @@ $white-color: #FFFFFF;
 }
 .dropdown-menu.columns-3 {
   min-width: 600px;
-}
-.dropdown-menu li a {
-  padding: 5px 15px;
-  font-weight: 300;
 }
 .multi-column-dropdown {
   list-style: none;
