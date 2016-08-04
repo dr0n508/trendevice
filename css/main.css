@@ -846,6 +846,28 @@ footer {
   font-size: 12px;
   float: right; }
 
+/*************************************popover****************************************/
+/************************************************************************************/
+#popover-condition .modal-header {
+  border: none; }
+  #popover-condition .modal-header h4 {
+    font-weight: 400;
+    font-size: 28px;
+    padding: 0 10px; }
+#popover-condition .modal-body ul {
+  margin-bottom: 20px; }
+#popover-condition .modal-body h5 {
+  font-weight: 300;
+  font-size: 28px;
+  margin-bottom: 10px; }
+#popover-condition .modal-body .wrap-img {
+  margin-bottom: 15px; }
+  #popover-condition .modal-body .wrap-img img {
+    width: 100%;
+    height: auto; }
+#popover-condition .modal-body p {
+  font-weight: 300; }
+
 /*************************************responsive*************************************/
 /************************************************************************************/
 /*********************************MAX1200px*****************************************/
@@ -1013,7 +1035,16 @@ footer {
     padding: 10px; }
 
   .advantages ul li img {
-    height: 50px; } }
+    height: 50px; }
+
+  #popover-condition .modal-header h4 {
+    font-size: 18px; }
+  #popover-condition .modal-body ul li {
+    margin-bottom: 10px; }
+  #popover-condition .modal-body h5 {
+    font-size: 18px; }
+  #popover-condition .modal-body p {
+    font-size: 13px; } }
 /*********************************MAX430px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 430px) {

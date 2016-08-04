@@ -20,9 +20,7 @@ $(document).ready(function () {
         infiniteLoop: false
     });
 
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+
 
 
 });

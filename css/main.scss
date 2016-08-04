@@ -1144,6 +1144,36 @@ footer {
   }
 }
 
+/*************************************popover****************************************/
+/************************************************************************************/
+#popover-condition {
+  .modal-header {
+    border: none;
+    h4 {
+      font-weight: 400;
+      font-size: 28px;
+      padding: 0 10px;
+    }
+  }
+  .modal-body {
+    ul { margin-bottom: 20px}
+    h5 {
+      font-weight: 300;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .wrap-img {
+      margin-bottom: 15px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    p {
+      font-weight: 300;
+    }
+  }
+}
 
 
 /*************************************responsive*************************************/
@@ -1362,6 +1392,17 @@ footer {
   .advantages ul li {
     img {height: 50px;}
   }
+
+
+  #popover-condition {
+    .modal-header h4 {font-size: 18px;}
+    .modal-body {
+      ul li { margin-bottom: 10px;}
+      h5 { font-size: 18px;}
+      p { font-size: 13px; }
+    }
+  }
+
 }
 
 /*********************************MAX430px******************************************/
