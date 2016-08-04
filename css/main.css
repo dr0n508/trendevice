@@ -516,16 +516,45 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .radio-custom-color[disabled] + label {
     position: relative; }
     .product-section .radio-custom-color[disabled] + label span:before {
-      content: "\274c";
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      font-size: 20px;
-      font-weight: 300;
+      content: "";
       position: absolute;
-      line-height: 30px;
-      text-align: center; }
+      width: 20px;
+      height: 1px;
+      background-color: #b3b4b4;
+      display: block;
+      top: 15px;
+      bottom: 0;
+      left: 5px;
+      right: 0;
+      -moz-transform: rotate(50deg);
+      /* Firefox */
+      -ms-transform: rotate(50deg);
+      /* IE */
+      -webkit-transform: rotate(50deg);
+      /* Safari, Chrome, iOS */
+      -o-transform: rotate(50deg);
+      /* Opera */
+      transform: rotate(50deg); }
+    .product-section .radio-custom-color[disabled] + label span:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 1px;
+      background-color: #b3b4b4;
+      display: block;
+      top: 15px;
+      bottom: 0;
+      left: 5px;
+      right: 0;
+      -moz-transform: rotate(-50deg);
+      /* Firefox */
+      -ms-transform: rotate(-50deg);
+      /* IE */
+      -webkit-transform: rotate(-50deg);
+      /* Safari, Chrome, iOS */
+      -o-transform: rotate(-50deg);
+      /* Opera */
+      transform: rotate(-50deg); }
   .product-section .radio-custom-condition[disabled] + label {
     color: #b2b3b4; }
   .product-section .radio-custom-color:not(checked), .product-section .radio-custom-condition:not(checked) {
@@ -1079,8 +1108,11 @@ footer {
     width: 25px;
     height: 25px; }
   .product-section .radio-custom-color[disabled] + label span:before {
-    font-size: 14px;
-    line-height: 25px; }
+    width: 16px;
+    top: 12px; }
+  .product-section .radio-custom-color[disabled] + label span:after {
+    width: 16px;
+    top: 12px; }
   .product-section .custom-label-condition {
     font-size: 15px;
     padding: 5px 10px; }

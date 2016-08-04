@@ -706,16 +706,38 @@ $white-color: #FFFFFF;
     position: relative;
     span {
       &:before {
-        content: "\274c";
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        font-size: 20px;
-        font-weight: 300;
+        content: "";
         position: absolute;
-        line-height: 30px;
-        text-align: center;
+        width: 20px;
+        height: 1px;
+        background-color: #b3b4b4;
+        display: block;
+        top: 15px;
+        bottom: 0;
+        left: 5px;
+        right: 0;
+        -moz-transform: rotate(50deg); /* Firefox */
+        -ms-transform: rotate(50deg); /* IE */
+        -webkit-transform: rotate(50deg); /* Safari, Chrome, iOS */
+        -o-transform: rotate(50deg); /* Opera */
+        transform: rotate(50deg);
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 1px;
+        background-color: #b3b4b4;
+        display: block;
+        top: 15px;
+        bottom: 0;
+        left: 5px;
+        right: 0;
+        -moz-transform: rotate(-50deg); /* Firefox */
+        -ms-transform: rotate(-50deg); /* IE */
+        -webkit-transform: rotate(-50deg); /* Safari, Chrome, iOS */
+        -o-transform: rotate(-50deg); /* Opera */
+        transform: rotate(-50deg);
       }
     }
   }
@@ -1454,8 +1476,12 @@ footer {
     .radio-custom-color[disabled]+label {
       span {
         &:before {
-          font-size: 14px;
-          line-height: 25px;
+          width: 16px;
+          top: 12px;
+        }
+        &:after {
+          width: 16px;
+          top: 12px;
         }
       }
     }
