@@ -433,6 +433,14 @@ $white-color: #FFFFFF;
       }
     }
   }
+  .not-available a {
+    color: #b2b3b3;
+    pointer-events: none;
+    &:hover {
+      background-color: $light-gray-color;
+      color: #b2b3b3;
+    }
+  }
 }
 
 .our-advantages {

@@ -312,6 +312,12 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       color: #FFFFFF;
       background-color: #2889c2;
       text-decoration: none; }
+.list-models-products .not-available a {
+  color: #b2b3b3;
+  pointer-events: none; }
+  .list-models-products .not-available a:hover {
+    background-color: #EEEEEE;
+    color: #b2b3b3; }
 
 .our-advantages {
   padding: 50px 0; }
