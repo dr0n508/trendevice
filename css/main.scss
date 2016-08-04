@@ -31,7 +31,7 @@ $white-color: #FFFFFF;
   padding: 5px 40px;
   &:hover {
     color: $white-color;
-    background: $yellow-color;
+//    background: $yellow-color;
     text-decoration: none;
   }
 }
@@ -78,7 +78,7 @@ $white-color: #FFFFFF;
   outline: none;
   border: none;
   &:hover {
-    background: $blue-color;
+//    background: $blue-color;
     color: $white-color;
     text-decoration: none;
   }
@@ -115,11 +115,11 @@ $white-color: #FFFFFF;
   color: $black-color;
 }
 
-.basket-fa, .user-fa, .basket-fa-xs, .user-fa-xs {
-  &:hover i {
-    color: $yellow-color;
-  }
-}
+//.basket-fa, .user-fa, .basket-fa-xs, .user-fa-xs {
+//  &:hover i {
+//    color: $yellow-color;
+//  }
+//}
 
 .basket-fa-xs, .user-fa-xs {
   float: right;
@@ -131,7 +131,7 @@ $white-color: #FFFFFF;
   text-transform: uppercase;
   background: $blue-color;
   &:hover {
-    background: $yellow-color;
+//    background: $yellow-color;
     text-decoration: none;
   }
 }
@@ -976,6 +976,9 @@ $white-color: #FFFFFF;
       color: $white-color;
       background: $dark-gray-color;
       padding: 7px 20px;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -1111,6 +1114,9 @@ $white-color: #FFFFFF;
       font-size: 14px;
       a {
         color: $dark-gray-color;
+        &:hover {
+          text-decoration: none;
+        }
       }
       span {
         float: left;
@@ -1193,6 +1199,7 @@ footer {
     margin-bottom: 5px;
     &:hover {
       color: $light-gray-color;
+      text-decoration: none;
     }
   }
 }
@@ -1230,9 +1237,6 @@ footer {
     text-decoration: none;
     color: $light-gray-color;
     margin-right: 10px;
-    &:hover {
-      color: $yellow-color;
-    }
   }
 }
 

@@ -21,7 +21,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding: 5px 40px; }
   .small-blue-btn:hover {
     color: #FFFFFF;
-    background: #F79A1F;
     text-decoration: none; }
 
 .small-yellow-btn {
@@ -62,7 +61,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   outline: none;
   border: none; }
   .big-yellow-btn:hover {
-    background: #2889c2;
     color: #FFFFFF;
     text-decoration: none; }
 
@@ -90,9 +88,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .basket-fa i, .basket-fa-xs i {
   color: #222222; }
 
-.basket-fa:hover i, .user-fa:hover i, .basket-fa-xs:hover i, .user-fa-xs:hover i {
-  color: #F79A1F; }
-
 .basket-fa-xs, .user-fa-xs {
   float: right;
   padding: 9px 10px;
@@ -102,7 +97,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   text-transform: uppercase;
   background: #2889c2; }
   .sell-btn:hover {
-    background: #F79A1F;
     text-decoration: none; }
 
 /*****button-sandwich*******/
@@ -729,6 +723,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       color: #FFFFFF;
       background: #484848;
       padding: 7px 20px; }
+      .product-basket .promoCode a:hover {
+        text-decoration: none; }
 
 .review {
   padding-top: 50px;
@@ -833,6 +829,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       font-size: 14px; }
       .product-basket-small .list-products li a {
         color: #484848; }
+        .product-basket-small .list-products li a:hover {
+          text-decoration: none; }
       .product-basket-small .list-products li span {
         float: left;
         width: 90%; }
@@ -892,7 +890,8 @@ footer {
     font-weight: 300;
     margin-bottom: 5px; }
     footer a:hover {
-      color: #EEEEEE; }
+      color: #EEEEEE;
+      text-decoration: none; }
 
 .footer-block {
   margin-bottom: 15px; }
@@ -918,8 +917,6 @@ footer {
   text-decoration: none;
   color: #EEEEEE;
   margin-right: 10px; }
-  .social .social-link:hover {
-    color: #F79A1F; }
 
 .payment-copywrigth {
   padding: 10px 0; }
