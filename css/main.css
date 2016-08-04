@@ -584,6 +584,22 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     border: solid 1px #808080; }
   .product-section label[for="color6"] {
     background: #000000; }
+  .product-section label[for="color7"] {
+    background: url("../img/bg-clock01.png") no-repeat 50% 50%; }
+  .product-section label[for="color8"] {
+    background: url("../img/bg-clock02.png") no-repeat 50% 50%; }
+  .product-section label[for="color9"] {
+    background: url("../img/bg-clock03.png") no-repeat 50% 50%; }
+  .product-section label[for="color10"] {
+    background: url("../img/bg-clock04.png") no-repeat 50% 50%; }
+  .product-section label[for="color11"] {
+    background: #f48b7c; }
+  .product-section label[for="color12"] {
+    background: #c4d93d; }
+  .product-section label[for="color13"] {
+    background: #f5f6f7; }
+  .product-section label[for="color14"] {
+    background: #77c4ed; }
   .product-section .radio-custom-btn-label {
     font-size: 19px;
     background: #EEEEEE;

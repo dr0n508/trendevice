@@ -778,6 +778,43 @@ $white-color: #FFFFFF;
     background: #000000;
   }
 
+  label[for="color7"] {
+    background: url("../img/bg-clock01.png") no-repeat 50% 50%;
+  }
+
+  label[for="color8"] {
+    background: url("../img/bg-clock02.png") no-repeat 50% 50%;
+  }
+
+  label[for="color9"] {
+    background: url("../img/bg-clock03.png") no-repeat 50% 50%;
+  }
+
+  label[for="color10"] {
+    background: url("../img/bg-clock04.png") no-repeat 50% 50%;
+  }
+
+  label[for="color11"] {
+    background: #f48b7c;
+  }
+
+  label[for="color12"] {
+    background: #c4d93d;
+  }
+
+  label[for="color13"] {
+    background: #f5f6f7;
+  }
+
+  label[for="color14"] {
+    background: #77c4ed;
+  }
+
+
+
+
+
+
   .radio-custom-btn-label {
     font-size: 19px;
     background: $light-gray-color;
