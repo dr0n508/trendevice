@@ -702,7 +702,7 @@ $white-color: #FFFFFF;
     display: inline-block;
   }
 
-  .radio-custom-color[disabled]+label {
+  .radio-custom-color-input[disabled]+label {
     position: relative;
     span {
       &:before {
@@ -742,29 +742,29 @@ $white-color: #FFFFFF;
     }
   }
 
-  .radio-custom-condition[disabled]+label {
+  .radio-custom-btn-input[disabled]+label {
     color: #b2b3b4;
 
   }
 
 
-  .radio-custom-color:not(checked), .radio-custom-condition:not(checked){
+  .radio-custom-color-input:not(checked), .radio-custom-btn-input:not(checked){
     position: absolute;
     opacity: 0;
   }
-  .radio-custom-color:not(checked) + label {
+  .radio-custom-color-input:not(checked) + label {
     color: #808080;
   }
-  .radio-custom-color:checked + label, {
+  .radio-custom-color-input:checked + label, {
     border: solid 2px $blue-color;
   }
 
-  .radio-custom-condition:checked + label {
+  .radio-custom-btn-input:checked + label {
     color: $white-color;
     background-color: $blue-color;
   }
 
-  .radio-custom-label {
+  .radio-custom-color-label {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -789,7 +789,7 @@ $white-color: #FFFFFF;
     background: #000000;
   }
 
-  .custom-label-condition {
+  .radio-custom-btn-label {
     font-size: 19px;
     background: $light-gray-color;
     font-weight: 400;
@@ -1469,11 +1469,11 @@ footer {
     .label-condition {
       font-size: 18px;
     }
-    .radio-custom-label {
+    .radio-custom-color-label {
       width: 25px;
       height: 25px;
     }
-    .radio-custom-color[disabled]+label {
+    .radio-custom-color-input[disabled]+label {
       span {
         &:before {
           width: 16px;
@@ -1485,7 +1485,7 @@ footer {
         }
       }
     }
-    .custom-label-condition {
+    .radio-custom-btn-label {
       font-size: 15px;
       padding: 5px 10px;
     }

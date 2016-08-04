@@ -513,9 +513,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .selected-color {
     font-weight: 300;
     display: inline-block; }
-  .product-section .radio-custom-color[disabled] + label {
+  .product-section .radio-custom-color-input[disabled] + label {
     position: relative; }
-    .product-section .radio-custom-color[disabled] + label span:before {
+    .product-section .radio-custom-color-input[disabled] + label span:before {
       content: "";
       position: absolute;
       width: 20px;
@@ -535,7 +535,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       -o-transform: rotate(50deg);
       /* Opera */
       transform: rotate(50deg); }
-    .product-section .radio-custom-color[disabled] + label span:after {
+    .product-section .radio-custom-color-input[disabled] + label span:after {
       content: "";
       position: absolute;
       width: 20px;
@@ -555,19 +555,19 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       -o-transform: rotate(-50deg);
       /* Opera */
       transform: rotate(-50deg); }
-  .product-section .radio-custom-condition[disabled] + label {
+  .product-section .radio-custom-btn-input[disabled] + label {
     color: #b2b3b4; }
-  .product-section .radio-custom-color:not(checked), .product-section .radio-custom-condition:not(checked) {
+  .product-section .radio-custom-color-input:not(checked), .product-section .radio-custom-btn-input:not(checked) {
     position: absolute;
     opacity: 0; }
-  .product-section .radio-custom-color:not(checked) + label {
+  .product-section .radio-custom-color-input:not(checked) + label {
     color: #808080; }
-  .product-section .radio-custom-color:checked + label {
+  .product-section .radio-custom-color-input:checked + label {
     border: solid 2px #2889c2; }
-  .product-section .radio-custom-condition:checked + label {
+  .product-section .radio-custom-btn-input:checked + label {
     color: #FFFFFF;
     background-color: #2889c2; }
-  .product-section .radio-custom-label {
+  .product-section .radio-custom-color-label {
     width: 30px;
     height: 30px;
     border-radius: 50%; }
@@ -584,7 +584,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     border: solid 1px #808080; }
   .product-section label[for="color6"] {
     background: #000000; }
-  .product-section .custom-label-condition {
+  .product-section .radio-custom-btn-label {
     font-size: 19px;
     background: #EEEEEE;
     font-weight: 400;
@@ -1104,16 +1104,16 @@ footer {
     font-size: 14px; }
   .product-section .label-condition {
     font-size: 18px; }
-  .product-section .radio-custom-label {
+  .product-section .radio-custom-color-label {
     width: 25px;
     height: 25px; }
-  .product-section .radio-custom-color[disabled] + label span:before {
+  .product-section .radio-custom-color-input[disabled] + label span:before {
     width: 16px;
     top: 12px; }
-  .product-section .radio-custom-color[disabled] + label span:after {
+  .product-section .radio-custom-color-input[disabled] + label span:after {
     width: 16px;
     top: 12px; }
-  .product-section .custom-label-condition {
+  .product-section .radio-custom-btn-label {
     font-size: 15px;
     padding: 5px 10px; }
   .product-section .list-description-product li {

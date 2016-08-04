@@ -20,9 +20,9 @@ $(document).ready(function () {
         infiniteLoop: false
     });
 
-    $(".radio-custom-color").change(function() {
+    $(".radio-custom-color-input").change(function() {
         $('.selected-color').empty();
-        var colorName = $('.radio-custom-color:checked').val();
+        var colorName = $('.radio-custom-color-input:checked').val();
         $('.selected-color').append(colorName);
     });
 
