@@ -685,6 +685,31 @@ $white-color: #FFFFFF;
       margin-left: 6px;
     }
   }
+
+  .radio-custom-color[disabled]+label {
+    position: relative;
+    span {
+      &:before {
+        content: "\274c";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 20px;
+        font-weight: 300;
+        position: absolute;
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+  }
+
+  .radio-custom-condition[disabled]+label {
+    color: #b2b3b4;
+
+  }
+
+
   .radio-custom-color:not(checked), .radio-custom-condition:not(checked){
     position: absolute;
     opacity: 0;
@@ -692,9 +717,15 @@ $white-color: #FFFFFF;
   .radio-custom-color:not(checked) + label {
     color: #808080;
   }
-  .radio-custom-color:checked + label, .radio-custom-condition:checked + label {
-    border: solid 1px #1c1c1c;
+  .radio-custom-color:checked + label, {
+    border: solid 2px $blue-color;
   }
+
+  .radio-custom-condition:checked + label {
+    color: $white-color;
+    background-color: $blue-color;
+  }
+
   .radio-custom-label {
     width: 30px;
     height: 30px;
@@ -755,6 +786,42 @@ $white-color: #FFFFFF;
     text-align: center;
     border: solid 1px $light-gray-color;
     padding: 10px 0;
+    position: relative;
+    .old-price {
+      text-align: center;
+      width: 80px;
+      display: none;
+      font-size: 20px;
+      .price,  {
+        display: inline-block;
+        font-weight: 300;
+        color: $black-color;
+        position: relative;
+        &:before {
+          content: "";
+          width: 75px;
+          height: 1px;
+          background: $black-color;;
+          display: block;
+          position: absolute;
+          top: 10px;
+          left: 0;
+          -moz-transform: rotate(20deg); /* Firefox */
+          -ms-transform: rotate(20deg); /* IE */
+          -webkit-transform: rotate(20deg); /* Safari, Chrome, iOS */
+          -o-transform: rotate(20deg); /* Opera */
+          transform: rotate(20deg);
+        }
+      }
+      .discount-percent {
+        display: inline-block;
+        color: #ed1c24;
+      }
+    }
+  }
+  .price-product.sale {
+    color: red;
+    .old-price {display: inline-block;}
   }
   .buy-btn {
     color: $white-color;

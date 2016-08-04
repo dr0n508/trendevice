@@ -99,13 +99,13 @@
                 <div class="col-lg-8 col-md-7 col-sm-7">
                     <p class="label-condition">Colore:</p>
 
-                    <input class="radio-custom-color" type="radio" id="color1" name="color-phone" value="color1"/>
+                    <input class="radio-custom-color" disabled type="radio" id="color1" name="color-phone" value="color1"/>
                     <label class="radio-custom-label" for="color1"><span></span></label>
 
                     <input class="radio-custom-color" type="radio" id="color2" name="color-phone" value="color2"/>
                     <label class="radio-custom-label" for="color2"><span></span></label>
 
-                    <input class="radio-custom-color" type="radio" id="color3" name="color-phone" value="color3"/>
+                    <input class="radio-custom-color" disabled type="radio" id="color3" name="color-phone" value="color3"/>
                     <label class="radio-custom-label" for="color3"><span></span></label>
 
                     <input class="radio-custom-color" type="radio" id="color4" name="color-phone" value="color4"/>
@@ -117,7 +117,7 @@
                         <input class="radio-custom-condition" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
                         <label class="custom-label-condition" for="good-condition"><span>buono</span></label>
 
-                        <input class="radio-custom-condition" type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
+                        <input class="radio-custom-condition" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
                         <label class="custom-label-condition" for="excellent-condition"><span>ottimo</span></label>
 
                         <input class="radio-custom-condition" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
@@ -135,7 +135,13 @@
             <div class="col-lg-4 col-md-4 col-sm-12 wrap-buy">
                 <label for="number-phone">Quantità:</label>
                 <input type="number" id="number-phone" name="number-phone" placeholder="1"/>
-                <p class="price-product">519.90€</p>
+                <p class="price-product sale">
+                    <span class="old-price">
+                        <span class="price">519.90€</span>
+                        <span class="discount-percent">-20%</span>
+                    </span>
+                    519.90€
+                </p>
                 <button class="buy-btn" type="submit">COMPRA ADESSO</button>
                 <ul class="list-bonus">
                     <li>Spedizione Gratis su tutti gli iPhone 6</li>
