@@ -24,7 +24,6 @@ $(document).ready(function () {
         $('.selected-color').empty();
         var colorName = $('.radio-custom-color:checked').val();
         $('.selected-color').append(colorName);
-        console.log(x);
     });
 
 });
