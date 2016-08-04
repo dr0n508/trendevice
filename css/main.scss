@@ -45,7 +45,7 @@ $white-color: #FFFFFF;
   padding: 5px;
   &:hover {
     color: $white-color;
-    background: $blue-color;
+//    background: $blue-color;
     text-decoration: none;
   }
 }
@@ -693,6 +693,13 @@ $white-color: #FFFFFF;
       font-size: 16px;
       margin-left: 6px;
     }
+  }
+  .wrap-color-inputs {
+    display: inline-block;
+  }
+  .selected-color {
+    font-weight: 300;
+    display: inline-block;
   }
 
   .radio-custom-color[disabled]+label {

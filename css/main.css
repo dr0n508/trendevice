@@ -32,7 +32,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding: 5px; }
   .small-yellow-btn:hover {
     color: #FFFFFF;
-    background: #2889c2;
     text-decoration: none; }
 
 .small-yellow-btn.not-available {
@@ -509,6 +508,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       text-align: center;
       font-size: 16px;
       margin-left: 6px; }
+  .product-section .wrap-color-inputs {
+    display: inline-block; }
+  .product-section .selected-color {
+    font-weight: 300;
+    display: inline-block; }
   .product-section .radio-custom-color[disabled] + label {
     position: relative; }
     .product-section .radio-custom-color[disabled] + label span:before {
