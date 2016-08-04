@@ -417,7 +417,7 @@ $white-color: #FFFFFF;
   }
 }
 
-.list-iphones {
+.list-models-products {
   li {
     padding: 3px 5px;
     a {
@@ -426,6 +426,11 @@ $white-color: #FFFFFF;
       background: $light-gray-color;
       padding: 5px 20px;
       display: block;
+      &:hover {
+        color: $white-color;
+        background-color: $blue-color;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -1190,7 +1195,7 @@ footer {
     font-size: 30px;
     margin: 10px 0;
   }
-  .list-iphones li a  { font-size: 18px; }
+  .list-models-products li a  { font-size: 18px; }
 
   .iphone6 .chose1 {
     padding: 20px 30px;
@@ -1208,7 +1213,7 @@ footer {
     float: none;
   }
   .select-iphone h1 { font-size: 24px; }
-  .list-iphones li a  { font-size: 16px; }
+  .list-models-products li a  { font-size: 16px; }
 
   /***************banner-first-page************/
   .banner {

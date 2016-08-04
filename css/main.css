@@ -300,14 +300,18 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   color: #2889c2;
   margin: 50px 0 20px; }
 
-.list-iphones li {
+.list-models-products li {
   padding: 3px 5px; }
-  .list-iphones li a {
+  .list-models-products li a {
     font-size: 24px;
     color: #484848;
     background: #EEEEEE;
     padding: 5px 20px;
     display: block; }
+    .list-models-products li a:hover {
+      color: #FFFFFF;
+      background-color: #2889c2;
+      text-decoration: none; }
 
 .our-advantages {
   padding: 50px 0; }
@@ -880,7 +884,7 @@ footer {
     font-size: 30px;
     margin: 10px 0; }
 
-  .list-iphones li a {
+  .list-models-products li a {
     font-size: 18px; }
 
   .iphone6 .chose1 {
@@ -897,7 +901,7 @@ footer {
   .select-iphone h1 {
     font-size: 24px; }
 
-  .list-iphones li a {
+  .list-models-products li a {
     font-size: 16px; }
 
   /***************banner-first-page************/
