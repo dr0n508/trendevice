@@ -135,6 +135,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .dropdown .new-user ~ .menu-login-user {
   display: none; }
 
+.signin {
+  font-weight: 400;
+  background-color: #F79A1F; }
+
 .dropdown-menu.columns-2 {
   min-width: 400px; }
 
