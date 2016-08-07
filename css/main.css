@@ -420,7 +420,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .version-product .info-product {
   font-weight: 300;
   font-size: 18px;
-  padding-top: 25px; }
+  padding-top: 25px;
+  margin-bottom: 25px; }
 .version-product .model {
   padding: 20px 40px; }
   .version-product .model .wrap-img-model {
