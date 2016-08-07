@@ -303,6 +303,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   color: #2889c2;
   margin: 50px 0 20px; }
 
+.header-list-mac {
+  font-size: 24px;
+  color: #EEEEEE;
+  background: #484848;
+  padding: 0 20px;
+  margin: 0 5px;
+  display: block; }
+
 .list-models-products li {
   padding: 3px 5px; }
   .list-models-products li a {

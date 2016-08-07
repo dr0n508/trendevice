@@ -417,6 +417,16 @@ $white-color: #FFFFFF;
   }
 }
 
+.header-list-mac {
+  font-size: 24px;
+  color: $light-gray-color;
+  background: $dark-gray-color;
+  padding: 0 20px;
+  margin: 0 5px;
+  display: block;
+
+}
+
 .list-models-products {
   li {
     padding: 3px 5px;
@@ -1844,8 +1854,6 @@ footer {
     width: 100%;
     height: auto;
   }
-
-
 
   .version-product .detail-characteristics {
     padding-right: 0;
