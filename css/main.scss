@@ -71,10 +71,12 @@ $white-color: #FFFFFF;
   color: $white-color;
   background: $yellow-color;
   padding: 10px 30px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   outline: none;
   border: none;
+  width: 250px;
+  text-align: center;
   &:hover {
     color: $white-color;
     text-decoration: none;
@@ -1120,7 +1122,7 @@ $white-color: #FFFFFF;
   }
   .big-yellow-btn {
     padding: 10px 30px;
-    font-size: 20px;
+    font-size: 24px;
   }
   h2 {
     font-size: 24px;
