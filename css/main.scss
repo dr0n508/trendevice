@@ -1651,10 +1651,10 @@ footer {
   }
 
   .version-product .model .wrap-img-model {
-    height: 350px;
+//    max-height: 350px;
     img {
-      height: 100%;
-      width: auto;
+      width: 100%;
+      height: auto;
     }
   }
 

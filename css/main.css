@@ -1212,11 +1212,9 @@ footer {
     font-size: 14px;
     padding: 10px 10px 10px 75px; }
 
-  .version-product .model .wrap-img-model {
-    height: 350px; }
-    .version-product .model .wrap-img-model img {
-      height: 100%;
-      width: auto; }
+  .version-product .model .wrap-img-model img {
+    width: 100%;
+    height: auto; }
 
   .version-product .info-product {
     font-size: 16px; }
