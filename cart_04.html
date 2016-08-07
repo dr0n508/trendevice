@@ -63,11 +63,11 @@
 <section class="breadcrumbs">
     <div class="container">
         <p>
-            <span class="stage01"><span>1</span> il tuo carrello</span>
+            <span class="stage"><span>1</span> il tuo carrello</span>
             <span>></span>
-            <span class="stage02"><span>2</span> i tuoi dati</span>
+            <span class="stage"><span>2</span> i tuoi dati</span>
             <span>></span>
-            <span class="stage03 active"><span>3</span> concludi ordine</span>
+            <span class="stage active"><span>3</span> concludi ordine</span>
         </p>
     </div>
 </section>
@@ -115,7 +115,14 @@
                     </div>
                 </div>
             </div>
-            <p class="accept-terms"> * Ho letto ed accetto le Condizioni d'uso</p>
+            <!--<p class="accept-terms"> * Ho letto ed accetto le Condizioni d'uso</p>-->
+
+            <div class="wrap-custom-input">
+                <input class="radio-custom-card" checked type="radio" id="accept-terms" name="accept-termst" value="accept-terms"/>
+                <label class="radio-custom-card-label" for="accept-terms"></label>
+                <label for="accept-terms">Ho letto ed accetto le Condizioni d'uso</label>
+            </div>
+
             <input class="big-yellow-btn pull-right" type="submit" value="Conferma Ordine"/>
         </div>
     </div>

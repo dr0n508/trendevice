@@ -760,7 +760,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       font-size: 36px; }
 
 .product-basket {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300; }
   .product-basket h2 {
     color: #FFFFFF;
@@ -779,13 +779,16 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       float: left;
       margin: auto; }
     .product-basket .list-product li .price-product {
+      font-weight: 400;
       width: 10%;
       float: left;
       text-align: right;
       margin: auto; }
   .product-basket .delivery-price, .product-basket .total-price {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-weight: 400; }
   .product-basket .text-delivery, .product-basket .text-total-price {
+    font-weight: 300;
     width: 90%;
     float: left; }
   .product-basket .price-delivery, .product-basket .sum-total-price {
@@ -872,27 +875,31 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .information-client .label-small {
     font-size: 16px;
     display: block; }
-  .information-client .radio-custom-card:not(checked) {
-    position: absolute;
-    opacity: 0; }
-  .information-client .radio-custom-card:checked + label {
-    border: none;
-    background: #2889c2; }
-  .information-client .radio-custom-card-label {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: solid 2px #484848;
-    position: absolute;
-    left: -30px; }
-  .information-client .wrap-custom-input {
-    position: relative;
-    margin-bottom: 5px; }
-    .information-client .wrap-custom-input span {
-      font-size: 13px; }
-    .information-client .wrap-custom-input i {
-      margin-right: 10px;
-      width: 20px; }
+
+.radio-custom-card:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.radio-custom-card:checked + label {
+  border: none;
+  background: #2889c2; }
+
+.radio-custom-card-label {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 2px #484848;
+  position: absolute;
+  left: -30px; }
+
+.wrap-custom-input {
+  position: relative;
+  margin-bottom: 5px; }
+  .wrap-custom-input span {
+    font-size: 13px; }
+  .wrap-custom-input i {
+    margin-right: 10px;
+    width: 20px; }
 
 .product-basket-small {
   margin-top: 5px;
@@ -955,17 +962,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .control-card {
   font-weight: 300;
   font-size: 20px; }
-  .control-card .container {
-    background: #EEEEEE;
-    padding: 0; }
   .control-card .wrap {
-    padding: 20px; }
+    padding: 20px;
+    background: #EEEEEE; }
   .control-card h2 {
-    font-weight: 300;
-    font-size: 38px;
+    color: #FFFFFF;
     background: #484848;
-    color: #EEEEEE;
-    padding: 2px 10px; }
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 10px 15px; }
   .control-card .header-block {
     font-weight: 600;
     margin-bottom: 5px; }
@@ -981,10 +986,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin-bottom: 20px; }
   .control-card .delivery-price, .control-card .total-price {
     margin-bottom: 20px; }
-  .control-card .accept-terms {
+  .control-card .wrap-custom-input {
     font-size: 14px;
     text-align: right;
-    margin: 100px 0 10px; }
+    margin: 100px 0 10px;
+    font-weight: 300; }
+    .control-card .wrap-custom-input label {
+      font-weight: 300; }
+    .control-card .wrap-custom-input .radio-custom-card-label {
+      position: static; }
 
 /******************************************footer************************************/
 /************************************************************************************/
@@ -1278,9 +1288,6 @@ footer {
 
   .information-client .authentication .small-gray-btn {
     margin-left: 0; }
-
-  .control-card .accept-terms {
-    margin: 10px 0; }
 
   .control-card .big-yellow-btn {
     width: 100%; }

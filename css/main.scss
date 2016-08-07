@@ -1021,7 +1021,7 @@ $white-color: #FFFFFF;
 }
 
 .product-basket {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   h2 {
     color: $white-color;
@@ -1043,6 +1043,7 @@ $white-color: #FFFFFF;
       margin: auto;
     }
     .price-product {
+      font-weight: 400;
       width: 10%;
       float: left;
       text-align: right;
@@ -1051,8 +1052,10 @@ $white-color: #FFFFFF;
   }
   .delivery-price, .total-price {
     margin-bottom: 10px;
+    font-weight: 400;
   }
   .text-delivery, .text-total-price {
+    font-weight: 300;
     width: 90%;
     float: left;
   }
@@ -1164,37 +1167,41 @@ $white-color: #FFFFFF;
     font-size: 16px;
     display: block;
   }
-  .radio-custom-card:not(checked){
-    position: absolute;
-    opacity: 0;
+}
+
+.radio-custom-card:not(checked){
+  position: absolute;
+  opacity: 0;
+}
+.radio-custom-card:not(checked) + label {
+  //    color: #808080;
+}
+.radio-custom-card:checked + label {
+  border: none;
+  background: $blue-color;
+}
+.radio-custom-card-label {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: solid 2px $dark-gray-color;
+  position: absolute;
+  left: -30px;
+}
+.wrap-custom-input {
+  position: relative;
+  margin-bottom: 5px;
+  span {
+    font-size: 13px;
   }
-  .radio-custom-card:not(checked) + label {
-//    color: #808080;
-  }
-  .radio-custom-card:checked + label {
-    border: none;
-    background: $blue-color;
-  }
-  .radio-custom-card-label {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: solid 2px $dark-gray-color;
-    position: absolute;
-    left: -30px;
-  }
-  .wrap-custom-input {
-    position: relative;
-    margin-bottom: 5px;
-    span {
-      font-size: 13px;
-    }
-    i {
-      margin-right: 10px;
-      width: 20px;
-    }
+  i {
+    margin-right: 10px;
+    width: 20px;
   }
 }
+
+
+
 .product-basket-small {
   margin-top: 5px;
   h2 {
@@ -1272,18 +1279,18 @@ $white-color: #FFFFFF;
   font-weight: 300;
   font-size: 20px;
   .container {
-    background: $light-gray-color;
-    padding: 0;
+//    padding: 0;
   }
   .wrap {
     padding: 20px;
+    background: $light-gray-color;
   }
   h2 {
-    font-weight: 300;
-    font-size: 38px;
+    color: $white-color;
     background: $dark-gray-color;
-    color: $light-gray-color;
-    padding: 2px 10px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
 
   }
   .header-block {
@@ -1308,10 +1315,20 @@ $white-color: #FFFFFF;
   .delivery-price, .total-price {
     margin-bottom: 20px;
   }
-  .accept-terms {
+//  .accept-terms {
+//    font-size: 14px;
+//    text-align: right;
+//    margin: 100px 0 10px;
+//  }
+  .wrap-custom-input {
     font-size: 14px;
     text-align: right;
     margin: 100px 0 10px;
+    font-weight: 300;
+    label { font-weight: 300}
+    .radio-custom-card-label {
+      position: static;
+    }
   }
 }
 
@@ -1710,9 +1727,9 @@ footer {
     margin-left: 0;
   }
 
-  .control-card .accept-terms {
-    margin: 10px 0;
-  }
+//  .control-card .accept-terms {
+//    margin: 10px 0;
+//  }
   .control-card .big-yellow-btn {
     width: 100%;
   }
