@@ -838,13 +838,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-weight: 300; }
   .information-client input {
     border: none;
+    font-size: 16px;
     margin: 4px 0;
     padding-left: 5px;
     padding-right: 5px; }
   .information-client address {
     margin-bottom: 10px; }
   .information-client .big-yellow-btn {
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    font-size: 20px; }
   .information-client h2 {
     font-size: 24px;
     color: #EEEEEE;
@@ -868,8 +870,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: 90px; }
   .information-client .authentication .lost-pass {
     padding-left: 94px;
-    font-size: 12px;
+    font-size: 14px;
     color: #484848; }
+    .information-client .authentication .lost-pass:hover {
+      text-decoration: none; }
   .information-client .authentication .small-gray-btn {
     margin-left: 94px;
     margin-top: 10px;
@@ -912,15 +916,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     color: #FFFFFF;
     padding: 10px; }
     .product-basket-small .sum-total-price .info {
-      font-size: 12px; }
+      font-size: 14px; }
     .product-basket-small .sum-total-price .price {
-      font-size: 24px; }
+      font-size: 26px; }
   .product-basket-small .list-products {
     padding: 15px;
     border-left: solid 1px #484848;
     border-right: solid 1px #484848; }
     .product-basket-small .list-products li {
-      font-size: 14px; }
+      font-size: 16px; }
       .product-basket-small .list-products li a {
         color: #484848; }
         .product-basket-small .list-products li a:hover {
@@ -936,7 +940,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
         width: 10%;
         text-align: right; }
 
-/*****new****/
+/*****accordion-custom-styles****/
 .panel-default > .panel-heading {
   background-color: #484848;
   border-radius: 0; }

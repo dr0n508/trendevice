@@ -1120,6 +1120,7 @@ $white-color: #FFFFFF;
   label {font-weight: 300}
   input {
     border: none;
+    font-size: 16px;
     margin: 4px 0;
     padding-left: 5px;
     padding-right: 5px;
@@ -1129,6 +1130,7 @@ $white-color: #FFFFFF;
   }
   .big-yellow-btn {
     padding: 10px 30px;
+    font-size: 20px;
   }
   h2 {
     font-size: 24px;
@@ -1159,8 +1161,11 @@ $white-color: #FFFFFF;
     }
     .lost-pass {
       padding-left: 94px;
-      font-size: 12px;
+      font-size: 14px;
       color: $dark-gray-color;
+      &:hover {
+        text-decoration: none;
+      }
     }
     .small-gray-btn {
       margin-left: 94px;
@@ -1203,7 +1208,6 @@ $white-color: #FFFFFF;
     }
   }
 }
-
 .product-basket-small {
   margin-top: 5px;
   h2 {
@@ -1217,15 +1221,15 @@ $white-color: #FFFFFF;
     background: $yellow-color;
     color: $white-color;
     padding: 10px;
-    .info {font-size: 12px}
-    .price {font-size: 24px}
+    .info {font-size: 14px}
+    .price {font-size: 26px}
   }
   .list-products {
     padding: 15px;
     border-left: solid 1px $dark-gray-color;
     border-right: solid 1px $dark-gray-color;
     li {
-      font-size: 14px;
+      font-size: 16px;
       a {
         color: $dark-gray-color;
         &:hover {
@@ -1251,7 +1255,7 @@ $white-color: #FFFFFF;
 
 
 
-/*****new****/
+/*****accordion-custom-styles****/
 
 .panel-default>.panel-heading {
   background-color: $dark-gray-color;
@@ -1261,20 +1265,17 @@ $white-color: #FFFFFF;
     display: block;
   }
 }
-
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
   background-color: $light-gray-color;
   margin-top: 5px;
   padding: 30px 30px 30px 50px;
   border: none;
 }
-
 .panel-group .panel {
   border: none;
   border-radius: 0;
   margin-top: 5px;
 }
-
 
 
 /****************************************control-card********************************/
