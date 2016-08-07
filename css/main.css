@@ -827,6 +827,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 
 /******************************information-client************************************/
 /************************************************************************************/
+.information {
+  padding-left: 0;
+  padding-right: 0; }
+
 .information-client {
   font-size: 18px;
   font-weight: 300; }
@@ -978,14 +982,17 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin-bottom: 5px; }
   .control-card .name-product, .control-card .text-delivery, .control-card .text-total-price {
     width: 80%;
-    float: left; }
+    float: left;
+    margin: auto; }
   .control-card .price-product, .control-card .price-delivery, .control-card .sum-total-price {
     width: 20%;
     float: right;
     text-align: right;
-    font-weight: 400; }
+    font-weight: 400;
+    margin: auto; }
   .control-card .list-product li {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: flex; }
   .control-card .delivery-price, .control-card .total-price {
     margin-bottom: 20px; }
   .control-card .wrap-custom-input {
@@ -1247,6 +1254,13 @@ footer {
   .advantages ul li img {
     height: 50px; }
 
+  .product-basket-small {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    padding: 10px 10px 10px 40px; }
+
   #popover-condition .modal-header h4 {
     font-size: 18px; }
   #popover-condition .modal-body ul li {
@@ -1282,17 +1296,23 @@ footer {
   .information-client .wrap-section {
     padding: 30px 30px 30px 40px; }
 
-  .information-client .big-yellow-btn {
-    width: 100%; }
-
   .information-client .authentication .lost-pass {
     padding-left: 0; }
 
   .information-client .authentication .small-gray-btn {
     margin-left: 0; }
 
+  .control-card .wrap-custom-input {
+    margin: 10px 0; }
+    .control-card .wrap-custom-input .accept-terms {
+      font-size: 12px; }
+
   .control-card .big-yellow-btn {
     width: 100%; }
+
+  .control-card .wrap {
+    padding-left: 0;
+    padding-right: 0; }
 
   .our-products .product-mac .wrap-img img {
     width: 100%;

@@ -1106,6 +1106,11 @@ $white-color: #FFFFFF;
 /******************************information-client************************************/
 /************************************************************************************/
 
+.information {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .information-client {
   font-size: 18px;
   font-weight: 300;
@@ -1205,6 +1210,7 @@ $white-color: #FFFFFF;
 
 
 .product-basket-small {
+
   margin-top: 5px;
   h2 {
     font-size: 24px;
@@ -1302,16 +1308,19 @@ $white-color: #FFFFFF;
   .name-product, .text-delivery, .text-total-price {
     width: 80%;
     float: left;
+    margin: auto;
   }
   .price-product, .price-delivery, .sum-total-price {
     width: 20%;
     float: right;
     text-align: right;
     font-weight: 400;
+    margin: auto;
   }
   .list-product {
     li {
       margin-bottom: 20px;
+      display: flex;
     }
   }
   .delivery-price, .total-price {
@@ -1672,6 +1681,16 @@ footer {
     img {height: 50px;}
   }
 
+  .product-basket-small {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    padding: 10px 10px 10px 40px;
+  }
+
+
 
   #popover-condition {
     .modal-header h4 {font-size: 18px;}
@@ -1718,7 +1737,7 @@ footer {
   }
 
   .information-client .big-yellow-btn {
-    width: 100%;
+//    width: 100%;
   }
 
   .information-client .authentication .lost-pass {
@@ -1729,11 +1748,19 @@ footer {
     margin-left: 0;
   }
 
-//  .control-card .accept-terms {
-//    margin: 10px 0;
-//  }
+  .control-card .wrap-custom-input {
+    margin: 10px 0;
+    .accept-terms {
+      font-size: 12px;
+    }
+  }
   .control-card .big-yellow-btn {
     width: 100%;
+  }
+
+  .control-card .wrap {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .our-products .product-mac .wrap-img img {
