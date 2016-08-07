@@ -832,7 +832,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /******************************information-client************************************/
 /************************************************************************************/
 .information-client {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300; }
   .information-client label {
     font-weight: 300; }
@@ -841,44 +841,41 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     margin: 4px 0;
     padding-left: 5px;
     padding-right: 5px; }
+  .information-client address {
+    margin-bottom: 10px; }
   .information-client .big-yellow-btn {
     padding: 10px 30px; }
   .information-client h2 {
     font-size: 24px;
-    background: #484848;
     color: #EEEEEE;
-    padding: 4px 10px 4px 30px;
+    padding-left: 30px;
     position: relative; }
     .information-client h2 span {
       position: absolute;
-      top: 6px;
-      left: 6px;
+      top: 3px;
+      left: 3px;
       font-size: 15px;
       color: #484848;
       background: #EEEEEE;
       padding: 2px 5px;
       text-align: center; }
-  .information-client .wrap-section {
-    background: #EEEEEE;
-    margin: 5px 0;
-    padding: 30px 30px 30px 50px; }
   .information-client .wrap-inputs {
     padding: 0; }
-  .information-client .authentication label {
-    width: 75px; }
-  .information-client .authentication .header-form {
+  .information-client .header-input {
     margin-bottom: 15px;
     font-weight: 400; }
+  .information-client .authentication label {
+    width: 90px; }
   .information-client .authentication .lost-pass {
-    padding-left: 80px;
+    padding-left: 94px;
     font-size: 12px;
     color: #484848; }
   .information-client .authentication .small-gray-btn {
-    margin-left: 80px;
+    margin-left: 94px;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .information-client .payment-address .label-small, .information-client .shipping-address .label-small, .information-client .payment-method .label-small {
-    font-size: 14px;
+  .information-client .label-small {
+    font-size: 16px;
     display: block; }
   .information-client .radio-custom-card:not(checked) {
     position: absolute;
@@ -903,7 +900,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       width: 20px; }
 
 .product-basket-small {
+  margin-top: 5px;
   padding: 0; }
+  .product-basket-small h2 {
+    font-size: 24px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background-color: #484848; }
   .product-basket-small .sum-total-price {
     background: #F79A1F;
     color: #FFFFFF;
@@ -932,6 +935,25 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
         float: right;
         width: 10%;
         text-align: right; }
+
+/*****new****/
+.panel-default > .panel-heading {
+  background-color: #484848;
+  border-radius: 0; }
+  .panel-default > .panel-heading a {
+    text-decoration: none;
+    display: block; }
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  background-color: #EEEEEE;
+  margin-top: 5px;
+  padding: 30px 30px 30px 50px;
+  border: none; }
+
+.panel-group .panel {
+  border: none;
+  border-radius: 0;
+  margin-top: 5px; }
 
 /****************************************control-card********************************/
 /************************************************************************************/

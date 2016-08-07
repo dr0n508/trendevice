@@ -1115,7 +1115,7 @@ $white-color: #FFFFFF;
 /************************************************************************************/
 
 .information-client {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   label {font-weight: 300}
   input {
@@ -1124,19 +1124,21 @@ $white-color: #FFFFFF;
     padding-left: 5px;
     padding-right: 5px;
   }
+  address {
+    margin-bottom: 10px;
+  }
   .big-yellow-btn {
     padding: 10px 30px;
   }
   h2 {
     font-size: 24px;
-    background: $dark-gray-color;
     color: $light-gray-color;
-    padding: 4px 10px 4px 30px;
+    padding-left: 30px;
     position: relative;
     span {
       position: absolute;
-      top: 6px;
-      left: 6px;
+      top: 3px;
+      left: 3px;
       font-size: 15px;
       color: $dark-gray-color;
       background: $light-gray-color;
@@ -1144,40 +1146,32 @@ $white-color: #FFFFFF;
       text-align: center;
     }
   }
-  .wrap-section {
-    background: $light-gray-color;
-    margin: 5px 0;
-    padding: 30px 30px 30px 50px;
-  }
   .wrap-inputs {
     padding: 0;
   }
+  .header-input {
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
   .authentication {
     label {
-      width: 75px;
-    }
-    .header-form {
-      margin-bottom: 15px;
-      font-weight: 400;
+      width: 90px;
     }
     .lost-pass {
-      padding-left: 80px;
+      padding-left: 94px;
       font-size: 12px;
       color: $dark-gray-color;
     }
     .small-gray-btn {
-      margin-left: 80px;
+      margin-left: 94px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
   }
-  .payment-address, .shipping-address, .payment-method {
-    .label-small {
-      font-size: 14px;
-      display: block;
-    }
+  .label-small {
+    font-size: 16px;
+    display: block;
   }
-
   .radio-custom-card:not(checked){
     position: absolute;
     opacity: 0;
@@ -1211,6 +1205,13 @@ $white-color: #FFFFFF;
 }
 
 .product-basket-small {
+  margin-top: 5px;
+  h2 {
+    font-size: 24px;
+    padding: 10px 15px;
+    color: $white-color;
+    background-color: $dark-gray-color;
+  }
   padding: 0;
   .sum-total-price {
     background: $yellow-color;
@@ -1247,6 +1248,34 @@ $white-color: #FFFFFF;
     }
   }
 }
+
+
+
+/*****new****/
+
+.panel-default>.panel-heading {
+  background-color: $dark-gray-color;
+  border-radius: 0;
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  background-color: $light-gray-color;
+  margin-top: 5px;
+  padding: 30px 30px 30px 50px;
+  border: none;
+}
+
+.panel-group .panel {
+  border: none;
+  border-radius: 0;
+  margin-top: 5px;
+}
+
+
 
 /****************************************control-card********************************/
 /************************************************************************************/
