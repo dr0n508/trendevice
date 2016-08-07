@@ -809,7 +809,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       width: 90%;
       float: left;
       margin: auto; }
-    .product-basket .list-product li .price-product {
+    .product-basket .list-product li .price {
       font-weight: 400;
       width: 10%;
       float: left;
@@ -1013,7 +1013,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: 80%;
     float: left;
     margin: auto; }
-  .control-card .price-product, .control-card .price-delivery, .control-card .sum-total-price {
+  .control-card .price, .control-card .price-delivery, .control-card .sum-total-price {
     width: 20%;
     float: right;
     text-align: right;
@@ -1270,7 +1270,7 @@ footer {
   .product-basket form {
     padding: 20px 10px; }
 
-  .product-basket .list-product li .price-product {
+  .product-basket .list-product li .price {
     width: 20%; }
 
   .product-basket .text-delivery, .product-basket .text-total-price {
@@ -1314,6 +1314,9 @@ footer {
 @media only screen and (max-width: 430px) {
   .product-basket {
     font-size: 15px; }
+
+  .product-basket .list-product li .price {
+    width: 20%; }
 
   .product-basket form input[type="submit"] {
     width: 100%; }
