@@ -1011,47 +1011,34 @@ $white-color: #FFFFFF;
   text-align: center;
   p {
     font-size: 27px;
+    margin-bottom: 10px;
     .active {
       color: $yellow-color;
     }
-    .stage01, .stage02 {
-      span {font-size: 36px}
-    }
-    .stage03 {
-      span {font-size: 46px}
-    }
+    .stage span {font-size: 36px}
+
   }
 }
 
 .product-basket {
+  font-size: 18px;
+  font-weight: 300;
   h2 {
     color: $white-color;
     background: $dark-gray-color;
     font-size: 32px;
     margin-bottom: 10px;
-    padding: 5px 10px;
+    padding: 10px 15px;
   }
   form {
     background: $light-gray-color;
     padding: 20px 30px;
   }
-  font-size: 17px;
-  font-weight: 300;
   .list-product li {
     margin-bottom: 20px;
     display: flex;
-    .wrap-img {
-      width: 10%;
-      float: left;
-      text-align: center;
-      margin: auto;
-      img {
-        width: 50%;
-        height: auto;
-      }
-    }
     .name-product {
-      width: 80%;
+      width: 90%;
       float: left;
       margin: auto;
     }
@@ -1651,8 +1638,7 @@ footer {
 
   .breadcrumbs {
     p {font-size: 18px;
-      .stage01 span, .stage02 span {font-size: 22px}
-      .stage03 span{font-size: 24px}
+      .stage span {font-size: 22px}
     }
   }
 

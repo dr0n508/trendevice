@@ -752,39 +752,30 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .breadcrumbs {
   text-align: center; }
   .breadcrumbs p {
-    font-size: 27px; }
+    font-size: 27px;
+    margin-bottom: 10px; }
     .breadcrumbs p .active {
       color: #F79A1F; }
-    .breadcrumbs p .stage01 span, .breadcrumbs p .stage02 span {
+    .breadcrumbs p .stage span {
       font-size: 36px; }
-    .breadcrumbs p .stage03 span {
-      font-size: 46px; }
 
 .product-basket {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 300; }
   .product-basket h2 {
     color: #FFFFFF;
     background: #484848;
     font-size: 32px;
     margin-bottom: 10px;
-    padding: 5px 10px; }
+    padding: 10px 15px; }
   .product-basket form {
     background: #EEEEEE;
     padding: 20px 30px; }
   .product-basket .list-product li {
     margin-bottom: 20px;
     display: flex; }
-    .product-basket .list-product li .wrap-img {
-      width: 10%;
-      float: left;
-      text-align: center;
-      margin: auto; }
-      .product-basket .list-product li .wrap-img img {
-        width: 50%;
-        height: auto; }
     .product-basket .list-product li .name-product {
-      width: 80%;
+      width: 90%;
       float: left;
       margin: auto; }
     .product-basket .list-product li .price-product {
@@ -1231,10 +1222,8 @@ footer {
 
   .breadcrumbs p {
     font-size: 18px; }
-    .breadcrumbs p .stage01 span, .breadcrumbs p .stage02 span {
+    .breadcrumbs p .stage span {
       font-size: 22px; }
-    .breadcrumbs p .stage03 span {
-      font-size: 24px; }
 
   .review figure {
     width: 150px;
