@@ -1202,11 +1202,15 @@ footer {
       width: 80px; }
 
   /******************************/
-  .photo-product-models img {
-    width: auto;
-    height: 250px;
-    display: block;
+  .photo-product-models {
+    width: 250px;
+    text-align: center;
     margin: 0 auto; }
+    .photo-product-models img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto; }
 
   .our-advantages li {
     font-size: 14px;
