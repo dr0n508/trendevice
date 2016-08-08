@@ -1294,7 +1294,7 @@ $white-color: #FFFFFF;
     color: $white-color;
     background-color: $dark-gray-color;
   }
-  padding: 0;
+//  padding: 0;
   .sum-total-price {
     background: $yellow-color;
     color: $white-color;
@@ -1585,7 +1585,7 @@ footer {
   .version-product .info-product {
     margin-bottom: 40px;
   }
-  .product-basket-small { padding: 15px}
+  .product-basket-small { padding: 0}
   .control-card { font-size: 16px}
   .our-products li {
       width: 100% !important;
@@ -1743,16 +1743,16 @@ footer {
     padding: 20px 10px;
   }
 
-  .product-basket .list-product li .price {
-    width: 20%;
+  .product-basket .list-product li .price,
+  .product-basket .price-delivery,
+  .product-basket .sum-total-price {
+    width: 30%;
   }
 
-  .product-basket .text-delivery, .product-basket .text-total-price {
-    width: 80%;
-  }
-
-  .product-basket .price-delivery, .product-basket .sum-total-price {
-    width: 20%;
+  .product-basket .list-product li .name-product,
+  .product-basket .text-delivery,
+  .product-basket .text-total-price {
+    width: 70%;
   }
 
   .breadcrumbs {
@@ -1803,7 +1803,7 @@ footer {
   }
 
   .product-basket .list-product li .price {
-    width: 20%;
+    width: 30%;
   }
 
   .product-basket form input[type="submit"] {
@@ -1853,9 +1853,15 @@ footer {
     width: 100%;
   }
 
-  .control-card .wrap {
+  .control-card .wrap-table {
     padding-left: 0;
     padding-right: 0;
+  }
+
+
+  .control-card {
+    .name-product, .text-delivery, .text-total-price { width: 70%; }
+    .price, .price-delivery, .sum-total-price { width: 30%; }
   }
 
   .our-products .product-mac .wrap-img img {
