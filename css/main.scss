@@ -349,35 +349,10 @@ $white-color: #FFFFFF;
 }
 
 /*****custom-slider-style*****/
-
 .bx-wrapper .bx-viewport {
   box-shadow: none;
   border: none;
 }
-
-/******change-button-next-prev*****/
-
-//.bx-wrapper .bx-next {
-//  background: url("../img/arrow-right.png") no-repeat 50% 50%;
-//  background-size: 16px;
-//  border-radius: 50%;
-//}
-//
-//.bx-wrapper .bx-prev {
-//  background: url("../img/arrow-left.png") no-repeat 50% 50%;
-//  background-size: 16px;
-//  border-radius: 50%;
-//}
-//
-//.bx-wrapper .bx-next:hover {
-//  background: url("../img/arrow-right.png") no-repeat 50% 50%, $white-color;
-//  background-size: 16px;
-//}
-//
-//.bx-wrapper .bx-prev:hover {
-//  background: url("../img/arrow-left.png") no-repeat 50% 50%, $white-color;
-//  background-size: 16px;
-//}
 
 /***********************************advantages***************************************/
 /************************************************************************************/
@@ -746,9 +721,7 @@ $white-color: #FFFFFF;
 
   .radio-custom-btn-input[disabled]+label {
     color: #b2b3b4;
-
   }
-
 
   .radio-custom-color-input:not(checked), .radio-custom-btn-input:not(checked){
     position: absolute;
@@ -827,11 +800,6 @@ $white-color: #FFFFFF;
     background: #fdf16f;
   }
 
-
-
-
-
-
   .radio-custom-btn-label {
     font-size: 19px;
     background: $light-gray-color;
@@ -868,49 +836,7 @@ $white-color: #FFFFFF;
     font-size: 21px;
     border: solid 1px $light-gray-color;
   }
-//  .price-product {
-//    font-weight: 600;
-//    font-size: 35px;
-//    text-align: center;
-//    border: solid 1px $light-gray-color;
-//    padding: 10px 0;
-//    position: relative;
-//    .old-price {
-//      text-align: center;
-//      width: 80px;
-//      display: none;
-//      font-size: 20px;
-//      .price,  {
-//        display: inline-block;
-//        font-weight: 300;
-//        color: $black-color;
-//        position: relative;
-//        &:before {
-//          content: "";
-//          width: 75px;
-//          height: 1px;
-//          background: $black-color;;
-//          display: block;
-//          position: absolute;
-//          top: 10px;
-//          left: 0;
-//          -moz-transform: rotate(20deg); /* Firefox */
-//          -ms-transform: rotate(20deg); /* IE */
-//          -webkit-transform: rotate(20deg); /* Safari, Chrome, iOS */
-//          -o-transform: rotate(20deg); /* Opera */
-//          transform: rotate(20deg);
-//        }
-//      }
-//      .discount-percent {
-//        display: inline-block;
-//        color: #ed1c24;
-//      }
-//    }
-//  }
-//  .price-product.sale {
-//    color: red;
-//    .old-price {display: inline-block;}
-//  }
+
   .buy-btn {
     color: $white-color;
     background: $yellow-color;
@@ -1283,10 +1209,7 @@ $white-color: #FFFFFF;
   }
 }
 
-
-
 .product-basket-small {
-
   margin-top: 5px;
   h2 {
     font-size: 24px;
@@ -1294,7 +1217,6 @@ $white-color: #FFFFFF;
     color: $white-color;
     background-color: $dark-gray-color;
   }
-//  padding: 0;
   .sum-total-price {
     background: $yellow-color;
     color: $white-color;
@@ -1362,9 +1284,6 @@ $white-color: #FFFFFF;
 .control-card {
   font-weight: 300;
   font-size: 20px;
-  .container {
-//    padding: 0;
-  }
   .wrap {
     padding: 20px;
     background: $light-gray-color;
@@ -1402,11 +1321,7 @@ $white-color: #FFFFFF;
   .delivery-price, .total-price {
     margin-bottom: 20px;
   }
-//  .accept-terms {
-//    font-size: 14px;
-//    text-align: right;
-//    margin: 100px 0 10px;
-//  }
+
   .wrap-custom-input {
     font-size: 14px;
     text-align: right;
@@ -1654,7 +1569,6 @@ footer {
   }
 
   .version-product .model .wrap-img-model {
-//    max-height: 350px;
     img {
       width: 100%;
       height: auto;
@@ -1781,8 +1695,6 @@ footer {
     padding: 10px 10px 10px 40px;
   }
 
-
-
   #popover-condition {
     .modal-header h4 {font-size: 18px;}
     .modal-body {
@@ -1810,12 +1722,7 @@ footer {
     width: 100%;
   }
 
-  .breadcrumbs {
-    p {font-size: 16px;
-      .stage01 span, .stage02 span {font-size: 18px}
-      .stage03 span{font-size: 20px}
-    }
-  }
+  .breadcrumbs p { font-size: 16px; }
 
   .review figure {
     width: auto;
@@ -1829,10 +1736,6 @@ footer {
 
   .information-client .wrap-section {
     padding: 30px 30px 30px 40px;
-  }
-
-  .information-client .big-yellow-btn {
-//    width: 100%;
   }
 
   .information-client .authentication .lost-pass {
@@ -1857,7 +1760,6 @@ footer {
     padding-left: 0;
     padding-right: 0;
   }
-
 
   .control-card {
     .name-product, .text-delivery, .text-total-price { width: 70%; }

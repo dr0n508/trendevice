@@ -276,7 +276,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   box-shadow: none;
   border: none; }
 
-/******change-button-next-prev*****/
 /***********************************advantages***************************************/
 /************************************************************************************/
 .advantages {
@@ -1325,10 +1324,6 @@ footer {
 
   .breadcrumbs p {
     font-size: 16px; }
-    .breadcrumbs p .stage01 span, .breadcrumbs p .stage02 span {
-      font-size: 18px; }
-    .breadcrumbs p .stage03 span {
-      font-size: 20px; }
 
   .review figure {
     width: auto;
