@@ -383,8 +383,10 @@ $white-color: #FFFFFF;
 /****************************************home-iphone*********************************/
 /************************************************************************************/
 .photo-product-models {
+  padding-top: 110px;
+  text-align: center;
   img {
-    width: 100%;
+    max-width: 90%;
     height: auto;
   }
 }
@@ -394,6 +396,7 @@ $white-color: #FFFFFF;
     font-size: 38px;
     color: $blue-color;
     margin: 50px 0 20px;
+    text-align: center;
   }
 }
 
