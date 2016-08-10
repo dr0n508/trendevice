@@ -379,7 +379,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background: #EEEEEE;
   height: 220px; }
   .offer .slide .img-wrapper {
-    width: 45%;
+    width: 50%;
     height: 220px;
     position: relative; }
     .offer .slide .img-wrapper img {
@@ -392,8 +392,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       height: auto;
       margin: auto; }
   .offer .slide .offer-wrapper {
-    width: 55%;
-    padding: 70px 20px 20px 20px; }
+    width: 50%;
+    padding: 70px 20px 20px 0; }
     .offer .slide .offer-wrapper h3 {
       font-size: 25px;
       font-weight: 600;
@@ -408,7 +408,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   position: relative; }
   .offer .quick-offer .offer-wrapper {
     width: 100%;
-    padding: 10px; }
+    padding: 10px 10px 0; }
     .offer .quick-offer .offer-wrapper h3 {
       font-size: 25px; }
   .offer .quick-offer .img-wrapper-quick-offer img {

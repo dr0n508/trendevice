@@ -492,7 +492,7 @@ $white-color: #FFFFFF;
     background: $light-gray-color;
     height: 220px;
     .img-wrapper {
-      width: 45%;
+      width: 50%;
       height: 220px;
       position: relative;
       img {
@@ -507,8 +507,8 @@ $white-color: #FFFFFF;
       }
     }
     .offer-wrapper {
-      width: 55%;
-      padding: 70px 20px 20px 20px;
+      width: 50%;
+      padding: 70px 20px 20px 0;
       h3 {
         font-size: 25px;
         font-weight: 600;
@@ -527,7 +527,7 @@ $white-color: #FFFFFF;
     position: relative;
     .offer-wrapper {
       width: 100%;
-      padding: 10px;
+      padding: 10px 10px 0;
 //      text-align: center;
       h3 {
         font-size: 25px;
