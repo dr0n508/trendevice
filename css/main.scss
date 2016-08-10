@@ -190,6 +190,7 @@ $white-color: #FFFFFF;
   color: $dark-gray-color;
   background-color: $light-gray-color;
   padding: 3px 15px;
+  font-weight: 400;
 }
 
 .menu-mac-column1 {
@@ -491,7 +492,7 @@ $white-color: #FFFFFF;
     background: $light-gray-color;
     height: 220px;
     .img-wrapper {
-      width: 50%;
+      width: 45%;
       height: 220px;
       position: relative;
       img {
@@ -500,52 +501,90 @@ $white-color: #FFFFFF;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 95%;
+        width: 85%;
         height: auto;
         margin: auto;
       }
     }
     .offer-wrapper {
-      width: 50%;
+      width: 55%;
       padding: 70px 20px 20px 20px;
       h3 {
-        font-size: 16px;
+        font-size: 25px;
         font-weight: 600;
         margin-bottom: 5px;
       }
+      .small-yellow-btn {
+        width: 100%;
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+      }
     }
   }
-  .super-offer {
-    background: $blue-color;
+  .quick-offer {
     text-align: center;
-    .img-wrapper {
-      width: 45%;
-      height: 180px;
-      position: relative;
-      img {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 95%;
-        height: auto;
-        margin: auto;
-      }
-    }
+    position: relative;
     .offer-wrapper {
-      height: 180px;
-      width: 55%;
-      padding: 40px 20px 20px 20px;
+      width: 100%;
+      padding: 10px;
+//      text-align: center;
       h3 {
-        font-size: 24px;
-        font-weight: 400;
-        color: $white-color;
-        text-align: left;
-        text-transform: uppercase;
+        font-size: 25px;
       }
     }
+    .img-wrapper-quick-offer {
+      img {
+        width: auto;
+        max-height: 100px;
+        margin: 0 auto;
+      }
+    }
+    .small-yellow-btn {
+      position: absolute;
+      bottom: 15px;
+      width: 70%;
+      left: 50%;
+      margin-left: -35%;
+      font-size: 16px;
+
+
+    }
+
+
+
   }
+//  .super-offer {
+//    background: $blue-color;
+//    text-align: center;
+//    .img-wrapper {
+//      width: 45%;
+//      height: 180px;
+//      position: relative;
+//      img {
+//        position: absolute;
+//        top: 0;
+//        bottom: 0;
+//        left: 0;
+//        right: 0;
+//        width: 95%;
+//        height: auto;
+//        margin: auto;
+//      }
+//    }
+//    .offer-wrapper {
+//      height: 180px;
+//      width: 55%;
+//      padding: 40px 20px 20px 20px;
+//      h3 {
+//        font-size: 24px;
+//        font-weight: 400;
+//        color: $white-color;
+//        text-align: left;
+//        text-transform: uppercase;
+//      }
+//    }
+//  }
 }
 
 /**********************************iphone6*******************************************/
@@ -1788,12 +1827,8 @@ footer {
     padding-right: 0;
   }
 
-
-
-
-
-
-
+  .offer .slide .offer-wrapper h3 { font-size: 20px }
+  .offer .slide .offer-wrapper .small-yellow-btn {font-size: 16px}
 
 
 

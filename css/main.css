@@ -146,7 +146,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .header-menu-mac {
   color: #484848;
   background-color: #EEEEEE;
-  padding: 3px 15px; }
+  padding: 3px 15px;
+  font-weight: 400; }
 
 .menu-mac-column1 {
   padding-right: 0; }
@@ -378,7 +379,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background: #EEEEEE;
   height: 220px; }
   .offer .slide .img-wrapper {
-    width: 50%;
+    width: 45%;
     height: 220px;
     position: relative; }
     .offer .slide .img-wrapper img {
@@ -387,42 +388,40 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       bottom: 0;
       left: 0;
       right: 0;
-      width: 95%;
+      width: 85%;
       height: auto;
       margin: auto; }
   .offer .slide .offer-wrapper {
-    width: 50%;
+    width: 55%;
     padding: 70px 20px 20px 20px; }
     .offer .slide .offer-wrapper h3 {
-      font-size: 16px;
+      font-size: 25px;
       font-weight: 600;
       margin-bottom: 5px; }
-.offer .super-offer {
-  background: #2889c2;
-  text-align: center; }
-  .offer .super-offer .img-wrapper {
-    width: 45%;
-    height: 180px;
-    position: relative; }
-    .offer .super-offer .img-wrapper img {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 95%;
-      height: auto;
-      margin: auto; }
-  .offer .super-offer .offer-wrapper {
-    height: 180px;
-    width: 55%;
-    padding: 40px 20px 20px 20px; }
-    .offer .super-offer .offer-wrapper h3 {
-      font-size: 24px;
-      font-weight: 400;
-      color: #FFFFFF;
-      text-align: left;
-      text-transform: uppercase; }
+    .offer .slide .offer-wrapper .small-yellow-btn {
+      width: 100%;
+      display: inline-block;
+      font-size: 20px;
+      text-align: center; }
+.offer .quick-offer {
+  text-align: center;
+  position: relative; }
+  .offer .quick-offer .offer-wrapper {
+    width: 100%;
+    padding: 10px; }
+    .offer .quick-offer .offer-wrapper h3 {
+      font-size: 25px; }
+  .offer .quick-offer .img-wrapper-quick-offer img {
+    width: auto;
+    max-height: 100px;
+    margin: 0 auto; }
+  .offer .quick-offer .small-yellow-btn {
+    position: absolute;
+    bottom: 15px;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%;
+    font-size: 16px; }
 
 /**********************************iphone6*******************************************/
 /************************************************************************************/
@@ -1405,6 +1404,12 @@ footer {
 
   .version-product ul li {
     padding-left: 0;
-    padding-right: 0; } }
+    padding-right: 0; }
+
+  .offer .slide .offer-wrapper h3 {
+    font-size: 20px; }
+
+  .offer .slide .offer-wrapper .small-yellow-btn {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=main.css.map */
