@@ -186,6 +186,20 @@ $white-color: #FFFFFF;
   color: $white-color;
 }
 
+.header-menu-mac {
+  color: $dark-gray-color;
+  background-color: $light-gray-color;
+  padding: 3px 15px;
+}
+
+.menu-mac-column1 {
+  padding-right: 0;
+}
+
+.menu-mac-column2 {
+  padding-left: 0;
+}
+
 
 .signin {
   a {font-weight: 600 !important;}
@@ -580,6 +594,10 @@ $white-color: #FFFFFF;
     p {
       font-size: 18px;
       padding: 15px 0;
+    }
+    .small-yellow-btn {
+      font-size: 16px;
+      padding: 10px;
     }
   }
 }
