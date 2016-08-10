@@ -60,7 +60,7 @@ $white-color: #FFFFFF;
 .small-gray-btn {
   font-size: 16px;
   font-weight: 300;
-  padding: 3px 25px;
+  padding: 5px 25px;
   color: $white-color;
   background: $dark-gray-color;
   border: none;
@@ -111,7 +111,7 @@ $white-color: #FFFFFF;
 }
 
 .basket-fa i, .basket-fa-xs i {
-  color: $black-color;
+  color: $white-color;
 }
 
 .basket-fa-xs, .user-fa-xs {
@@ -182,6 +182,11 @@ $white-color: #FFFFFF;
    display: none;
 }
 
+.login-user i {
+  color: $white-color;
+}
+
+
 .signin {
   a {font-weight: 600 !important;}
   background-color: $yellow-color;
@@ -229,9 +234,9 @@ $white-color: #FFFFFF;
 /******************end-multi-column-menu******/
 
 
-/*******************************banner-main-page*************************************/
+/*******************************banner-section-main-page*************************************/
 /************************************************************************************/
-.banner {
+.banner-section {
   text-align: right;
   .container  {
     background: url("../img/welcome-banner.jpg") 50% 50% no-repeat;
@@ -1045,6 +1050,10 @@ $white-color: #FFFFFF;
       width: 90%;
       float: left;
       margin: auto;
+      a {
+        color: $dark-gray-color;
+        &:hover { text-decoration: none; }
+      }
     }
     .price {
       font-weight: 400;
@@ -1162,14 +1171,17 @@ $white-color: #FFFFFF;
       padding-left: 94px;
       font-size: 14px;
       color: $dark-gray-color;
+      text-decoration: underline;
       &:hover {
-        text-decoration: none;
+//        text-decoration: none;
       }
     }
     .small-gray-btn {
+      font-size: 18px;
       margin-left: 94px;
       margin-top: 10px;
       margin-bottom: 10px;
+      padding: 7px 25px;
     }
   }
   .label-small {
@@ -1304,6 +1316,12 @@ $white-color: #FFFFFF;
     width: 80%;
     float: left;
     margin: auto;
+    a {
+      color: $dark-gray-color;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   .price, .price-delivery, .sum-total-price {
     width: 20%;
@@ -1451,25 +1469,28 @@ footer {
 /*********************************MAX1200px*****************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 1200px) {
-  .social .social-link{
-    margin-right: 2px;
-  }
+  .social .social-link{ margin-right: 2px; }
   .select-model-product h1 {
     font-size: 30px;
     margin: 10px 0;
   }
+
   .list-models-products li a  { font-size: 18px; }
 
-  .version-product .model {
-    padding: 20px 30px;
-  }
+  .version-product .model { padding: 20px 30px; }
+
+
+
 
 }
-
 /*********************************MAX992px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 992px) {
-  .footer-block, .rewards .right-block, .rewards .left-block, .payment, .privacy-policy p {
+  .footer-block,
+  .rewards .right-block,
+  .rewards .left-block,
+  .payment,
+  .privacy-policy p {
     text-align: center;
   }
   .privacy-policy p {
@@ -1479,16 +1500,10 @@ footer {
   .list-models-products li a  { font-size: 16px; }
 
   /***************banner-first-page************/
-  .banner {
-    .container  {
-      padding: 50px 10px 10px;
-    }
-    h2 {
-      font-size: 40px;
-    }
-    p {
-      font-size: 32px;
-    }
+  .banner-section {
+    .container  { padding: 50px 10px 10px; }
+    h2 { font-size: 40px; }
+    p { font-size: 32px; }
     .logo-gray {
       margin: 50px 0 0;
       img {
@@ -1502,12 +1517,8 @@ footer {
   }
   .product-basket-small { padding: 0}
   .control-card { font-size: 16px}
-  .our-products li {
-      width: 100% !important;
-    }
-  .wrap-img {
-    padding: 0 5px;
-  }
+  .our-products li { width: 100% !important; }
+  .wrap-img { padding: 0 5px; }
 
   .advantages ul li {
     img {height: 60px;}
@@ -1532,16 +1543,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /***************banner-first-page************/
-  .banner {
-    .container  {
-      padding: 20px 10px 10px;
-    }
-    h2 {
-      font-size: 32px;
-    }
-    p {
-      font-size: 25px;
-    }
+  .banner-section {
+    .container  { padding: 20px 10px 10px; }
+    h2 { font-size: 32px; }
+    p { font-size: 25px; }
     .logo-gray {
       margin: 20px 0 0;
       img {
@@ -1575,9 +1580,7 @@ footer {
     }
   }
 
-  .version-product .info-product {
-    font-size: 16px;
-  }
+  .version-product .info-product { font-size: 16px; }
 
   .version-product .model {
     width: 250px;
@@ -1586,15 +1589,9 @@ footer {
 
   /***********product-section**************/
   .product-section {
-    h1 {
-      font-size: 36px;
-    }
-    .selected-color {
-      font-size: 14px;
-    }
-    .label-condition {
-      font-size: 18px;
-    }
+    h1 { font-size: 36px; }
+    .selected-color { font-size: 14px; }
+    .label-condition { font-size: 18px; }
     .radio-custom-color-label {
       width: 25px;
       height: 25px;
@@ -1620,12 +1617,8 @@ footer {
         font-size: 14px;
       }
     }
-    .wrap-buy {
-      padding-top: 30px;
-    }
-    .buy-btn {
-      font-size: 25px;
-    }
+    .wrap-buy { padding-top: 30px; }
+    .buy-btn { font-size: 25px; }
     .list-bonus {
       li {
         font-size: 13px;
@@ -1635,15 +1628,9 @@ footer {
 
   /******************thanks-message******/
   .thanks-message {
-    .wrap {
-      margin: 30px 0;
-    }
-    h1 {
-      font-size: 60px;
-    }
-    p {
-      font-size: 14px;
-    }
+    .wrap { margin: 30px 0; }
+    h1 { font-size: 60px; }
+    p { font-size: 14px; }
     .compliment, .gift {
       font-size: 18px;
     }
@@ -1653,9 +1640,7 @@ footer {
     }
   }
 
-  .product-basket form {
-    padding: 20px 10px;
-  }
+  .product-basket form { padding: 20px 10px; }
 
   .product-basket .list-product li .price,
   .product-basket .price-delivery,

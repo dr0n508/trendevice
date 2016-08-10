@@ -45,7 +45,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .small-gray-btn {
   font-size: 16px;
   font-weight: 300;
-  padding: 3px 25px;
+  padding: 5px 25px;
   color: #FFFFFF;
   background: #484848;
   border: none;
@@ -87,7 +87,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     height: 40px; }
 
 .basket-fa i, .basket-fa-xs i {
-  color: #222222; }
+  color: #FFFFFF; }
 
 .basket-fa-xs, .user-fa-xs {
   float: right;
@@ -140,6 +140,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .dropdown .new-user ~ .menu-login-user {
   display: none; }
 
+.login-user i {
+  color: #FFFFFF; }
+
 .signin {
   background-color: #F79A1F; }
   .signin a {
@@ -179,33 +182,33 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       background-color: #2889c2;
       color: #FFFFFF; } }
 /******************end-multi-column-menu******/
-/*******************************banner-main-page*************************************/
+/*******************************banner-section-main-page*************************************/
 /************************************************************************************/
-.banner {
+.banner-section {
   text-align: right; }
-  .banner .container {
+  .banner-section .container {
     background: url("../img/welcome-banner.jpg") 50% 50% no-repeat;
     background-size: cover;
     padding: 80px 20px 20px; }
-  .banner h2 {
+  .banner-section h2 {
     font-size: 62px;
     color: #2889c2;
     text-transform: uppercase;
     font-weight: 600;
     padding-bottom: 10px; }
-  .banner p {
+  .banner-section p {
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 30px;
     color: #484848; }
-    .banner p span {
+    .banner-section p span {
       font-weight: 400; }
-  .banner .logo-gray {
+  .banner-section .logo-gray {
     margin: 100px 0 0; }
-    .banner .logo-gray img {
+    .banner-section .logo-gray img {
       width: 150px;
       height: auto; }
-  .banner .big-yellow-btn {
+  .banner-section .big-yellow-btn {
     text-transform: uppercase; }
 
 /*****************************our-products-main-page*********************************/
@@ -808,6 +811,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       width: 90%;
       float: left;
       margin: auto; }
+      .product-basket .list-product li .name-product a {
+        color: #484848; }
+        .product-basket .list-product li .name-product a:hover {
+          text-decoration: none; }
     .product-basket .list-product li .price {
       font-weight: 400;
       width: 10%;
@@ -899,13 +906,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .information-client .authentication .lost-pass {
     padding-left: 94px;
     font-size: 14px;
-    color: #484848; }
-    .information-client .authentication .lost-pass:hover {
-      text-decoration: none; }
+    color: #484848;
+    text-decoration: underline; }
   .information-client .authentication .small-gray-btn {
+    font-size: 18px;
     margin-left: 94px;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    padding: 7px 25px; }
   .information-client .label-small {
     font-size: 16px;
     display: block; }
@@ -1011,6 +1019,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: 80%;
     float: left;
     margin: auto; }
+    .control-card .name-product a, .control-card .text-delivery a, .control-card .text-total-price a {
+      color: #484848; }
+      .control-card .name-product a:hover, .control-card .text-delivery a:hover, .control-card .text-total-price a:hover {
+        text-decoration: none; }
   .control-card .price, .control-card .price-delivery, .control-card .sum-total-price {
     width: 20%;
     float: right;
@@ -1128,7 +1140,11 @@ footer {
 /*********************************MAX992px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 992px) {
-  .footer-block, .rewards .right-block, .rewards .left-block, .payment, .privacy-policy p {
+  .footer-block,
+  .rewards .right-block,
+  .rewards .left-block,
+  .payment,
+  .privacy-policy p {
     text-align: center; }
 
   .privacy-policy p {
@@ -1141,15 +1157,15 @@ footer {
     font-size: 16px; }
 
   /***************banner-first-page************/
-  .banner .container {
+  .banner-section .container {
     padding: 50px 10px 10px; }
-  .banner h2 {
+  .banner-section h2 {
     font-size: 40px; }
-  .banner p {
+  .banner-section p {
     font-size: 32px; }
-  .banner .logo-gray {
+  .banner-section .logo-gray {
     margin: 50px 0 0; }
-    .banner .logo-gray img {
+    .banner-section .logo-gray img {
       width: 100px; }
 
   /******************************/
@@ -1188,15 +1204,15 @@ footer {
 /***********************************************************************************/
 @media only screen and (max-width: 768px) {
   /***************banner-first-page************/
-  .banner .container {
+  .banner-section .container {
     padding: 20px 10px 10px; }
-  .banner h2 {
+  .banner-section h2 {
     font-size: 32px; }
-  .banner p {
+  .banner-section p {
     font-size: 25px; }
-  .banner .logo-gray {
+  .banner-section .logo-gray {
     margin: 20px 0 0; }
-    .banner .logo-gray img {
+    .banner-section .logo-gray img {
       width: 80px; }
 
   /******************************/
