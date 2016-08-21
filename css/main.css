@@ -519,6 +519,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /*********************************************product_page***************************/
 /************************************************************************************/
 .product-section {
+  /*****colors******/
+  /*****end-colors****/
   /****tabs*****/ }
   .product-section h1 {
     font-size: 46px;
@@ -607,7 +609,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background: #dddfde; }
   .product-section label[for="oro"] {
     background: #e3d0b9; }
-  .product-section label[for="oro-rosa"] {
+  .product-section label[for="ororosa"] {
     background: #eecdbd; }
   .product-section label[for="bianco"] {
     background: #FFFFFF;
@@ -628,7 +630,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background: #f48b7c; }
   .product-section label[for="verde"] {
     background: #c4d93d; }
-  .product-section label[for="bianco-watch"] {
+  .product-section label[for="sport-bianco"] {
     background: #f5f6f7; }
   .product-section label[for="azzurro"] {
     background: #77c4ed; }
@@ -688,10 +690,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
         left: 0; }
   .product-section .nav-tabs {
     border: none;
-    text-align: center; }
+    text-align: center;
+    padding: 0 30px; }
     .product-section .nav-tabs li {
       float: none;
       display: inline-block; }
+      .product-section .nav-tabs li a img {
+        width: 35px;
+        height: auto; }
   .product-section .nav-tabs > li.active > a, .product-section .nav-tabs > li.active > a:focus, .product-section .nav-tabs > li.active > a:hover {
     border: solid 2px #2889c2 !important;
     border-radius: 0; }
