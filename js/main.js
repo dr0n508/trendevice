@@ -28,9 +28,12 @@ $(document).ready(function () {
 
         $('.selected-color').append(colorName);
 
-        var newSrc = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorName + '.png';
-        $('.tab-content .tab-pane .wrap-img img').attr(newSrc);
-        $('.nav-tabs a img').attr("src", newSrc);
+        var newSrc = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorName.toLowerCase() + '.png';
+        var newSrc_b = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorName.toLowerCase() + '_b.png';
+        $('.product-section .tab-pane .wrap-img img').attr("src", newSrc);
+        console.log($('.nav-tabs a img')[0]);
+        $($('.nav-tabs a img')[0]).attr("src", newSrc);
+        $($('.nav-tabs a img')[1]).attr("src", newSrc_b);
     });
 
 });
