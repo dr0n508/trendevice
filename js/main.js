@@ -22,14 +22,15 @@ $(document).ready(function () {
 
     $(".radio-custom-color-input").change(function() {
         $('.selected-color').empty();
+        var productCategory = $('.product-section').attr("id").split('-')[0];
+        var productModel = $('.product-section').attr("id").split('-')[1];
         var colorName = $('.radio-custom-color-input:checked').val();
+
         $('.selected-color').append(colorName);
 
-        $('.tab-content .tab-pane .wrap-img img').attr("src", "img/payment-postpay.jpg");
-        $('.nav-tabs a img').attr("src", "img/payment-postpay.jpg");
-
-
-
+        var newSrc = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorName + '.png';
+        $('.tab-content .tab-pane .wrap-img img').attr(newSrc);
+        $('.nav-tabs a img').attr("src", newSrc);
     });
 
 });
