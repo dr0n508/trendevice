@@ -24,6 +24,12 @@ $(document).ready(function () {
         $('.selected-color').empty();
         var colorName = $('.radio-custom-color-input:checked').val();
         $('.selected-color').append(colorName);
+
+        $('.tab-content .tab-pane .wrap-img img').attr("src", "img/payment-postpay.jpg");
+        $('.nav-tabs a img').attr("src", "img/payment-postpay.jpg");
+
+
+
     });
 
 });

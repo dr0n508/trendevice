@@ -809,59 +809,63 @@ $white-color: #FFFFFF;
     height: 30px;
     border-radius: 50%;
   }
-  label[for="color1"] {
+  label[for="grigio-siderale"] {
     background: #606061;
   }
-  label[for="color2"] {
+  label[for="argento"] {
     background: #dddfde;
   }
-  label[for="color3"] {
+  label[for="oro"] {
     background: #e3d0b9;
   }
-  label[for="color4"] {
+  label[for="oro-rosa"] {
     background: #eecdbd;
   }
-  label[for="color5"] {
+  label[for="bianco"] {
     background: $white-color;
     border: solid 1px #808080;
   }
-  label[for="color6"] {
+  label[for="nero"] {
     background: #000000;
   }
 
-  label[for="color7"] {
+  label[for="sport-nero"] {
+    background: #000000;
+  }
+
+  label[for="classic-nero"] {
     background: url("../img/bg-clock01.png") no-repeat 50% 50%;
   }
 
-  label[for="color8"] {
+  label[for="pelle-nera"] {
     background: url("../img/bg-clock02.png") no-repeat 50% 50%;
   }
 
-  label[for="color9"] {
+  label[for="modern-blu-notte"] {
     background: url("../img/bg-clock03.png") no-repeat 50% 50%;
   }
 
-  label[for="color10"] {
+  label[for="modern-nero"] {
     background: url("../img/bg-clock04.png") no-repeat 50% 50%;
   }
 
-  label[for="color11"] {
+  label[for="albicocca"] {
     background: #f48b7c;
   }
 
-  label[for="color12"] {
+  label[for="verde"] {
     background: #c4d93d;
   }
 
-  label[for="color13"] {
+  label[for="bianco-watch"] {
     background: #f5f6f7;
   }
 
-  label[for="color14"] {
+  label[for="azzurro"] {
     background: #77c4ed;
   }
 
-  label[for="color15"] {
+  label[for="giallo"] {
     background: #fdf16f;
   }
 
