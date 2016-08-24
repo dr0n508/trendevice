@@ -796,6 +796,15 @@ $white-color: #FFFFFF;
   label[for="ororosa"] {
     background: #eecdbd;
   }
+
+  label[for="sport-bianco"] {
+    background: #f5f6f7;
+  }
+
+
+
+
+
   label[for="rosa"] {
     background: #f26d6f;
   }
@@ -809,7 +818,7 @@ $white-color: #FFFFFF;
   }
 
   label[for="sport-nero"] {
-    background: #000000;
+    background: url("../img/bg-clock04.png") no-repeat 50% 50%;
   }
 
   label[for="classicnero"] {
@@ -836,9 +845,7 @@ $white-color: #FFFFFF;
     background: #c4d93d;
   }
 
-  label[for="sport-bianco"] {
-    background: #f5f6f7;
-  }
+
 
   label[for="azzurro"] {
     background: #77c4ed;

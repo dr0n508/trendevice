@@ -45,5 +45,10 @@ $(document).ready(function () {
         $('.menu-home-products[aria-expanded="true"]').addClass("disabled");
     });
 
+    $('#name-client').change(function() {
+        alert( "Handler for .change() called." );
+    });
+
+
 
 });
