@@ -231,7 +231,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-size: 45px;
     font-weight: 700;
     color: #2889c2;
-    text-transform: uppercase;
     text-align: center;
     padding-bottom: 50px; }
   .our-products li {
@@ -239,24 +238,25 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     display: inline-block;
     float: left; }
     .our-products li .wrap-img {
-      height: 250px;
+      height: 300px;
       padding: 0 5px; }
       .our-products li .wrap-img img {
-        width: auto;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
         display: block;
         margin: 0 auto; }
     .our-products li .small-blue-btn {
       display: inline-block;
       margin: 20px 0; }
-  .our-products .product-iphone {
-    width: 16%; }
-  .our-products .product-ipad {
-    width: 20%; }
-  .our-products .product-mac {
-    width: 48%; }
-  .our-products .product-iWatch {
-    width: 16%; }
+  .our-products .product-mac .wrap-img {
+    position: relative; }
+    .our-products .product-mac .wrap-img img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
 
 /******************************about-us**********************************************/
 /************************************************************************************/
