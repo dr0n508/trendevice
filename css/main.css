@@ -50,6 +50,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background: #484848;
   border: none;
   outline: none; }
+  .small-gray-btn:hover {
+    color: #FFFFFF;
+    text-decoration: none; }
 
 .big-yellow-btn {
   color: #FFFFFF;
@@ -1020,6 +1023,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .control-card {
   font-weight: 300;
   font-size: 20px; }
+  .control-card .wrap-table address {
+    margin-bottom: 10px; }
   .control-card .wrap {
     padding: 20px;
     background: #EEEEEE; }

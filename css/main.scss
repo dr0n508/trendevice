@@ -65,6 +65,10 @@ $white-color: #FFFFFF;
   background: $dark-gray-color;
   border: none;
   outline: none;
+  &:hover {
+    color: $white-color;
+    text-decoration: none;
+  }
 }
 
 .big-yellow-btn {
@@ -1350,6 +1354,9 @@ $white-color: #FFFFFF;
 .control-card {
   font-weight: 300;
   font-size: 20px;
+  .wrap-table address {
+    margin-bottom: 10px;
+  }
   .wrap {
     padding: 20px;
     background: $light-gray-color;
