@@ -32,12 +32,12 @@ $(document).ready(function () {
         $('.selected-color').append(colorName);
 
         var newSrc = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorNameId + '.png';
-        var newSrc_b = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorNameId + '_b.png';
-        $($('.product-section .tab-pane .wrap-img img')[0]).attr("src", newSrc);
-        $($('.product-section .tab-pane .wrap-img img')[1]).attr("src", newSrc_b);
+//        var newSrc_b = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorNameId + '_b.png';
+        $($('.wrap-img-product img')[0]).attr("src", newSrc);
+//        $($('.product-section .tab-pane .wrap-img img')[1]).attr("src", newSrc_b);
 //        console.log($('.nav-tabs a img')[0]);
-        $($('.nav-tabs a img')[0]).attr("src", newSrc);
-        $($('.nav-tabs a img')[1]).attr("src", newSrc_b);
+//        $($('.nav-tabs a img')[0]).attr("src", newSrc);
+//        $($('.nav-tabs a img')[1]).attr("src", newSrc_b);
     });
 
 
