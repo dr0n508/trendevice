@@ -40,4 +40,10 @@ $(document).ready(function () {
         $($('.nav-tabs a img')[1]).attr("src", newSrc_b);
     });
 
+
+    $('.menu-home-products').click(function(event) {
+        $('.menu-home-products[aria-expanded="true"]').addClass("disabled");
+    });
+
+
 });
