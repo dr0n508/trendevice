@@ -1163,7 +1163,10 @@ footer {
     font-size: 18px; }
 
   .version-product .model {
-    padding: 20px 30px; } }
+    padding: 20px 30px; }
+
+  .photo-product-models {
+    padding-top: 50px; } }
 /*********************************MAX992px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 992px) {
