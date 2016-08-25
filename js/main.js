@@ -41,13 +41,86 @@ $(document).ready(function () {
     });
 
 
+    /******menu-double-click********/
+
     $('.menu-home-products').click(function(event) {
         $('.menu-home-products[aria-expanded="true"]').addClass("disabled");
     });
+    /******************************/
 
-    $('#name-client').change(function() {
-        alert( "Handler for .change() called." );
+
+
+
+
+
+
+    /************valid and open block card03*****/
+
+
+    $('#collapseTwo input').keyup(function() {
+        var numberInput = $('#collapseTwo').find('input').length;
+        var numberValid = 0;
+        console.log('количество инпутов=' + numberInput);
+
+        $(this).addClass("valid");
+        console.log("change input");
+
+
+        $('#collapseTwo').find('input').each(function(){
+
+
+            if ( $(this).hasClass('valid')) {
+                numberValid = numberValid +1;
+            }
+            else {
+
+            }
+            console.log ("количество валидных" + numberValid);
+        });
+
+        if ( numberInput == numberValid ) {
+            console.log ('открываем следующий блок');
+            $('a[aria-controls="collapseThree"]').attr('data-toggle', 'collapse');
+            $('#headingThree').addClass('open');
+
+            $("#collapseThree").collapse('show');
+        }
+        else {
+            console.log ('не делаем ничего')
+        }
+
+
+
+
+
+
     });
+
+    $('#collapseThree input[name="delivery-address-client"]').change(function() {
+        if ( $('#delivery-address-available').prop("checked") ) {
+            $('a[aria-controls="collapseFour"]').attr('data-toggle', 'collapse');
+            $('#headingFour').addClass('open');
+            $("#collapseFour").collapse('show');
+        }
+        else {
+            console.log ('начинаем проверку текстовых инпутов')
+        }
+
+
+
+
+    });
+
+    $('#collapseFour input[name="payment-method"]').change(function() {
+        console.log('asdf');
+        $('a[aria-controls="collapseFive"]').attr('data-toggle', 'collapse');
+        $('#headingFive').addClass('open');
+        $("#collapseFive").collapse('show');
+    });
+
+
+
+    /************END valid and open block card03*****/
 
 
 

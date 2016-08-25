@@ -1329,6 +1329,15 @@ $white-color: #FFFFFF;
 /*****accordion-custom-styles****/
 
 .panel-default>.panel-heading {
+  background-color: #dcdcdc;
+  border-radius: 0;
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.panel-default>.panel-heading.open {
   background-color: $dark-gray-color;
   border-radius: 0;
   a {
