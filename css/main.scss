@@ -12,6 +12,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   margin: 0;
   outline: none;
   list-style: none;
+  text-decoration: none !important;
 }
 
 
@@ -43,7 +44,8 @@ $white-color: #FFFFFF;
   background: $yellow-color;
   text-transform: uppercase;
   padding: 5px;
-  &:hover {
+  text-decoration: none;
+  &:hover, &:visited {
     color: $white-color;
     text-decoration: none;
   }
@@ -52,7 +54,8 @@ $white-color: #FFFFFF;
   color: #b2b3b4;
   background: $light-gray-color;
   pointer-events: none;
-  &:hover {
+  text-decoration: none;
+  &:hover, &:visited {
     background-color: $light-gray-color;
     color: #b2b3b3;
   }
@@ -82,6 +85,7 @@ $white-color: #FFFFFF;
   border: none;
   width: 250px;
   text-align: center;
+  text-decoration: none !important;
   &:hover, &:visited {
     color: $white-color;
     text-decoration: none !important;
@@ -1436,7 +1440,8 @@ footer {
     color: white;
     font-weight: 300;
     margin-bottom: 5px;
-    &:hover {
+    text-decoration: none;
+    &:hover, &:visited {
       color: $light-gray-color;
       text-decoration: none;
     }

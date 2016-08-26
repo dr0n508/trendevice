@@ -9,7 +9,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding: 0;
   margin: 0;
   outline: none;
-  list-style: none; }
+  list-style: none;
+  text-decoration: none !important; }
 
 /***********************************custom-theme-elements****************************/
 /************************************************************************************/
@@ -29,16 +30,18 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   color: #FFFFFF;
   background: #F79A1F;
   text-transform: uppercase;
-  padding: 5px; }
-  .small-yellow-btn:hover {
+  padding: 5px;
+  text-decoration: none; }
+  .small-yellow-btn:hover, .small-yellow-btn:visited {
     color: #FFFFFF;
     text-decoration: none; }
 
 .small-yellow-btn.not-available {
   color: #b2b3b4;
   background: #EEEEEE;
-  pointer-events: none; }
-  .small-yellow-btn.not-available:hover {
+  pointer-events: none;
+  text-decoration: none; }
+  .small-yellow-btn.not-available:hover, .small-yellow-btn.not-available:visited {
     background-color: #EEEEEE;
     color: #b2b3b3; }
 
@@ -63,7 +66,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   outline: none;
   border: none;
   width: 250px;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none !important; }
   .big-yellow-btn:hover, .big-yellow-btn:visited {
     color: #FFFFFF;
     text-decoration: none !important; }
@@ -1083,8 +1087,9 @@ footer {
   footer a {
     color: white;
     font-weight: 300;
-    margin-bottom: 5px; }
-    footer a:hover {
+    margin-bottom: 5px;
+    text-decoration: none; }
+    footer a:hover, footer a:visited {
       color: #EEEEEE;
       text-decoration: none; }
 
