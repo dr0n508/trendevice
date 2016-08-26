@@ -64,9 +64,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   border: none;
   width: 250px;
   text-align: center; }
-  .big-yellow-btn:hover {
+  .big-yellow-btn:hover, .big-yellow-btn:visited {
     color: #FFFFFF;
-    text-decoration: none; }
+    text-decoration: none !important; }
 
 /************************************header-navigation*******************************/
 /************************************************************************************/

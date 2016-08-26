@@ -27,109 +27,99 @@ $(document).ready(function () {
         var colorName = $('.radio-custom-color-input:checked').val();
 
         var colorNameId = $('.radio-custom-color-input:checked').attr("id");
-//        console.log(colorNameId);
 
         $('.selected-color').append(colorName);
 
         var newSrc = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorNameId + '.png';
-//        var newSrc_b = './img/products-img/' + productCategory + '/' + productModel + '/' + productModel + '_' + colorNameId + '_b.png';
-        $($('.wrap-img-product img')[0]).attr("src", newSrc);
-//        $($('.product-section .tab-pane .wrap-img img')[1]).attr("src", newSrc_b);
-//        console.log($('.nav-tabs a img')[0]);
-//        $($('.nav-tabs a img')[0]).attr("src", newSrc);
-//        $($('.nav-tabs a img')[1]).attr("src", newSrc_b);
-    });
 
+        $($('.wrap-img-product img')[0]).attr("src", newSrc);
+
+    });
 
     /******menu-double-click********/
 
     $('.menu-home-products').click(function(event) {
         $('.menu-home-products[aria-expanded="true"]').addClass("disabled");
     });
-    /******************************/
 
-
-
-
-
-
-
-    /************valid and open block card03*****/
-
+    /****************************valid and open block card02.html**********************/
     /*****block02*****/
 
-    $('#collapseTwo input').keyup(function() {
-        var numberInput = $('#collapseTwo').find('input').length;
-        var numberValid = 0;
-        console.log('количество инпутов=' + numberInput);
+    $('input[name="address-client"]').change(function() {
+        if ( $('#address-available').prop("checked") ) {
+            $('a[aria-controls="collapseThree"]').attr('data-toggle', 'collapse');
+            $('#headingThree').addClass('open');
+            $("#collapseThree").collapse('show');
+        }
+        else {
 
+        }
+    });
+
+    $('#inputs-payment-information input').keyup(function() {
+        var numberInput = $('#inputs-payment-information').find('input').length;
+        var numberValid = 0;
+
+        $('#address-new').prop('checked', true);
         $(this).addClass("valid");
         console.log("change input");
 
-        $('#collapseTwo').find('input').each(function(){
+        $('#inputs-payment-information').find('input').each(function(){
             if ( $(this).hasClass('valid')) {
                 numberValid = numberValid +1;
             }
             else {
 
             }
-            console.log ("количество валидных" + numberValid);
         });
 
         if ( numberInput == numberValid ) {
-            console.log ('открываем следующий блок');
             $('a[aria-controls="collapseThree"]').attr('data-toggle', 'collapse');
             $('#headingThree').addClass('open');
             $("#collapseThree").collapse('show');
         }
         else {
-            console.log ('не делаем ничего')
+
         }
     });
 
     /*****block03*****/
 
-
-    $('#collapseThree input[name="delivery-address-client"]').change(function() {
+    $('input[name="delivery-address-client"]').change(function() {
         if ( $('#delivery-address-available').prop("checked") ) {
             $('a[aria-controls="collapseFour"]').attr('data-toggle', 'collapse');
             $('#headingFour').addClass('open');
             $("#collapseFour").collapse('show');
         }
         else {
-            console.log ('начинаем проверку текстовых инпутов')
+
         }
     });
 
 
-    $('#inputs-for-validate input').keyup(function() {
-        var numberInput = $('#inputs-for-validate').find('input').length;
+    $('#inputs-delivery-information input').keyup(function() {
+        var numberInput = $('#inputs-delivery-information').find('input').length;
         var numberValid = 0;
-        console.log('количество инпутов=' + numberInput);
-
 
         $('#delivery-address-new').prop('checked', true);
         $(this).addClass("valid");
-        console.log("change input");
 
-        $('#inputs-for-validate').find('input').each(function(){
+        $('#inputs-delivery-information').find('input').each(function(){
             if ( $(this).hasClass('valid')) {
                 numberValid = numberValid +1;
             }
             else {
 
             }
-            console.log ("количество валидных" + numberValid);
         });
 
         if ( numberInput == numberValid ) {
-            console.log ('открываем следующий блок');
             $('a[aria-controls="collapseFour"]').attr('data-toggle', 'collapse');
             $('#headingFour').addClass('open');
             $("#collapseFour").collapse('show');
         }
         else {
-            console.log ('не делаем ничего')
+
         }
     });
 
@@ -141,10 +131,41 @@ $(document).ready(function () {
         $("#collapseFive").collapse('show');
     });
 
+    /************valid and open block card03*****/
 
+    /*****block02*****/
+
+    $('#collapseTwo input').keyup(function() {
+        var numberInput = $('#collapseTwo').find('input').length;
+        var numberValid = 0;
+
+        $(this).addClass("valid");
+
+        $('#collapseTwo').find('input').each(function(){
+            if ( $(this).hasClass('valid')) {
+                numberValid = numberValid +1;
+            }
+            else {
+            }
+        });
+
+        if ( numberInput == numberValid ) {
+            $('a[aria-controls="collapseThree"]').attr('data-toggle', 'collapse');
+            $('#headingThree').addClass('open');
+            $("#collapseThree").collapse('show');
+        }
+        else {
+
+        }
+    });
+
+    /*****block03*****/
+//    same like block03 in card02.html
+
+    /*****block04*****/
+//    same like block04 in card02.html
 
     /************END valid and open block card03*****/
-
 
 
 });

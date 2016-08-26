@@ -14,6 +14,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   list-style: none;
 }
 
+
 /***********************************custom-theme-elements****************************/
 /************************************************************************************/
 $black-color: #222222;
@@ -81,9 +82,9 @@ $white-color: #FFFFFF;
   border: none;
   width: 250px;
   text-align: center;
-  &:hover {
+  &:hover, &:visited {
     color: $white-color;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 

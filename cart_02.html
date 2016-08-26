@@ -181,7 +181,7 @@
         <section class="information-client">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
+                    <div class="panel-heading open" role="tab" id="headingOne">
                         <h2 class="panel-title">
                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <span>1</span>Autenticazione
@@ -221,14 +221,14 @@
                 <!--<form action="">-->
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
+                        <div class="panel-heading open" role="tab" id="headingTwo">
                             <h2 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <span>2</span>Indirizzo di fatturazione
                                 </a>
                             </h2>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                        <div id="collapseTwo" user-login-block2 class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
                                 <div class="wrap-custom-input">
                                     <input class="radio-custom-card" type="radio" id="address-available" name="address-client" value="address-available"/>
@@ -242,39 +242,41 @@
                                     <p>CF:DKDDDKDDKF</p>
                                 </address>
                                 <div class="wrap-custom-input">
-                                    <input class="radio-custom-card" checked type="radio" id="address-new" name="address-client" value="address-new"/>
+                                    <input class="radio-custom-card" type="radio" id="address-new" name="address-client" value="address-new"/>
                                     <label class="radio-custom-card-label" for="address-new"></label>
                                     <label class="header-input" for="address-new">Cambia i dati di fatturazione</label>
                                 </div>
-                                <div class="wrap-inputs col-lg-6">
-                                    <label class="label-small" for="name-client">Nome:</label>
-                                    <input type="text" name="name-client" id="name-client"/>
+                                <div id="inputs-payment-information">
+                                    <div class="wrap-inputs col-lg-6">
+                                        <label class="label-small" for="name-client">Nome:</label>
+                                        <input type="text" name="name-client" id="name-client"/>
 
-                                    <label class="label-small" for="address-client">Indirizzo:</label>
-                                    <input type="text" name="address-client" id="address-client"/>
+                                        <label class="label-small" for="address-client">Indirizzo:</label>
+                                        <input type="text" name="address-client" id="address-client"/>
 
-                                    <label class="label-small" for="city-client">Città:</label>
-                                    <input type="text" name="city-client" id="city-client"/>
+                                        <label class="label-small" for="city-client">Città:</label>
+                                        <input type="text" name="city-client" id="city-client"/>
 
-                                    <label class="label-small" for="state-client">Stato:</label>
-                                    <input type="text" name="state-client" id="state-client"/>
+                                        <label class="label-small" for="state-client">Stato:</label>
+                                        <input type="text" name="state-client" id="state-client"/>
 
-                                    <label class="label-small" for="phone-client">Telefono:</label>
-                                    <input type="text" name="phone-client" id="phone-client"/>
+                                        <label class="label-small" for="phone-client">Telefono:</label>
+                                        <input type="text" name="phone-client" id="phone-client"/>
 
-                                    <label class="label-small" for="tax-client">Codice fiscale:</label>
-                                    <input type="text" name="tax-client" id="tax-client"/>
-                                </div>
+                                        <label class="label-small" for="tax-client">Codice fiscale:</label>
+                                        <input type="text" name="tax-client" id="tax-client"/>
+                                    </div>
 
-                                <div class="wrap-inputs col-lg-6">
-                                    <label class="label-small" for="surname-client">Cognome:</label>
-                                    <input type="text" name="surname-client" id="surname-client"/>
+                                    <div class="wrap-inputs col-lg-6">
+                                        <label class="label-small" for="surname-client">Cognome:</label>
+                                        <input type="text" name="surname-client" id="surname-client"/>
 
-                                    <label class="label-small" for="post-code-client">Cap:</label>
-                                    <input type="text" name="post-code-client" id="post-code-client"/>
+                                        <label class="label-small" for="post-code-client">Cap:</label>
+                                        <input type="text" name="post-code-client" id="post-code-client"/>
 
-                                    <label class="label-small" for="province-client">Provincia:</label>
-                                    <input type="text" name="province-client" id="province-client"/>
+                                        <label class="label-small" for="province-client">Provincia:</label>
+                                        <input type="text" name="province-client" id="province-client"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +284,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingThree">
                             <h2 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <span>3</span>Indirizzo di spedizione
                                 </a>
                             </h2>
@@ -301,36 +303,38 @@
                                     <p>Tel. 3347312434</p>
                                 </address>
                                 <div class="wrap-custom-input">
-                                    <input class="radio-custom-card" checked type="radio" id="delivery-address-new" name="delivery-address-client" value="delivery-address-new"/>
+                                    <input class="radio-custom-card" type="radio" id="delivery-address-new" name="delivery-address-client" value="delivery-address-new"/>
                                     <label class="radio-custom-card-label" for="delivery-address-new"></label>
                                     <label class="header-input" for="delivery-address-new">Inserisci i dati di spedizione</label>
                                 </div>
-                                <div class="wrap-inputs col-md-6">
-                                    <label class="label-small" for="delivery-name-client">Nome:</label>
-                                    <input type="text" name="delivery-name-client" id="delivery-name-client"/>
+                                <div id="inputs-delivery-information">
+                                    <div class="wrap-inputs col-md-6">
+                                        <label class="label-small" for="delivery-name-client">Nome:</label>
+                                        <input type="text" name="delivery-name-client" id="delivery-name-client"/>
 
-                                    <label class="label-small" for="delivery-address-client">Indirizzo:</label>
-                                    <input type="text" name="delivery-address-client" id="delivery-address-client"/>
+                                        <label class="label-small" for="delivery-address-client">Indirizzo:</label>
+                                        <input type="text" name="delivery-address-client" id="delivery-address-client"/>
 
-                                    <label class="label-small" for="delivery-city-client">Città:</label>
-                                    <input type="text" name="delivery-city-client" id="delivery-city-client"/>
+                                        <label class="label-small" for="delivery-city-client">Città:</label>
+                                        <input type="text" name="delivery-city-client" id="delivery-city-client"/>
 
-                                    <label class="label-small" for="delivery-state-client">Stato:</label>
-                                    <input type="text" name="delivery-state-client" id="delivery-state-client"/>
+                                        <label class="label-small" for="delivery-state-client">Stato:</label>
+                                        <input type="text" name="delivery-state-client" id="delivery-state-client"/>
 
-                                    <label class="label-small" for="delivery-phone-client">Telefono:</label>
-                                    <input type="text" name="delivery-phone-client" id="delivery-phone-client"/>
-                                </div>
+                                        <label class="label-small" for="delivery-phone-client">Telefono:</label>
+                                        <input type="text" name="delivery-phone-client" id="delivery-phone-client"/>
+                                    </div>
 
-                                <div class="wrap-inputs col-md-6">
-                                    <label class="label-small" for="delivery-surname-client">Cognome:</label>
-                                    <input type="text" name="delivery-surname-client" id="delivery-surname-client"/>
+                                    <div class="wrap-inputs col-md-6">
+                                        <label class="label-small" for="delivery-surname-client">Cognome:</label>
+                                        <input type="text" name="delivery-surname-client" id="delivery-surname-client"/>
 
-                                    <label class="label-small" for="delivery-post-code-client">Cap:</label>
-                                    <input type="text" name="delivery-post-code-client" id="delivery-post-code-client"/>
+                                        <label class="label-small" for="delivery-post-code-client">Cap:</label>
+                                        <input type="text" name="delivery-post-code-client" id="delivery-post-code-client"/>
 
-                                    <label class="label-small" for="delivery-province-client">Provincia:</label>
-                                    <input type="text" name="delivery-province-client" id="delivery-province-client"/>
+                                        <label class="label-small" for="delivery-province-client">Provincia:</label>
+                                        <input type="text" name="delivery-province-client" id="delivery-province-client"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -339,7 +343,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFour">
                             <h2 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <span>4</span>Metodo di pagamento
                                 </a>
                             </h2>
@@ -354,7 +358,7 @@
                                     </label>
                                 </div>
                                 <div class="wrap-custom-input">
-                                    <input class="radio-custom-card" checked type="radio" name="payment-method" value="paypal" id="paypal"/>
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="paypal" id="paypal"/>
                                     <label class="radio-custom-card-label" for="paypal"></label>
                                     <label for="paypal">
                                         <i class="fa fa-cc-paypal" aria-hidden="true"></i>PayPal</label>
@@ -379,7 +383,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingFive">
                             <h2 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     <span>5</span>Metodo di spedizione
                                 </a>
                             </h2>
