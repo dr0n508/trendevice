@@ -168,4 +168,17 @@ $(document).ready(function () {
     /************END valid and open block card03*****/
 
 
+
+    $(".model").click(function() {
+        if ( $(this).hasClass( "not-available" ) )
+        {
+            console.log('ничего не делаем')
+        }
+        else {
+            window.location = $(this).find("a").attr("href");
+            return false;
+        }
+    });
+
+
 });

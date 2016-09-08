@@ -55,7 +55,9 @@ $white-color: #FFFFFF;
   }
 
 }
-.small-yellow-btn.not-available {
+
+.model.not-available .small-yellow-btn
+ {
   color: #b2b3b4;
   background: $light-gray-color;
   pointer-events: none;
@@ -623,30 +625,27 @@ $white-color: #FFFFFF;
     padding-top: 25px;
     margin-bottom: 25px;
   }
-  .model {
-    padding: 20px 40px;
-    .link-product {
-      display: block;
-      p {
-        color: #333;
+  .model:not(.not-available) {
+    &:hover {
+      cursor: pointer;
+      img {
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-transition: 0.15s linear;
+        -moz-transition: 0.15s linear;
+        -o-transition: 0.15s linear;
+        transition: 0.15s linear;
       }
-      &:hover {
-        img {
-          -moz-transform: scale(1.08);
-          -ms-transform: scale(1.08);
-          -webkit-transform: scale(1.08);
-          -o-transform: scale(1.08);
-          transform: scale(1.08);
-          -webkit-transition: 0.15s linear;
-          -moz-transition: 0.15s linear;
-          -o-transition: 0.15s linear;
-          transition: 0.15s linear;
-        }
-        .small-yellow-btn {
-          background-color: #f8b76f;
-        }
+      .small-yellow-btn {
+        background-color: #f8b76f;
       }
     }
+  }
+  .model {
+    padding: 20px 40px;
     .wrap-img-model {
       position: relative;
       display: block;
