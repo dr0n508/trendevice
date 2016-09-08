@@ -252,26 +252,42 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     text-align: center;
     display: inline-block;
     float: left; }
-    .our-products li .wrap-img {
-      height: 300px;
-      padding: 0 5px; }
-      .our-products li .wrap-img img {
+    .our-products li .ddd {
+      display: block; }
+      .our-products li .ddd:hover img {
         max-width: 100%;
         max-height: 100%;
+        -webkit-transition: 0.15s linear;
+        -moz-transition: 0.15s linear;
+        -o-transition: 0.15s linear;
+        transition: 0.15s linear; }
+      .our-products li .ddd:hover .small-blue-btn {
+        background-color: #5daed7; }
+    .our-products li .wrap-img {
+      height: 300px;
+      padding: 0 5px;
+      position: relative; }
+      .our-products li .wrap-img img {
+        max-width: 96%;
+        max-height: 96%;
         display: block;
-        margin: 0 auto; }
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        -webkit-transition: 0.15s linear;
+        -moz-transition: 0.15s linear;
+        -o-transition: 0.15s linear;
+        transition: 0.15s linear; }
     .our-products li .small-blue-btn {
       display: inline-block;
       margin: 20px 0; }
-  .our-products .product-mac .wrap-img {
-    position: relative; }
-    .our-products .product-mac .wrap-img img {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0;
-      right: 0;
-      margin: 0 auto; }
 
 /******************************about-us**********************************************/
 /************************************************************************************/
