@@ -277,28 +277,29 @@ $white-color: #FFFFFF;
   .container  {
     background: url("../img/welcome-banner.jpg") 50% 50% no-repeat;
     background-size: cover;
-    padding: 80px 20px 20px;
+    padding: 10px 20px 10px;
   }
   h2 {
-    font-size: 62px;
+    font-size: 50px;
     color: $blue-color;
     text-transform: uppercase;
     font-weight: 600;
     padding-bottom: 10px;
   }
   p {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-bottom: 30px;
     color: $dark-gray-color;
+    line-height: 40px;
     span {
       font-weight: 400;
     }
   }
   .logo-gray {
-    margin: 100px 0 0;
+    margin: 20px 0 0;
     img {
-      width: 150px;
+      width: 120px;
       height: auto;
     }
   }
@@ -1633,11 +1634,11 @@ footer {
 
   /***************banner-first-page************/
   .banner-section {
-    .container  { padding: 50px 10px 10px; }
-    h2 { font-size: 40px; }
+//    .container  { padding: 50px 10px 10px; }
+//    h2 { font-size: 40px; }
     p { font-size: 32px; }
     .logo-gray {
-      margin: 50px 0 0;
+//      margin: 50px 0 0;
       img {
         width: 100px;
       }
@@ -1678,7 +1679,10 @@ footer {
   .banner-section {
     .container  { padding: 20px 10px 10px; }
     h2 { font-size: 32px; }
-    p { font-size: 25px; }
+    p {
+      font-size: 22px;
+      line-height: 22px;
+    }
     .logo-gray {
       margin: 20px 0 0;
       img {
