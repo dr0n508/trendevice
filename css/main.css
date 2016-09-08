@@ -22,7 +22,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding: 5px 40px; }
   .small-blue-btn:hover {
     color: #FFFFFF;
-    text-decoration: none; }
+    text-decoration: none;
+    background: #5daed7; }
 
 .small-yellow-btn {
   font-size: 14px;
@@ -35,6 +36,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .small-yellow-btn:hover, .small-yellow-btn:visited {
     color: #FFFFFF;
     text-decoration: none; }
+  .small-yellow-btn:hover {
+    background: #f8b76f; }
 
 .small-yellow-btn.not-available {
   color: #b2b3b4;
@@ -71,6 +74,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .big-yellow-btn:hover, .big-yellow-btn:visited {
     color: #FFFFFF;
     text-decoration: none !important; }
+  .big-yellow-btn:hover {
+    background: #f8b76f; }
 
 /************************************header-navigation*******************************/
 /************************************************************************************/
@@ -82,6 +87,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   background: #484848; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background: #232323; }
+
+.navbar-default .navbar-nav li a:hover {
   background: #232323; }
 
 .navbar-default .navbar-nav > li > a {
@@ -608,7 +616,6 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .radio-custom-color-input:checked + label {
     border: solid 2px #2889c2; }
   .product-section .radio-custom-btn-input:checked + label {
-    color: #FFFFFF;
     background-color: #2889c2; }
   .product-section .radio-custom-color-label {
     width: 30px;
@@ -1092,6 +1099,8 @@ footer {
     footer a:hover, footer a:visited {
       color: #EEEEEE;
       text-decoration: none; }
+    footer a:hover {
+      color: #2889c2; }
 
 .footer-block {
   margin-bottom: 15px; }
@@ -1117,6 +1126,8 @@ footer {
   text-decoration: none;
   color: #EEEEEE;
   margin-right: 10px; }
+  .social .social-link:hover {
+    color: #2889c2; }
 
 .payment-copywrigth {
   padding: 10px 0; }

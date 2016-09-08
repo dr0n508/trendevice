@@ -34,6 +34,7 @@ $white-color: #FFFFFF;
   &:hover {
     color: $white-color;
     text-decoration: none;
+    background: #5daed7;
   }
 }
 
@@ -49,6 +50,10 @@ $white-color: #FFFFFF;
     color: $white-color;
     text-decoration: none;
   }
+  &:hover {
+    background: #f8b76f;
+  }
+
 }
 .small-yellow-btn.not-available {
   color: #b2b3b4;
@@ -90,6 +95,9 @@ $white-color: #FFFFFF;
     color: $white-color;
     text-decoration: none !important;
   }
+  &:hover {
+    background: #f8b76f;
+  }
 }
 
 /************************************header-navigation*******************************/
@@ -104,6 +112,10 @@ $white-color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: #232323;
+}
+
+.navbar-default .navbar-nav li a:hover {
   background: #232323;
 }
 
@@ -777,7 +789,7 @@ $white-color: #FFFFFF;
   }
 
   .radio-custom-btn-input:checked + label {
-    color: $white-color;
+//    color: $white-color;
     background-color: $blue-color;
   }
 
@@ -1445,6 +1457,10 @@ footer {
       color: $light-gray-color;
       text-decoration: none;
     }
+    &:hover {
+      color: #2889c2;
+    }
+
   }
 }
 
@@ -1481,7 +1497,11 @@ footer {
     text-decoration: none;
     color: $light-gray-color;
     margin-right: 10px;
+    &:hover {
+      color: #2889c2;
+    }
   }
+
 }
 
 .payment-copywrigth {
