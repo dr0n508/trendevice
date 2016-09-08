@@ -625,11 +625,38 @@ $white-color: #FFFFFF;
   }
   .model {
     padding: 20px 40px;
+    .link-product {
+      display: block;
+      p {
+        color: #333;
+      }
+      &:hover {
+        img {
+          -moz-transform: scale(1.08);
+          -ms-transform: scale(1.08);
+          -webkit-transform: scale(1.08);
+          -o-transform: scale(1.08);
+          transform: scale(1.08);
+          -webkit-transition: 0.15s linear;
+          -moz-transition: 0.15s linear;
+          -o-transition: 0.15s linear;
+          transition: 0.15s linear;
+        }
+        .small-yellow-btn {
+          background-color: #f8b76f;
+        }
+      }
+    }
     .wrap-img-model {
       position: relative;
+      display: block;
       img {
         width: 100%;
         height: auto;
+        -webkit-transition: 0.15s linear;
+        -moz-transition: 0.15s linear;
+        -o-transition: 0.15s linear;
+        transition: 0.15s linear;
       }
       span {
         position: absolute;
