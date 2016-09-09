@@ -169,16 +169,16 @@ $(document).ready(function () {
 
 
 
-    $(".model").click(function() {
-        if ( $(this).hasClass( "not-available" ) )
-        {
-            console.log('ничего не делаем')
-        }
-        else {
-            window.location = $(this).find("a").attr("href");
-            return false;
-        }
-    });
+//    $(".model").click(function() {
+//        if ( $(this).hasClass( "not-available" ) )
+//        {
+//            console.log('ничего не делаем')
+//        }
+//        else {
+//            window.location = $(this).find("a").attr("href");
+//            return false;
+//        }
+//    });
 
 
 });

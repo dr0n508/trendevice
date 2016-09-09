@@ -625,24 +625,22 @@ $white-color: #FFFFFF;
     padding-top: 25px;
     margin-bottom: 25px;
   }
-  .model:not(.not-available) {
+  .model:not(.not-available) img {
     &:hover {
       cursor: pointer;
-      img {
-        -moz-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-        -o-transform: scale(1.05);
-        transform: scale(1.05);
-        -webkit-transition: 0.15s linear;
-        -moz-transition: 0.15s linear;
-        -o-transition: 0.15s linear;
-        transition: 0.15s linear;
-      }
-      .small-yellow-btn {
-        background-color: #f8b76f;
-      }
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transition: 0.3s linear;
+      -moz-transition: 0.3s linear;
+      -o-transition: 0.3s linear;
+      transition: 0.3s linear;
     }
+  }
+  .model.not-available a {
+    pointer-events: none;
   }
   .model {
     padding: 20px 40px;
@@ -652,10 +650,10 @@ $white-color: #FFFFFF;
       img {
         width: 100%;
         height: auto;
-        -webkit-transition: 0.15s linear;
-        -moz-transition: 0.15s linear;
-        -o-transition: 0.15s linear;
-        transition: 0.15s linear;
+        -webkit-transition: 0.3s linear;
+        -moz-transition: 0.3s linear;
+        -o-transition: 0.3s linear;
+        transition: 0.3s linear;
       }
       span {
         position: absolute;
