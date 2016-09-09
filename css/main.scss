@@ -831,8 +831,12 @@ $white-color: #FFFFFF;
   }
 
   .radio-custom-btn-input:checked + label {
-//    color: $white-color;
     background-color: $blue-color;
+  }
+
+  .radio-custom-btn-input:not([disabled]):hover + label {
+    background-color: $blue-color;
+    cursor: pointer;
   }
 
   .radio-custom-color-label {
