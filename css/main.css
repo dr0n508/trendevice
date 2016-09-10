@@ -474,17 +474,18 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .version-product .model.not-available a {
   pointer-events: none; }
 .version-product .model {
-  padding: 20px 40px; }
+  padding: 20px 20px; }
   .version-product .model .wrap-img-model {
     position: relative;
-    display: block; }
+    display: block;
+    height: 220px; }
     .version-product .model .wrap-img-model img {
-      width: 100%;
-      height: auto; }
+      width: auto;
+      height: 100%; }
     .version-product .model .wrap-img-model span {
       position: absolute;
       top: -38px;
-      right: -38px;
+      right: 0;
       color: #FFFFFF;
       background: #2889c2;
       border-radius: 50%;
@@ -496,7 +497,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       text-transform: uppercase;
       font-weight: 600; }
   .version-product .model p {
-    font-size: 18px;
+    font-size: 17px;
     padding: 15px 0; }
   .version-product .model .small-yellow-btn {
     font-size: 16px;
@@ -1297,16 +1298,12 @@ footer {
     font-size: 14px;
     padding: 10px 10px 10px 75px; }
 
-  .version-product .model .wrap-img-model img {
-    width: 100%;
-    height: auto; }
-
   .version-product .info-product {
     font-size: 16px; }
 
   .version-product .model {
     width: 250px;
-    margin: 0 auto; }
+    margin: 0 auto 30px; }
 
   /***********product-section**************/
   .product-section h1 {
