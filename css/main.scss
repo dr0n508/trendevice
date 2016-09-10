@@ -140,8 +140,11 @@ $white-color: #FFFFFF;
   }
 }
 
-.basket-fa i, .basket-fa-xs i {
+.basket-fa i, .basket-fa-xs i, .fa-user {
   color: $white-color;
+  &:hover {
+    color: #5daed7;
+  }
 }
 
 .basket-fa-xs, .user-fa-xs {
@@ -155,6 +158,7 @@ $white-color: #FFFFFF;
   background: $blue-color;
   &:hover {
     text-decoration: none;
+    background-color: #5daed7;
   }
 }
 

@@ -107,8 +107,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .navbar-brand img {
     height: 40px; }
 
-.basket-fa i, .basket-fa-xs i {
+.basket-fa i, .basket-fa-xs i, .fa-user {
   color: #FFFFFF; }
+  .basket-fa i:hover, .basket-fa-xs i:hover, .fa-user:hover {
+    color: #5daed7; }
 
 .basket-fa-xs, .user-fa-xs {
   float: right;
@@ -119,7 +121,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   text-transform: uppercase;
   background: #2889c2; }
   .sell-btn:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    background-color: #5daed7; }
 
 /*****button-sandwich*******/
 .navbar-header .navbar-toggle {
