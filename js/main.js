@@ -176,9 +176,11 @@ $(document).ready(function () {
     $('.product-section form input').change(function() {
 
         var numberInput = $('.product-section form').find('input:radio:checked').length;
+        var numberGroupRadio = $('.product-section form').find('*[group-radio-inputs]').length;
 
         console.log(numberInput);
-        if (numberInput >= 3) {
+        console.log(numberGroupRadio);
+        if (numberInput >= numberGroupRadio) {
             $('.buy-btn').removeAttr('disabled');
         }
         else {
