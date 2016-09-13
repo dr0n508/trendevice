@@ -969,6 +969,9 @@ $white-color: #FFFFFF;
       background-color: #f8b76f;
     }
   }
+  .buy-btn[disabled] {
+    background-color: #dcdcdc;
+  }
   .list-bonus {
     margin-top: 20px;
     text-align: left;

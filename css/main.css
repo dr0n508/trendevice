@@ -720,6 +720,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     outline: none; }
     .product-section .buy-btn:hover {
       background-color: #f8b76f; }
+  .product-section .buy-btn[disabled] {
+    background-color: #dcdcdc; }
   .product-section .list-bonus {
     margin-top: 20px;
     text-align: left; }

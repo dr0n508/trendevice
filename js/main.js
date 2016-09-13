@@ -169,4 +169,21 @@ $(document).ready(function () {
 
     /************END valid and open block card03*****/
 
+
+    /*****validate_product_page_form*********/
+
+
+    $('.product-section form input').change(function() {
+
+        var numberInput = $('.product-section form').find('input:radio:checked').length;
+
+        console.log(numberInput);
+        if (numberInput >= 3) {
+            $('.buy-btn').removeAttr('disabled');
+        }
+        else {
+
+        }
+    });
+
 });
