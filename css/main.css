@@ -641,7 +641,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .radio-custom-color-input:checked + label {
     border: solid 2px #2889c2; }
   .product-section .radio-custom-btn-input:checked + label {
-    background-color: #2889c2; }
+    background-color: #2889c2;
+    color: #FFFFFF; }
   .product-section .radio-custom-btn-input:not([disabled]):hover + label {
     background-color: #2889c2;
     cursor: pointer; }
@@ -717,6 +718,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: 100%;
     border: none;
     outline: none; }
+    .product-section .buy-btn:hover {
+      background-color: #f8b76f; }
   .product-section .list-bonus {
     margin-top: 20px;
     text-align: left; }

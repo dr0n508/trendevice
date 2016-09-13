@@ -837,6 +837,7 @@ $white-color: #FFFFFF;
 
   .radio-custom-btn-input:checked + label {
     background-color: $blue-color;
+    color: $white-color;
   }
 
   .radio-custom-btn-input:not([disabled]):hover + label {
@@ -964,6 +965,9 @@ $white-color: #FFFFFF;
     width: 100%;
     border: none;
     outline: none;
+    &:hover {
+      background-color: #f8b76f;
+    }
   }
   .list-bonus {
     margin-top: 20px;
