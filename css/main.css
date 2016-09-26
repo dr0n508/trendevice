@@ -573,7 +573,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .product-section .label-condition {
     font-size: 21px;
     margin: 10px 0; }
-    .product-section .label-condition a {
+    .product-section .label-condition .information-condition {
       color: #FFFFFF;
       background: #484848;
       width: 20px;
@@ -582,7 +582,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       border-radius: 50%;
       text-align: center;
       font-size: 16px;
-      margin-left: 6px; }
+      margin-left: 6px;
+      margin-right: 6px; }
+    .product-section .label-condition .link-information-condition {
+      font-size: 12px;
+      text-decoration: underline !important; }
   .product-section .wrap-color-inputs {
     display: inline-block;
     vertical-align: middle; }
@@ -1302,7 +1306,10 @@ footer {
     padding: 20px 30px; }
 
   .photo-product-models {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  .link-information-condition {
+    display: block; } }
 /*********************************MAX992px******************************************/
 /***********************************************************************************/
 @media only screen and (max-width: 992px) {

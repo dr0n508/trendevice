@@ -760,7 +760,7 @@ $white-color: #FFFFFF;
   .label-condition {
     font-size: 21px;
     margin: 10px 0;
-    a {
+    .information-condition {
       color: $white-color;
       background: $dark-gray-color;
       width: 20px;
@@ -770,6 +770,11 @@ $white-color: #FFFFFF;
       text-align: center;
       font-size: 16px;
       margin-left: 6px;
+      margin-right: 6px;
+    }
+    .link-information-condition {
+      font-size: 12px;
+      text-decoration: underline !important;
     }
   }
   .wrap-color-inputs {
@@ -1724,6 +1729,10 @@ footer {
     padding-top: 50px;
   }
 
+  .link-information-condition {
+    display: block;
+  }
+
 
 
 
@@ -1774,6 +1783,8 @@ footer {
   .version-product .characteristics-product .model-product {font-size: 16px}
   .version-product .characteristics-product p {font-size: 16px}
   .version-product .big-yellow-btn { width: 100%}
+
+
 
 
 

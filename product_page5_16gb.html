@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-lg-8 col-md-7 col-sm-7">
 
-                    <p class="label-condition">Colore:</p>
+                    <p class="label-condition">Scegli il Colore:</p>
                     <div class="wrap-color-inputs" group-radio-inputs>
                         <input class="radio-custom-color-input" type="radio" id="bianco" name="color-product" value="Bianco"/>
                         <label class="radio-custom-color-label" for="bianco"><span></span></label>
@@ -223,7 +223,9 @@
                     </div>
                     <span class="selected-color"></span>
 
-                    <p class="label-condition">Condizioni:<a href="#" data-toggle="modal" data-target="#popover-condition">i</a></p>
+                    <p class="label-condition">Scegli le Condizioni:
+                        <a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
+                        <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
                     <div class="wrap-input-condition" group-radio-inputs>
                         <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
                         <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
@@ -245,7 +247,16 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 wrap-buy">
                 <label for="number-product">Quantità:</label>
-                <input type="number" min="1" id="number-product" name="number-product" value="1"/>
+                <!--<input type="number" min="1" id="number-product" name="number-product" value="1"/>-->
+                <select name="number-product" id="number-product">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
                 <p class="price-product">
                     <span class="old-price">
                         <span class="price">599.90€</span>
@@ -490,7 +501,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close pull-left" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span class="fa fa-times fa-lg" aria-hidden="true"></span></button>
                 <h4 class="modal-title text-center" id="myModalLabel">Come scegliere le condizioni?</h4>
             </div>
             <div class="modal-body">
