@@ -178,8 +178,8 @@ $(document).ready(function () {
         var numberInput = $('.product-section form').find('input:radio:checked').length;
         var numberGroupRadio = $('.product-section form').find('*[group-radio-inputs]').length;
 
-        console.log(numberInput);
-        console.log(numberGroupRadio);
+//        console.log(numberInput);
+//        console.log(numberGroupRadio);
         if (numberInput >= numberGroupRadio) {
             $('.buy-btn').removeAttr('disabled');
         }
@@ -187,5 +187,21 @@ $(document).ready(function () {
 
         }
     });
+
+
+
+    /*************************/
+
+    $('*[group-radio-inputs] input').change(function() {
+        $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]').removeAttr('disabled');
+
+        console.log('sdf')
+    });
+
+
+
+
+
+
 
 });

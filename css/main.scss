@@ -757,6 +757,18 @@ $white-color: #FFFFFF;
     font-weight: 600;
     margin-bottom: 30px;
   }
+  .wrap-color-selection[disabled], .wrap-condition-selection[disabled] {
+    .label-condition {
+      color: #dddcdc;
+
+    }
+    .radio-custom-btn-label, .radio-custom-btn-input, .radio-custom-color-label, .radio-custom-color-input {
+      color: $white-color;
+      background-color: #dddcdc;
+      border: none;
+      pointer-events: none;
+    }
+  }
   .label-condition {
     font-size: 21px;
     margin: 10px 0;
