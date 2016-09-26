@@ -23,7 +23,6 @@
     <![endif]-->
 </head>
 <body>
-
 <header>
     <nav class="navbar navbar-default">
         <div class="container">
@@ -180,39 +179,52 @@
     <form action="#">
         <section class="information-client">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <div class="panel panel-default">
+                <div class="panel-heading open" role="tab" id="headingZero">
+                    <h2 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                            <span>1</span>Email
+                        </a>
+                    </h2>
+                </div>
+                <div id="collapseZero" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingZero">
+                    <div class="panel-body authentication">
+                        <div class="wrap-inputs">
+                            <form action="">
+                                <p class="header-input">Inserisci la tua email per continuare con l’ordine</p>
+                                <!--<p class="header-input">Email:</p>-->
+                                <div>
+                                    <label for="email-client">Email:</label>
+                                    <input type="email" id="email-client"/>
+                                </div>
+                                <input class="small-gray-btn" type="submit" value="Avanti"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <div class="panel panel-default">
                     <div class="panel-heading open" role="tab" id="headingOne">
                         <h2 class="panel-title">
                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span>1</span>Autenticazione
+                                <span>2</span>Autenticazione
                             </a>
                         </h2>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body authentication">
-                            <div class="wrap-inputs col-md-6 col-sm-6">
+                            <div class="wrap-inputs">
                                 <form action="">
-                                    <p class="header-input">Hai già un account TrenDevice?</p>
+                                    <p class="header-input">Risulti già nostro cliente. Se ricordi la tua password inseriscila qui sotto, altrimenti <a href="#">clicca qui</a>.</p>
+                                    <!--<p class="header-input">Inserisci la tua password:</p>-->
                                     <div>
-                                        <label for="email-client">Email:</label>
-                                        <input type="email" id="email-client"/>
-                                    </div>
-                                    <div>
-                                        <label for="password-client">Password:</label>
+                                        <label for="password-client">Inserisci la tua password:</label>
                                         <input type="text" id="password-client"/>
                                     </div>
                                     <p><a href="#" class="lost-pass">Hai dimenticato la password?</a></p>
-                                    <input class="small-gray-btn" type="submit" value="Accedi"/>
-                                </form>
-                            </div>
-                            <div class="wrap-inputs col-md-6 col-sm-6">
-                                <form action="#">
-                                    <p class="header-input">Registrati</p>
-                                    <div>
-                                        <label for="email-registration">Email:</label>
-                                        <input type="email" id="email-registration"/>
-                                    </div>
-                                    <input class="small-gray-btn" type="submit" value="Registrati"/>
+                                    <input class="small-gray-btn" type="submit" value="Continua"/>
                                 </form>
                             </div>
                         </div>
@@ -224,7 +236,7 @@
                         <div class="panel-heading open" role="tab" id="headingTwo">
                             <h2 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>2</span>Indirizzo di fatturazione
+                                    <span>3</span>Indirizzo di fatturazione
                                 </a>
                             </h2>
                         </div>
@@ -285,7 +297,7 @@
                         <div class="panel-heading" role="tab" id="headingThree">
                             <h2 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>3</span>Indirizzo di spedizione
+                                    <span>4</span>Indirizzo di spedizione
                                 </a>
                             </h2>
                         </div>
@@ -344,32 +356,41 @@
                         <div class="panel-heading" role="tab" id="headingFour">
                             <h2 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <span>4</span>Metodo di pagamento
+                                    <span>5</span>Metodo di pagamento
                                 </a>
                             </h2>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                             <div class="panel-body">
                                 <div class="wrap-custom-input">
+                                    <input class="radio-custom-card" type="radio" name="payment-method" value="cash" id="cash"/>
+                                    <label class="radio-custom-card-label" for="cash"></label>
+                                    <label for="cash">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>Pagamento alla consegna <b>(gratis)</b>
+                                        <span class="db">non paghi niente ora - pagherai soltanto al momento della consegna del pacco da te ordinato.</span>
+                                    </label>
+                                </div>
+                                <div class="wrap-custom-input">
                                     <input class="radio-custom-card" type="radio" name="payment-method" value="card" id="card"/>
                                     <label class="radio-custom-card-label" for="card"></label>
-                                    <label for="card"><i class="fa fa-credit-card" aria-hidden="true">
-                                    </i>Carta di credito <span>(MasterCard, Visa, American Express)</span>
+                                    <label for="card"><i class="fa fa-credit-card" aria-hidden="true"></i>
+                                        Carta di credito <b>(gratis)</b>
+                                        <img src="img/payment-visa2.png" alt="visa"/>
+                                        <img src="img/payment-mc2.png" alt="mc"/>
+                                        <img src="img/payment-amex2.png" alt="am"/>
+                                        <span class="db">Per pagare con carta di credito verrai rediretto al sito di Moneta Web <a href="#">(Anteprima sito)</a></span>
                                     </label>
                                 </div>
                                 <div class="wrap-custom-input">
                                     <input class="radio-custom-card" type="radio" name="payment-method" value="paypal" id="paypal"/>
                                     <label class="radio-custom-card-label" for="paypal"></label>
-                                    <label for="paypal">
-                                        <i class="fa fa-cc-paypal" aria-hidden="true"></i>PayPal</label>
-                                </div>
-                                <div class="wrap-custom-input">
-                                    <input class="radio-custom-card" type="radio" name="payment-method" value="cash" id="cash"/>
-                                    <label class="radio-custom-card-label" for="cash"></label>
-                                    <label for="cash">
-                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>Pagamento alla consegna <span>(no costi extra)</span>
+                                    <label for="paypal"><i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                                        PayPal <b>(gratis)</b>
+                                        <img src="img/payment-paypal2.png" alt="paypal"/>
+                                        <span class="db">Per pagare con PayPal verrai rediretto al sito di PayPal <a href="#">(Anteprima sito)</a></span>
                                     </label>
                                 </div>
+
                                 <div class="wrap-custom-input">
                                     <input class="radio-custom-card" type="radio" name="payment-method" value="bank-transfer" id="bank-transfer"/>
                                     <label class="radio-custom-card-label" for="bank-transfer"></label>
@@ -384,7 +405,7 @@
                         <div class="panel-heading" role="tab" id="headingFive">
                             <h2 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="disabled" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    <span>5</span>Metodo di spedizione
+                                    <span>6</span>Metodo di spedizione
                                 </a>
                             </h2>
                         </div>
