@@ -1186,6 +1186,22 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .control-card .wrap-custom-input .radio-custom-card-label {
       position: static; }
 
+/*******************************************add-discount*****************************/
+/************************************************************************************/
+.add-discount .wrap-add-discount {
+  background: url("../img/logo-add-discount.png") no-repeat 2% 50%, #2488c4;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 15px;
+  color: #FFFFFF; }
+  .add-discount .wrap-add-discount h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .add-discount .wrap-add-discount p {
+    font-weight: 300;
+    font-size: 25px; }
+
 /******************************************footer************************************/
 /************************************************************************************/
 footer {

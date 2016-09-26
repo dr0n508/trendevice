@@ -1508,6 +1508,7 @@ $white-color: #FFFFFF;
     padding: 20px;
     background: $light-gray-color;
   }
+
   h2 {
     color: $white-color;
     background: $dark-gray-color;
@@ -1559,6 +1560,29 @@ $white-color: #FFFFFF;
     }
   }
 }
+
+/*******************************************add-discount*****************************/
+/************************************************************************************/
+
+.add-discount {
+  .wrap-add-discount {
+    background: url("../img/logo-add-discount.png") no-repeat 2% 50%, #2488c4;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    color: $white-color;
+    h3 {
+      font-size: 32px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 25px;
+    }
+  }
+}
+
 
 /******************************************footer************************************/
 /************************************************************************************/
