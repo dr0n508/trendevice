@@ -193,10 +193,19 @@ $(document).ready(function () {
     /*************************/
 
     $('*[group-radio-inputs] input').change(function() {
-        $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]').removeAttr('disabled');
+        $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]').removeAttr('disabled').next('*[group-radio-inputs]').attr("disabled", "");
+
+
+
+
+
+
 
         console.log('sdf')
     });
+
+
+
 
 
 
