@@ -174,39 +174,22 @@ $(document).ready(function () {
 
 
     $('.product-section form input').change(function() {
+        var selectorMain = $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]');
+
+        selectorMain.removeAttr('disabled').next('*[group-radio-inputs]').attr("disabled", "");
+        selectorMain.find('input:checked').removeAttr('checked');
 
         var numberInput = $('.product-section form').find('input:radio:checked').length;
         var numberGroupRadio = $('.product-section form').find('*[group-radio-inputs]').length;
 
-//        console.log(numberInput);
-//        console.log(numberGroupRadio);
         if (numberInput >= numberGroupRadio) {
             $('.buy-btn').removeAttr('disabled');
         }
         else {
+            $('.buy-btn').attr("disabled", "");
 
         }
     });
-
-
-
-    /*************************/
-
-    $('*[group-radio-inputs] input').change(function() {
-        $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]').removeAttr('disabled').next('*[group-radio-inputs]').attr("disabled", "");
-
-
-
-
-
-
-
-        console.log('sdf')
-    });
-
-
-
-
 
 
 
