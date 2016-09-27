@@ -570,9 +570,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     color: #484848;
     font-weight: 600;
     margin-bottom: 30px; }
-  .product-section .wrap-color-selection[disabled] .label-condition, .product-section .wrap-condition-selection[disabled] .label-condition {
+  .product-section .wrap-selection[disabled] .label-condition {
     color: #dddcdc; }
-  .product-section .wrap-color-selection[disabled] .radio-custom-btn-label, .product-section .wrap-color-selection[disabled] .radio-custom-btn-input, .product-section .wrap-color-selection[disabled] .radio-custom-color-label, .product-section .wrap-color-selection[disabled] .radio-custom-color-input, .product-section .wrap-condition-selection[disabled] .radio-custom-btn-label, .product-section .wrap-condition-selection[disabled] .radio-custom-btn-input, .product-section .wrap-condition-selection[disabled] .radio-custom-color-label, .product-section .wrap-condition-selection[disabled] .radio-custom-color-input {
+  .product-section .wrap-selection[disabled] .radio-custom-btn-label, .product-section .wrap-selection[disabled] .radio-custom-btn-input, .product-section .wrap-selection[disabled] .radio-custom-color-label, .product-section .wrap-selection[disabled] .radio-custom-color-input {
     color: #FFFFFF;
     background-color: #dddcdc;
     border: none;

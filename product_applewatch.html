@@ -187,47 +187,55 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 col-sm-7">
-                    <p class="label-condition">Colore:</p>
-                    <div class="wrap-color-inputs" group-radio-inputs>
-                        <input class="radio-custom-color-input" type="radio" id="sport-bianco" name="color-product" value="Sport Bianco"/>
-                        <label class="radio-custom-color-label" for="sport-bianco"><span></span></label>
+                    <div class="wrap-selection" group-radio-inputs>
+                        <p class="label-condition">Colore:</p>
+                        <div class="wrap-color-inputs">
+                            <input class="radio-custom-color-input" type="radio" id="sport-bianco" name="color-product" value="Sport Bianco"/>
+                            <label class="radio-custom-color-label" for="sport-bianco"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="nero" name="color-product" value="Sport Nero"/>
-                        <label class="radio-custom-color-label" for="nero"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="nero" name="color-product" value="Sport Nero"/>
+                            <label class="radio-custom-color-label" for="nero"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="classicnero" name="color-product" value="Classic Nero"/>
-                        <label class="radio-custom-color-label" for="classicnero"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="classicnero" name="color-product" value="Classic Nero"/>
+                            <label class="radio-custom-color-label" for="classicnero"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="pellenera" name="color-product" value="Pelle Nera"/>
-                        <label class="radio-custom-color-label" for="pellenera"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="pellenera" name="color-product" value="Pelle Nera"/>
+                            <label class="radio-custom-color-label" for="pellenera"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="modernblunotte" name="color-product" value="Modern Blu Notte"/>
-                        <label class="radio-custom-color-label" for="modernblunotte"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="modernblunotte" name="color-product" value="Modern Blu Notte"/>
+                            <label class="radio-custom-color-label" for="modernblunotte"><span></span></label>
 
-                        <input class="radio-custom-color-input" type="radio" id="modernnero" name="color-product" value="Modern Nero"/>
-                        <label class="radio-custom-color-label" for="modernnero"><span></span></label>
+                            <input class="radio-custom-color-input" type="radio" id="modernnero" name="color-product" value="Modern Nero"/>
+                            <label class="radio-custom-color-label" for="modernnero"><span></span></label>
+                        </div>
+                        <span class="selected-color"></span>
                     </div>
-                    <span class="selected-color"></span>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Dimensioni cassa:</p>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="size38mm" name="size-watch" value="38mm"/>
+                            <label class="radio-custom-btn-label" for="size38mm"><span>38mm</span></label>
 
-                    <p class="label-condition">Dimensioni cassa:</p>
-                    <div class="wrap-input-condition" group-radio-inputs>
-                        <input class="radio-custom-btn-input" type="radio" id="size38mm" name="size-watch" value="38mm"/>
-                        <label class="radio-custom-btn-label" for="size38mm"><span>38mm</span></label>
-
-                        <input class="radio-custom-btn-input"  type="radio" id="size42mm" name="size-watch" value="42mm"/>
-                        <label class="radio-custom-btn-label" for="size42mm"><span>42mm</span></label>
+                            <input class="radio-custom-btn-input"  type="radio" id="size42mm" name="size-watch" value="42mm"/>
+                            <label class="radio-custom-btn-label" for="size42mm"><span>42mm</span></label>
+                        </div>
                     </div>
 
-                    <p class="label-condition">Condizioni:<a href="#" data-toggle="modal" data-target="#popover-condition">i</a></p>
-                    <div class="wrap-input-condition" group-radio-inputs>
-                        <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
-                        <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
+                    <div class="wrap-selection" group-radio-inputs disabled>
+                        <p class="label-condition">Scegli le Condizioni:
+                            <a class="information-condition" href="#" data-toggle="modal" data-target="#popover-condition">i</a>
+                            <a class="link-information-condition" href="#" data-toggle="modal" data-target="#popover-condition">clicca qui per saperne di più</a></p>
 
-                        <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
-                        <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
+                        <div class="wrap-input-condition">
+                            <input class="radio-custom-btn-input" type="radio" id="good-condition" name="condition-phone" value="good-condition"/>
+                            <label class="radio-custom-btn-label" for="good-condition"><span>buono</span></label>
 
-                        <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
-                        <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                            <input class="radio-custom-btn-input" disabled type="radio" id="excellent-condition" name="condition-phone" value="excellent-condition"/>
+                            <label class="radio-custom-btn-label" for="excellent-condition"><span>ottimo</span></label>
+
+                            <input class="radio-custom-btn-input" type="radio" id="perfect-condition" name="condition-phone" value="perfect-condition"/>
+                            <label class="radio-custom-btn-label" for="perfect-condition"><span>perfetto</span></label>
+                        </div>
                     </div>
                     <ul class="list-description-product">
                         <li>Cavo USB e Alimentatore: Originali Apple</li>
@@ -485,7 +493,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close pull-left" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span class="fa fa-times fa-lg" aria-hidden="true"></span></button>
                 <h4 class="modal-title text-center" id="myModalLabel">Come scegliere le condizioni?</h4>
             </div>
             <div class="modal-body">
