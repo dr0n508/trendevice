@@ -224,20 +224,20 @@ $white-color: #FFFFFF;
   color: $white-color;
 }
 
-.header-menu-mac {
-  color: $dark-gray-color;
-  background-color: $light-gray-color;
-  padding: 3px 15px;
-  font-weight: 400;
-}
-
-.menu-mac-column1 {
-  padding-right: 0;
-}
-
-.menu-mac-column2 {
-  padding-left: 0;
-}
+//.header-menu-mac {
+//  color: $dark-gray-color;
+//  background-color: $light-gray-color;
+//  padding: 3px 15px;
+//  font-weight: 400;
+//}
+//
+//.menu-mac-column1 {
+//  padding-right: 0;
+//}
+//
+//.menu-mac-column2 {
+//  padding-left: 0;
+//}
 
 
 .signin {
@@ -1102,69 +1102,69 @@ $white-color: #FFFFFF;
 
 /*****************************************mac*product*page***************************/
 /************************************************************************************/
-.version-product {
-  .wrap-img {
-    margin-bottom: 15px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .model-mac {
-    text-align: center;
-    padding: 15px;
-    background-color: $light-gray-color;
-    margin-bottom: 25px;
-  }
-  .characteristics-product {
-    text-align: left;
-    margin-bottom: 15px;
-    .model-product {
-      font-weight: 600;
-      font-size: 21px;
-    }
-    p {
-      font-weight: 600;
-      font-size: 21px;
-      span {
-        font-weight: 300;
-      }
-    }
-  }
-  .big-yellow-btn {
-    display: inline-block;
-    font-weight: 600;
-  }
-  .detail-characteristics {
-    padding: 15px;
-    margin: 15px;
-    background-color: $light-gray-color;
-    p {
-      font-size: 19px;
-      font-weight: 600;
-      span {
-        font-weight: 300;
-      }
-    }
-    .wrap-buy {
-      margin: 20px 0;
-      .price-product {
-        border-top: solid 1px #676363;
-        border-left: solid 1px #676363;
-        border-right: solid 1px #676363;
-      }
-      .buy-btn {
-        color: $white-color;
-        background: $yellow-color;
-        font-size: 31px;
-        text-align: center;
-        width: 100%;
-        border: none;
-        outline: none;
-      }
-    }
-  }
-}
+//.version-product {
+//  .wrap-img {
+//    margin-bottom: 15px;
+//    img {
+//      width: 100%;
+//      height: auto;
+//    }
+//  }
+//  .model-mac {
+//    text-align: center;
+//    padding: 15px;
+//    background-color: $light-gray-color;
+//    margin-bottom: 25px;
+//  }
+//  .characteristics-product {
+//    text-align: left;
+//    margin-bottom: 15px;
+//    .model-product {
+//      font-weight: 600;
+//      font-size: 21px;
+//    }
+//    p {
+//      font-weight: 600;
+//      font-size: 21px;
+//      span {
+//        font-weight: 300;
+//      }
+//    }
+//  }
+//  .big-yellow-btn {
+//    display: inline-block;
+//    font-weight: 600;
+//  }
+//  .detail-characteristics {
+//    padding: 15px;
+//    margin: 15px;
+//    background-color: $light-gray-color;
+//    p {
+//      font-size: 19px;
+//      font-weight: 600;
+//      span {
+//        font-weight: 300;
+//      }
+//    }
+//    .wrap-buy {
+//      margin: 20px 0;
+//      .price-product {
+//        border-top: solid 1px #676363;
+//        border-left: solid 1px #676363;
+//        border-right: solid 1px #676363;
+//      }
+//      .buy-btn {
+//        color: $white-color;
+//        background: $yellow-color;
+//        font-size: 31px;
+//        text-align: center;
+//        width: 100%;
+//        border: none;
+//        outline: none;
+//      }
+//    }
+//  }
+//}
 
 
 
@@ -1324,21 +1324,15 @@ $white-color: #FFFFFF;
   }
   .authentication {
     label {
-//      width: 90px;
       display: block;
     }
     .lost-pass {
-//      padding-left: 94px;
       font-size: 14px;
       color: $dark-gray-color;
       text-decoration: underline !important;
-      &:hover {
-//        text-decoration: none;
-      }
     }
     .small-gray-btn {
       font-size: 18px;
-//      margin-left: 94px;
       margin-top: 10px;
       margin-bottom: 10px;
       padding: 7px 25px;
@@ -1472,15 +1466,12 @@ $white-color: #FFFFFF;
       content: "oppure";
       position: absolute;
       display: inline-block;
-//      width: 70px;
       text-align: center;
-//      height: 25px;
       padding: 10px 5px;
       top: 50%;
       left: 50%;
       margin-top: -23px;
       margin-left: -25px;
-//      border: solid 1px firebrick;
       background-color: $light-gray-color;
       z-index: 2;
     }
@@ -1767,11 +1758,8 @@ footer {
 
   /***************banner-first-page************/
   .banner-section {
-//    .container  { padding: 50px 10px 10px; }
-//    h2 { font-size: 40px; }
     p { font-size: 32px; }
     .logo-gray {
-//      margin: 50px 0 0;
       img {
         width: 100px;
       }

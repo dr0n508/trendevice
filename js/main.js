@@ -133,45 +133,7 @@ $(document).ready(function () {
         $("#collapseFive").collapse('show');
     });
 
-    /************valid and open block card03*****/
-
-    /*****block02*****/
-
-    $('#collapseTwo input').keyup(function() {
-        var numberInput = $('#collapseTwo').find('input').length;
-        var numberValid = 0;
-
-        $(this).addClass("valid");
-
-        $('#collapseTwo').find('input').each(function(){
-            if ( $(this).hasClass('valid')) {
-                numberValid = numberValid +1;
-            }
-            else {
-            }
-        });
-
-        if ( numberInput == numberValid ) {
-            $('a[aria-controls="collapseThree"]').attr('data-toggle', 'collapse');
-            $('#headingThree').addClass('open');
-            $("#collapseThree").collapse('show');
-        }
-        else {
-
-        }
-    });
-
-    /*****block03*****/
-//    same like block03 in card02.html
-
-    /*****block04*****/
-//    same like block04 in card02.html
-
-    /************END valid and open block card03*****/
-
-
     /*****validate_product_page_form*********/
-
 
     $('.product-section form input').change(function() {
         var selectorMain = $(this).closest('*[group-radio-inputs]').next('*[group-radio-inputs]');
