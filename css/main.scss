@@ -19,7 +19,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 /***********************************custom-theme-elements****************************/
 /************************************************************************************/
 $black-color: #222222;
-$dark-gray-color: #484848;
+$dark-gray-color: #2D2D2D;
 $blue-color: #2889c2;
 $yellow-color: #F79A1F;
 $light-gray-color: #EEEEEE;
@@ -125,11 +125,11 @@ $white-color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background: #232323;
+  background: #191919;
 }
 
 .navbar-default .navbar-nav li .menu-home-products:hover {
-  background: #232323;
+  background: #191919;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -191,7 +191,7 @@ $white-color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  background-color: #232323;
+  background-color: #191919;
 }
 
 /*************multi-column-menu***********/
@@ -200,7 +200,7 @@ $white-color: #FFFFFF;
   min-width: 200px;
   padding: 0;
   font-size: 16px;
-  background-color: #232323;
+  background-color: #191919;
   li a {
     color: $white-color;
     padding: 10px 15px;
