@@ -218,21 +218,21 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     background-size: cover;
     padding: 10px 20px 10px; }
   .banner-section h2 {
-    font-size: 50px;
+    font-size: 60px;
     color: #2889c2;
     text-transform: uppercase;
     font-weight: 600;
-    padding-bottom: 10px; }
+    padding: 20px 0 30px; }
   .banner-section p {
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding: 30px 0 40px;
     color: #2D2D2D;
     line-height: 40px; }
     .banner-section p span {
       font-weight: 400; }
   .banner-section .logo-gray {
-    margin: 20px 0 0; }
+    margin: 50px 0 0; }
     .banner-section .logo-gray img {
       width: 120px;
       height: auto; }
