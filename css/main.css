@@ -77,6 +77,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .big-yellow-btn:hover {
     background: #f8b76f; }
 
+.big-yellow-btn.disable {
+  background-color: #2D2D2D;
+  pointer-events: none; }
+
 .transition, .our-products li .wrap-img img, .our-products li .wrap-img img:hover, .version-product .model:not(.not-available) img:hover, .version-product .model .wrap-img-model img {
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
@@ -957,6 +961,27 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-size: 16px;
     display: block; }
 
+/***********custom checkbox**********/
+.checkbox-custom:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.checkbox-custom:checked + label {
+  position: relative; }
+  .checkbox-custom:checked + label:before {
+    color: #2889c2;
+    content: "\2714";
+    font-size: 36px;
+    position: absolute;
+    bottom: -12px;
+    right: -12px; }
+
+.checkbox-custom-label {
+  width: 18px;
+  height: 18px;
+  border: solid 2px #2D2D2D; }
+
+/***********************************/
 .radio-custom-card:not(checked) {
   position: absolute;
   opacity: 0; }

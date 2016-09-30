@@ -153,6 +153,23 @@ $(document).ready(function () {
         }
     });
 
+    /*********************/
+
+    $('#accept-terms').change(function() {
+        if($('#accept-terms').prop("checked")) {
+            $('#conferma-btn').removeClass('disable');
+        }
+        else {
+            $('#conferma-btn').addClass('disable');
+        }
+    });
+
+
+
+
+
+
+
 
 
 
