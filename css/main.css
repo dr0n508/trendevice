@@ -883,7 +883,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .comparison .cell-table {
       padding: 0 15px; } }
   .comparison .cell-table p {
-    font-size: 14px; }
+    font-size: 14px;
+    display: inline-block; }
     .comparison .cell-table p span {
       font-weight: 400; }
   .comparison .cell-table .wrap {
