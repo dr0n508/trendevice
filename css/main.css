@@ -852,6 +852,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-weight: 300; }
     .comparison .text-section p span {
       font-weight: 600; }
+  @media only screen and (max-width: 992px) {
+    .comparison .text-section {
+      padding: 30px 10px; } }
 .comparison .wrap-table {
   padding-right: 0;
   padding-left: 0; }
@@ -888,9 +891,14 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .comparison .cell-table p span {
       font-weight: 400; }
   .comparison .cell-table .wrap {
-    width: 48%;
+    width: 49%;
     display: inline-block;
     font-size: 12px; }
+    @media only screen and (max-width: 992px) {
+      .comparison .cell-table .wrap {
+        width: 100%; }
+        .comparison .cell-table .wrap p {
+          display: block; } }
   .comparison .cell-table .price {
     font-size: 36px; }
     .comparison .cell-table .price span {

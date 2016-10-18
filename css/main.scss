@@ -1195,6 +1195,9 @@ $white-color: #FFFFFF;
         font-weight: 600;
       }
     }
+    @media only screen and (max-width: 992px) {
+      padding: 30px 10px;
+    }
   }
   .wrap-table {
     padding-right: 0;
@@ -1242,9 +1245,15 @@ $white-color: #FFFFFF;
       }
     }
     .wrap {
-      width: 48%;
+      width: 49%;
       display: inline-block;
       font-size: 12px;
+      @media only screen and (max-width: 992px) {
+        width: 100%;
+        p {
+          display: block;
+        }
+      }
     }
     .price {
       font-size: 36px;
